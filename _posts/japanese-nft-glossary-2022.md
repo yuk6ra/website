@@ -2,7 +2,7 @@
 layout: post
 title:  "Japanese NFT Glossary 2022"
 date:   2022-04-19 15:43:53 +0900
-categories: jekyll update
+categories: NFT
 ---
 「ひとまずこれは抑えておく」単語を並べました。直近で随時更新します。加筆・修正・語弊・不適切な解釈がありましたら、お気軽にご連絡ください。
 
