@@ -23,9 +23,9 @@ title: yuk6ra's website
 description: >- # this means to ignore newlines until "baseurl:"
   This site is currently under testing. Maintenance may occur suddenly.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "yuk6ra.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yuk6ra
-github_username: yuk6ra
+# github_username: 
 
 # Build settings
 theme: minima
