@@ -9,8 +9,8 @@ layout: post
 
 # A
 
-- **Address** - 主にウォレットアドレスのこと
-- **Approve** - スマートコントラクトの承認，安易に承認してしまうと財産のすべてを引き抜かれる可能性があるため注意が必要
+- **Address / アドレス** - 主にウォレットアドレスのこと
+- **Approve / 承認** - スマートコントラクトの承認，安易に承認してしまうと財産のすべてを引き抜かれる可能性があるため注意が必要
 - **Airdrop / エアドロップ / エアドロ** - 無料配布すること
 - **AL / Allow List** - WLよりも広義
 - **AMA / Ask Me Anything** - 「何でも聞いてください！」，プロジェクトが行う公開ミーティング・セッション，DiscordやTwitter Spacesで開催される
@@ -28,7 +28,7 @@ layout: post
 - **Bot / ボット** - 任意の動作を自動で行うソフトウェア，しばしばDiscordやミントサイトに現れる，背後にはNFTで不正に利益を得ようとする個人または集団がいる
 - **Bridge / ブリッジ** - チェーンAからチェーンBに変換する際に必要な作業，例）ETHをBTCにブリッジする
 - **Burn / Burning / バーン** - NFTを使えなく（焼却）すること，バーンアドレスに送ることでNFTの機能を完全に破壊する
-- **[Burn address / バーン・アドレス](https://opensea.io/BurnAddress)** - *0x000000000000000000000000000000000000dEaD*
+- **[Burn address / バーン・アドレス](https://opensea.io/BurnAddress)** - *0x000000000000000000000000000000000000dEaD*
 - **Blockchain / ブロックチェーン** - データが格納されるブロックがチェーン状に繋がっているデータ形式のこと
 - **BCG / Blockchain Game / ブロックチェーンゲーム** - ブロックチェーン上に開発されたゲーム
 - **Bid / 入札** - NFTのオークションにて入札をすること
@@ -180,7 +180,8 @@ layout: post
 - **Protocol / プロトコル** - 
 - **Pump** - 
 - **PNG** - 
-- **Pouch Community / パウチの会** - 羊に魅了され羊を飼い羊に翻弄される老人会，Wolf Gamerのためのコミュニティ，NFTコミュニティ
+- **[Phantom Wallet / ファントム](https://phantom.app/)** - Solana版のMetamask
+- **[Pouch Community / パウチの会](https://twitter.com/Pouch_Community)** - 羊に魅了され羊を飼い羊に翻弄される老人会，Wolf Gamerのためのコミュニティ，NFTコミュニティ
 
 # Q
 
@@ -225,34 +226,33 @@ layout: post
 - **Tag / タグ** - 友人などにメンションすること，海外プロジェクトのGiveawayの応募条件に指定されることが多い
 - **Twitter Spaces** - AMAやラジオなど情報交換が簡単にできるTwitterの音声コミュニケーション機能，
 - **Token Standard** - トークン規格
-- **Transfer** - NFTを別のウォレットアドレスに送ることs
+- **Transfer / トランスファー** - NFTを別のウォレットアドレスに送ること
 - **TVL / Total value locked** - DeFiプロトコルにデポジットされた資金の総額
-
 
 # U
 
-- **Utility / ユーティリティー** - NFTの実用性，NFTを保有することで機能するもの
+- **Utility / ユーティリティー** - NFTの実用性，NFTを保有することで得られる機能のこと
 
 # V
 
 - **[Vitalik Buterin / ヴィタリック・ブテリン](https://twitter.com/VitalikButerin)** - イーサリアムの考案者，思想家，プログラマー
 - **[VeeFriends](https://opensea.io/collection/veefriends)** - [Gary Vaynerchuk](https://twitter.com/garyvee)のNFTプロジェクト
-- **Voxel Art/ ボクセル・アート** - 3D版のドットアート，立方体を積み重ねて描く絵
+- **Voxel Art/ ボクセルアート** - 3D版のドットアート，立方体を積み重ねて描く絵
 - **Vampire Attack / ヴァンパイアアタック** - 新規プロジェクトが既存にある人気プロジェクトのユーザーを対象にトークンを配ること
-- **VC / ベンチャー・キャピタル** - 
+- **VC / ベンチャーキャピタル** - 未上場のスタートアップに出資する組織，投資ファンド
 
 
 # W
 
+- **Web3** - ブロックチェーンを基盤とした次世代インターネットの総称，しばしば定義に混乱が見られる
 - **Wallet / ウォレット** - MetamaskやPhantomなど仮想通貨やNFTを保管する財布
-- **Web3** - ブロックチェーンを基盤としたインターネットの総称，しばしば定義に混乱が見られる
-- **[Web3 Foundation](https://web3.foundation/)** - Web3の実現を目指す団体，[Gavin Wood氏][Gavin Wood]が中心となって設立された
-- **WL / Whitelist / ホワイトリスト** - NFTプロジェクトにおいて優先的に特別な権利を得られる人々のリスト，特別な権利とは先行販売への参加権利など，選ばれるためにみんな必死
-- **Whitepaper** - 白書，仮想通貨やブロックチェーンゲームなどの計画書
-- **WAGMI** - We’re All Gonna Make It!，いっくぞ～！
-- **Whale / クジラ** - 多大なトークンを持つ投資家，資産家，高価なNFTを収集しているコレクター
-- **Wen** - When，いつ，*Wen moon*「いつ爆益になるの」などに使われる
-- **[WETH](https://weth.io/)** - Wrapped ETH，ラップされたイーサリアム，Opensea上では赤イーサと呼ばれ入札・オファーするとおきに必要となる
+- **[Web3 Foundation](https://web3.foundation/)** - Web3の実現を目指す団体，[Gavin Wood氏][Gavin Wood]が中心となって設立された組織
+- **WL / Whitelist / ホワイトリスト** - NFTプロジェクトにおいて優先的に特別な権利を得られる人々のリスト，特別な権利とは先行販売への参加権利など，ホワイトリストをゲットするために熾烈な戦いが日々繰り広げられている
+- **Whitepaper** - 白書，仮想通貨やブロックチェーンゲームなどの基礎となる計画書や草案
+- **WAGMI** - *We’re All Gonna Make It!*，いっくぞ～！
+- **Whale / クジラ** - 膨大なトークンを持つ投資家，資産家，高価なNFTを大規模に収集しているコレクターまたは集団
+- **Wen** - *When*，いつ，*Wen moon*「いつ爆益になるの」などに使われる
+- **[WETH](https://weth.io/)** - Wrapped ETH，ラップされたイーサリアム，Opensea上で入札・オファーするときなどに必要，赤色表示のイーサリアム
 - **Winner** - Giveawayにおける当選者 
 
 # X
@@ -265,7 +265,7 @@ layout: post
 
 # Z
 
-- **[Zeneca](https://twitter.com/Zeneca_33)** - NFTのインフルエンサー
+- **[Zeneca](https://twitter.com/Zeneca_33)** - NFTで有名なインフルエンサー
 
 
 
