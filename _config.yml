@@ -32,8 +32,11 @@ twitter_username: yuk6ra
 theme: minima
 
 
-# plugins:
-#   - jekyll-feed
+plugins:
+  - jekyll-feed
+
+include:
+  - _layouts
 
 # Exclude from processing.
 # The following items will not be processed, by default.
