@@ -8,7 +8,7 @@ layout: post
 
 最終更新：2022/04/21
 
-NFT初心者から中級者のための用語集（2022年版），200語以上収録．
+NFT初心者から中級者のための用語集(2022年版)，200語以上収録
 
 # **Introduction**
 
@@ -34,7 +34,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **Asset / アセット** - 資産や財産のこと
 - **Announcement / アナウンス** - プロジェクトの「お知らせ」を伝えるDiscordチャンネル，現在の状況を掴むことができる
 - **AL / Allow List** - 運営に許可されたリスト，何かしらの条件をクリアしてALに追加してもらうことで優先的に権利を付与される場合がある，WLよりも広義の意味で使われる，同義語：ML，類義語：WL
-- **AMA / Ask Me Anything** - 「何でも聞いてください！」の意味，プロジェクトが行う公開ミーティング・セッション，DiscordやTwitter Spacesで開催される
+- **AMA** - *Ask Me Anything*，「何でも聞いてください！」の意味，プロジェクトが行う公開ミーティング・セッション，DiscordやTwitter Spacesで開催される
 - **Auction / English Auction / オークション / イングリッシュオークション** - 通常のオークション，期間内に最高価格の入札（Bid）をすることで落札される，対義語：ダッチオークション
 - **[Axie Infinity / アクシー・インフィニティ / アクシー](https://axieinfinity.com/)** - イーサリアム上で開発されたベトナム発のP2Eゲーム
 - **[Astar Network / アスター](https://astar.network/)** - [渡辺創太](https://twitter.com/Sota_Web3)氏によって設立された日本発のパブリックチェーン
@@ -43,26 +43,29 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 # B
 
-- **[BAYC / Bored Ape Yacht Club](https://opensea.io/collection/boredapeyachtclub)** - 最も人気のある類人猿がモチーフのNFTコレクション，世界の多くの著名人が保有している，Yuga Labsが制作した
+- **[BAYC / Bored Ape Yacht Club / ボアド・エイプ・ヨット・クラブ](https://opensea.io/collection/boredapeyachtclub)** - 最も人気のある類人猿がモチーフのNFTコレクション，世界の多くの著名人が保有している，Yuga Labsが制作した
 - **[Beeple](https://twitter.com/beeple)** - 有名なデジタルアーティスト，作品｢Everydays - The First 5000 Days｣は6900万ドルで落札された
 - **Blue chip / ブルー・チップ** - 期待が大きく今後伸びる可能性が高いプロジェクト，今となっては人気かつ高価なNFT，例：BAYC・Azuki，例文：このプロジェクトはBlue Chipに違いない
 - **Bot / ボット** - 特定の動作を自動で行うソフトウェア，通常は使い勝手がよくユーザに自動で有益なお知らせをもたらすもの，Discordに設置される場合が多い，しかし，ネガティブな意味で使われる言葉でもある，DiscordやMinting Siteには悪意のあるBotを使って不正に利益を得ようとする個人または集団が存在している
-- **Bridge / ブリッジ** - 異なるブロックチェーンAからブロックチェーンBに変換する際に必要な作業，例文：ETHをBTCにブリッジする
+- **Bridge / ブリッジ** - 異なるブロックチェーンAからブロックチェーンBに変換する際に必要な作業，例文：ETHをBTCにブリッジする，類似：スワップ
 - **Burn / Burning / バーン** - NFTを使えなく（焼却）すること，バーンアドレスに送ることでNFTの機能を完全に破壊する
 - **[Burn address / バーンアドレス](https://opensea.io/BurnAddress)** - *0x0~0dEaD*，バーンする際に必要なトランスファー先のアドレス
 - **Blockchain / ブロックチェーン** - 一定のデータが格納されているブロックが時系列（チェーン状）に繋がっているデータ形式やその仕組み，言葉では伝わりにくいので疑似体験ができる「Blockchain Demo」という有名なサイトで実際の動きを体験してみよう，参考：[Blockchain Demo](https://andersbrownworth.com/blockchain/)，代表プラットフォーム：ビットコイン・イーサリアム
 - **BCG / Blockchain Game / ブロックチェーンゲーム** - ブロックチェーン上に開発されたゲーム
 - **Bid / 入札** - NFTのオークションにて入札をすること
 - **Balance / 残高** - ウォレットの残高
+- **[Binance / バイナンス](https://www.binance.com/ja)** - 世界でも有数の海外の仮想通貨取引所
+- **BNB / Binance Coin / バイナンスコイン** - 仮想通貨取引所であるBinanceが発行する仮想通貨
+- **Big Wave / ビッグウェーブ** - 大きな波，流行り，注目され始める時期，次々とNFTが購入される様，例文：このビッグウェーブを逃すな！，同義語：ビッグチャンス
 - **Bitcoin / BTC / ビットコイン** - 2008年にサトシ・ナカモトによって考案された論文をもとに開発された仮想通貨，BTCは仮想通貨の一種であってBTC=仮想通貨ではない，ここでは仮想通貨を指す場合は「BTC」でプラットフォームを指す場合は「ビットコイン」とする
-- **Benit0 / Bento-san / ベニート / 弁当さん / 🍱** - RTFKTの共同創業者，2022年2月に[カズシフジイ](https://twitter.com/kazushi_fujii_)氏の「Kawaii girl Collage」を購入したことをきっかけに海外コレクターが日本のNFT市場に注目しビッグウェーブをもたらした，「[Kawaii Skull](Kawaii-Skull)」はビッグウェーブに乗ったコレクションのひとつ，彼のCloneXのファンアートは数々の日本人クリエイターによって描かれることになったが著作権が問題になりガイドラインが敷かれることになった，続いてカラス姿の[Noun 197](https://opensea.io/assets/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03/197)がファンアートの対象になった，お弁当の絵文字で親しまれている
+- **Benit0 / Bento-san / ベニート / 弁当さん / 🍱** - RTFKTの共同創業者，2022年2月に[カズシフジイ](https://twitter.com/kazushi_fujii_)氏のNFTコレクション『Kawaii girl Collage』のNFTを購入したことをきっかけに海外コレクターが日本のNFT市場に注目しビッグウェーブをもたらした，『[Kawaii Skull][Kawaii-Skull]』はビッグウェーブに乗ったNFTコレクションのひとつ，彼のCloneXのファンアートは数々の日本人クリエイターによって描かれることになったが著作権が問題になりガイドラインが敷かれることになった，続いてカラス姿の[Noun 197](https://opensea.io/assets/0x9c8ff314c9bc7f6e59a9d9225fb22946427edc03/197)がファンアートの対象になった，お弁当の絵文字で親しまれている
 
 # C
 
 - **CC0** - 可能な限りの権利を放棄すること， 営利目的や二次創作利用可能，代表コレクション：[Blitmap](https://opensea.io/collection/blitmap)・[Nouns][Nouns]
 - **Cold Wallet / コールドウォレット** - インターネットから完全に隔離された状態で保管できるウォレット，紙媒体で保管するペーパーウォレットや専用デバイスで保管するハードウェアウォレット等がある
-- **Crypto / Cryptocurrency / クリプト / 仮想通貨 / 暗号通貨** - 主にブロックチェーンを利用して取引される通貨の総称
-- **[CryptoPunks](https://opensea.io/collection/cryptopunks)** - [Larva Labs][Larva-Labs]が制作したNFTコレクションで，最も有名なNFTコレクションのひとつ
+- **Crypto / クリプト / 仮想通貨 / 暗号通貨** - *Cryptocurrency*，主にブロックチェーンを利用して取引される通貨または分野の総称
+- **[CryptoPunks / クリプトパンクス](https://opensea.io/collection/cryptopunks)** - [Larva Labs][Larva-Labs]が制作したNFTコレクションで，最も有名なNFTコレクションのひとつ
 - **Collection / コレクション** - あるコンセプトをもとに複数のNFTをまとめたもの，シリーズ，作品集，例文：メインのコレクションとは別のコレクションも作っていきたいと思います
 - **Collectible / コレクティブル** - 収集性が高く希少性のあるもの
 - **Copy Pasta** - SNSなどで頻繁にコピー＆ペーストされる文章
@@ -76,11 +79,11 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 # D
 
-- **DAO / Decentralized Autonomous Organization / ダオ / 自律分散組織** - ブロックチェーン上のスマートコントラクトによって管理・運営される組織，Web3分野では単なるコミュニティでもカッコいいので「DAO」と称す場合もある
+- **DAO / ダオ / 自律分散組織** - *Decentralized Autonomous Organization*，ブロックチェーン上のスマートコントラクトによって管理・運営される組織，Web3分野では単なるコミュニティでもカッコいいので「DAO」と称す場合もある
 - **DYOR** - *Do Your Own Research*, 「詳しくは自分で調べてください」という意味，NFT分野では自分でリサーチして良し悪しを判断する能力が求められる，インフルエンサーのポジショントークには気を付ける
-- **dApps / Dapps / dapp / ダップス** - ブロックチェーン上のスマートコントラクトによって動作する分散型アプリケーションの総称
-- **DeFi / Decentralized Finance / ディーファイ** - 中央管理者としての仲介が存在しない金融，その分野
-- **DEX / Decentralized Exchange / デックス** - 分散型の取引所，仲介者がいないのでコストが抑えられる，例：Uniswap
+- **dApps / Dapps / dapp / ダップス** - *Decentralized Applications*，ブロックチェーン上のスマートコントラクトによって動作する分散型アプリケーションの総称
+- **DeFi / ディーファイ** - *Decentralized Finance*，中央管理者としての仲介が存在しない金融，その分野
+- **DEX / デックス** - *Decentralized Exchange*，分散型の取引所，仲介者がいないのでコストが抑えられる，例：Uniswap
 - **Degen** - *Degenerate*，あまり内容を理解せずに危険な賭けをよく行う人
 - **Dev** - *Development*，開発
 - **[Discord / ディスコード / ディスコ](https://discord.com/)** - コミュニケーションサービス，一般的にNFTプロジェクトではDiscordでコミュニケーションを行う，DMのメッセージには詐欺が多いのでまずはDMを閉じよう
@@ -112,7 +115,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **Flip / Flipping** - 短期トレードで安く購入し，すぐに売り出して利益を得ること
 - **FOMO** - *Fear Of Missing Out*，大きな波に自分だけ取り残されているのではないかという不安，DYORをせずに買い急いでる人
 - **FP / Floor / Floor Price** - マーケットにリストされているNFTの最低額，例文：有望なプロジェクトだと思うのでFPが低い今がチャンスだ
-- **Fiat Money / Fiat currency / フィアット通貨** - 中央銀行が発行した現実の通貨，例：日本円・米ドル・ユーロ
+- **Fiat Money / Fiat Currency / フィアット通貨 / フィアット** - 中央銀行が発行した現実の通貨，例：日本円・米ドル・ユーロ
 - **FT** - *Fungible Token*，代替可能なトークン，仮想通貨，例文：Aさんが持っている1万円札とBさんが持っている1万円は価値が全く同じであり代替が可能なのでこれはFTである
 - **Fungible / ファンジブル** -　代替可能な，交換可能な
 - **[Foundation / ファンデーション / ファンデ / ▲●■](https://foundation.app/)** - イーサリアム上の招待制NFTマーケットプレイス，NFTアートの質が非常に高く，Openseaよりも高価格で落札されるケースが多い
@@ -120,11 +123,11 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 # G
 
-- **GameFi** - ブロックチェーンを活用したゲーム，その分野，例：Axie Infinity
+- **GameFi** - *Game*と*Finance*を組み合わせた造語，ブロックチェーンを活用したゲームまたは分野，例：Axie Infinity
 - **GM** - *Good Morning*，おはようございます
 - **GN** - *Good Night*，おやすみなさい
-- **General** -一般的な，全体的な，NFTプロジェクトのDiscordチャンネルには*Genaral Chat*が設置されていることが多く，誰でもチャットできる
-- **Galverse / 新星ギャルバース** - [Zombie Zoo Keeper][Zombie-Zoo-Keeper]の母[Emi][Emi]氏らによって制作された日本のNFTプロジェクト，リリース後は瞬く間にOpenSeaの24Hランキングで世界１位になった
+- **General** - 一般的な，全体的な，NFTプロジェクトのDiscordチャンネルにはGenaral Chatが設置されていることが多く，誰でもチャットできる
+- **Galverse / 新星ギャルバース** - [Zombie Zoo Keeper][Zombie-Zoo-Keeper]の母[Emi][Emi]氏らによって立ち上げられた日本のNFTプロジェクト，リリース後は瞬く間にOpenSeaの24Hランキングで世界１位になった
 - **Gas / Gas Fee / ガス代 / ガス / ガスフィー** - ブロックチェーン上の取引手数料，取引手数料はマイナーへ支払われる
 - **Gas War / ガス戦争** - 一度に多くの人がミントしようとする際に発生するガス代の高騰現象，高いガス代を支払うことで優先的に取引が完了するためガス代を多く支払う人が増える，ガス代を多く支払うことを「ガス代を積む」と言う
 - **GT / Governance Token / ガバナンストークン** - プロジェクトの運営方針に対して意思決定の投票に利用されるトークン，トークン保有者は運営に関与することができ，発言権を得る
@@ -132,14 +135,15 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **Gwei** - 1 Gwei = 0.000000001 ETH，参考：[Ethereum Unit Converter](https://eth-converter.com/)
 - **[Gavin Wood / ギャビン・ウッド][Gavin-Wood]** - イーサリアムの共同創設者，Polkadotの共同創設者
 - **Giveaway / ギブアウェイ** - 無料配布のこと，類義語：エアドロップ
-- **Gif / ジフ / ギフ** - *Graphics Interchange Format*，簡易的なアニメーション
+- **Gif / ジフ / ギフ** - *Graphics Interchange Format*，簡易的なアニメーション，TwitterやDiscordのコミュニケーションによく利用される
 
 # H
 
 - **Hot Wallet / ホットウォレット** - インターネットに接続された状態で保管するウォレット，例：Metamask・Phantom
-- **Holder / ホルダー** - ある特定のNFTを保有している人，例文；ホルダー様には今月中にエアドロップを行います
+- **Holder / ホルダー** - ある特定のNFTを保有している人，例文：ホルダー様には今月中にエアドロップを行います
 - **Hash Value / Hash / ハッシュ値 / ハッシュ** - ある特定のデータをハッシュ関数と呼ばれる一定の演算処理で求められる固定長（固定の桁数や長さを持つこと）の値，不可逆的な性質を持ち，同じデータからは同じハッシュ値が求められるため暗号に活用されている
 - **Hash Function / ハッシュ関数** - 一定のルールに従って演算処理を行い，入力したデータの長さに関わらず固定長の値を出力する関数，ブロックチェーンで活用されている，例：MD5・SHA256，参考：[Blockchain Demo SHA256](https://andersbrownworth.com/blockchain/hash)
+- **[Hashmasks / ハッシュマスクス](https://opensea.io/collection/hashmasks)** - 有名なNFTプロジェクト，世界中の70名以上のアーティストによって作成されたNFTアートのコレクション
 - **Hardware Wallet / ハードウェアウォレット / ハードウォレット** - コールドウォレットの一種で，専用のハードウェアを利用して資産を保管するウォレット，類似：コールドウォレット
 - **[HEXA / ヘキサ](https://hexanft.com/)** - 日本円だけでNFTの発行や売買ができるNFTマーケットプレイス
 
@@ -148,7 +152,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **IRL** - *In Real Life*，実生活，現実の世界
 - **IP / IPコンテンツ** - *Interllectual Propery*，IPコンテンツとは知的財産権（IP）が発生するコンテンツを利用した作品のこと
 - **Interoperability / インターオペラビリティ** - 相互運用性，無数の異なるブロックチェーンの相互運用を可能にする技術やその様，ポルカドットはインターオペラビリティの実現を目指している
-- **[IPFS / InterPlanetary File System](https://ipfs-book.decentralized-web.jp/what_is_ipfs/)** - 分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IFPSは「http://」と同様に「ipfs://」から始まる
+- **[IPFS](https://ipfs-book.decentralized-web.jp/what_is_ipfs/)** - *InterPlanetary File System*，分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IFPSは「http://」と同様に「ipfs://」から始まる
 
 # J
 
@@ -159,7 +163,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 - **k** - 1000を意味する単位，1k = 1000
 - **Kevin** - NFT分野のミームのひとつ，7000万ドルを集めたP2Eゲームのプロジェクト[Pixelmon](https://opensea.io/collection/pixelmongen1)が生み出した（狙ってはない），あまりにも醜い姿だったのでネタにされて大きなミームが生まれた
-- **[Kawaii Skull](https://opensea.io/collection/kawaiiskull)** - [Kawaii SKULL](https://twitter.com/kawaiiskull_nft)氏による10000個の手書きSKULLのNFTコレクション
+- **[Kawaii Skull](https://opensea.io/collection/kawaiiskull)** - [Kawaii SKULL][Kawaii-SKULL]氏による手書きの頭蓋骨のNFTコレクション
 
 # L
 
@@ -168,7 +172,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **L1 / Layer 1 / レイヤー１** - 最も基礎的なブロックチェーン層，例：イーサリアム・ソラナ
 - **L2 / Layer 2 / レイヤー２ / セカンドレイヤー** - レイヤー1の上層にあるブロックチェーン層，例：Polygon，類似：サイドチェーン
 - **[Loot](https://opensea.io/collection/lootproject)** - ファンタジーゲームのアイテムを連想させる文字が入ったNFTプロジェクト，Vineの共同創設者の[dom][dom]氏によって開発された
-- **[Larva Labs][Larva-Labs]** - NFTスタートアップ，代表コレクション：CryptoPunks・Meebits
+- **[Larva Labs / ラルバラボズ][Larva-Labs]** - NFTスタートアップ，代表コレクション：CryptoPunks・Meebits
 - **List / リスト** - NFTを購入できる状態にすること，マーケットに出品されている状態，例文：購入したNFTをリストした
 - **Land / 土地** - メタバース内で購入できる土地のこと，例：The Sandbox・Decentraland
 - **Launch Pad / ローンチパット** - 新規上場予定の仮想通貨や新しいプロジェクトのNFTをいち早く入手できるセール
@@ -178,9 +182,9 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 - **Mainnet / メインネット** - 本番環境のブロックチェーンのこと，対義語：テストネット
 - **Mint / Minting / ミント** - NFTを発行すること，例文：イラストが完成したのでミントしたけどまだリストはしていない
-- **Mint list** -　WLよりも広義的，同義語：AL，類義語：WL
+- **Mint list / ミントリスト** -　WLよりも広義的，同義語：AL，類義語：WL
 - **Minting site / ミントサイト** - NFTプロジェクトにおいてウォレットを接続しNFTを発行できるサイト，WLに当てられている許可されたウォレットしかアクセスができない場合がある
-- **Miner / マイナー** - ブロックチェーンのトランザクションを記録するために膨大な計算処理を行っている人（コンピュータ）
+- **Miner / マイナー** - ブロックチェーンのトランザクションを記録するために膨大な演算処理を行っている人（コンピュータ）
 - **Metaverse / メタバース** - 3次元の仮想空間，言葉の定義が曖昧なため未だ混乱が見られる
 - **Metadata / メタデータ** - 画像や特徴（量）などNFTの各データが格納されているデータ，HTTPやIPFSで指定されるJSON形式のデータ
 - **Moon / 🚀（ロケット）** - 急激に価値が跳ね上がること，例：Moon Projectかもしれない
@@ -188,7 +192,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **[Metamask / メタマスク](https://metamask.io/)** - イーサリアムの資産を管理するツール, Twitter上でMetamaskと打つと詐欺を狙ったスパムが届く
 - **M2E / Move to Earn** - 移動によってトークンを稼ぐことができる運動ゲーム，例：STEPN
 - **MOD / Moderator / モデレーター** - プロジェクトのDiscordに常駐するコミュニティマネージャーのような存在，プロジェクトを円滑に進めてユーザの補助を行う
-- **Murakami.Flower** - 村上隆氏の代表的なデザイン，顔のあるカラフルなお花が特徴，NFTコレクション：[Murakami.Flowers Seed](https://opensea.io/collection/murakami-flowers-seed)
+- **Murakami.Flower / ムラカミ・フラワー** - [村上隆](https://twitter.com/takashipom)氏の代表的なデザイン，顔のあるカラフルなお花が特徴，NFTコレクション：[Murakami.Flowers Seed](https://opensea.io/collection/murakami-flowers-seed)
 - **[miin](https://twitter.com/NftPinuts)** - 情報コレクター，最新のNFT情報を届ける日本のインフルエンサー
 - **[ME / Magic Eden / マジックエデン](https://magiceden.io/)** - ソラナ上のNFTマーケットプレイス
 
@@ -196,7 +200,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 - **NFT** - *Non-fungible token*，非代替性トークン，ブロックチェーン上にある唯一無二のデータ，対義語：FT
 - **NFA** - *Non-Financial Advice*，「これは投資アドバイスではありません」の意味, 投資は自己責任で行う
-- **NTP / NeoTokyoPunks** - [NIKO](https://twitter.com/fukusta343)氏らによって制作された日本のNFTプロジェクト
+- **NTP / NeoTokyoPunks** - [NIKO](https://twitter.com/fukusta343)氏らによって立ち上げられた日本のNFTプロジェクト
 - **NFT Space** - NFT分野のこと
 - **[NFTJPN](https://nftjpn.xyz/) / [#NFTJPN](https://twitter.com/search?q=%23NFTJPN&src=typed_query&f=top)** - 日本のNFTを世界に発信するプロジェクト，[Paji氏](https://twitter.com/paji_a)によって設立された
 - **NFTJapan / [#NFTJapan](https://twitter.com/search?q=%23NFTJapan&src=typed_query)** - 日本のNFTクリエイターが使うタグ
@@ -204,7 +208,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **NFT宣伝枠 / [#NFT宣伝枠](https://twitter.com/search?q=%23NFT%E5%AE%A3%E4%BC%9D%E6%9E%A0&src=typed_query&f=top)** - クリエイターが宣伝できるツイートが寄せられるタグ，リプ欄を開放しているのでクリエイターは自由に宣伝しアピールすることができる
 - **NFT買います / [#NFT買います](https://twitter.com/search?q=%23NFT%E8%B2%B7%E3%81%84%E3%81%BE%E3%81%99&src=typed_query&f=top)** - 初心者コレクターが日本のNFTを探したいときに使うタグ，応募条件に「フォロー」を入れるなどしてフォロー稼ぎに使われるケースも多々ある
 - **Nifty / Nifty Gateway** - 有名なクリエイターによる高品質なNFTを購入できるNFTマーケットプレイス
-- **Noob** - 右も左もまだわかっていない初心者，対義語：OG
+- **Noob** - 右も左もまだわかっていない初心者
 - **[Nouns / NounsDAO][Nouns]** - 毎日１体が永久的に自動生成されるオンチェーンのNFTプロジェクト，毎日オークションが開催されている，[dom][dom]氏らが参画
 
 # O
@@ -219,6 +223,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 # P
 
 - **PFP** - *Profile Picture*，プロフィール画像，アイコン
+- **Prom** - *Promotion*，プロモーション，宣伝
 - **P2E / Play to Earn** - ゲームをプレイすることによってトークンが稼げる仕組み
 - **P2P / Peer to Peer / ピアツーピア** - サーバを持たずにコンピュータ同士が相互に通信するネットワーク形態
 - **[Polkadot / ポルカドット](https://polkadot.network/)** - 異なるブロックチェーン同士をつないで相互運用できるようになることを目指すブロックチェーン・プラットフォーム，[Gavin Wood][Gavin-Wood]氏らが立ち上げたWeb3 Foundationによって開発された
@@ -263,9 +268,9 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 - **[Solana / SOL / ◎ （二重丸） / ソラナ / ソル](https://solana.com/)** - 高速な取引を実現するブロックチェーン・プラットフォーム，ガス代が安い，イーサリアムキラーの筆頭
 - **Secondary / セカンダリー / 二次流通** - ミント後にリストされているNFT，例文：WLを貰うことができず購入できなかったのでセカンダリーを狙うしかない，類似：L2
 - **Sweep / Sweeping / 掃除** - FP近くにリストされるNFTを大量に買い上げてFPをあげる手段
-- **Smart Contract / Contract / スマートコントラクト / コントラクト** - ブロックチェーン上のプログラムのことで決められたルール（コントラクト），スマートコントラクトを介して取引が行われる
+- **Smart Contract / スマートコントラクト** - ブロックチェーン上のプログラムのことで決められたルール（コントラクト），スマートコントラクトを介して取引が行われる，同義語：コントラクト
 - **Satoshi / Satoshi Nakamoto / サトシ・ナカモト** - 2008年にインターネット上でビットコインの論文を発表した人もしくは団体，ビットコインの創始者とされる，正体は不明
-- **Sidechain / サイドチェーン** - スケーラビリティ問題などを解決する手段として開発され，メインのブロックチェーンとは別でトランザクションを処理したり，機能を追加するブロックチェーン
+- **Sidechain / サイドチェーン** - スケーラビリティ問題などを解決する手段として開発され，メインのブロックチェーンとは別でトランザクションを処理したり，機能を追加するブロックチェーン，類似：L2
 - **Stablecoin / ステーブルコイン** - 価格の安定性を保つように設計された仮想通貨，円や米ドルなどの法定通貨の値動きに類似するため通常の仮想通貨よりも価格が安定している，例：JPYC・USDC
 - **Staking / ステーキング** - 仮想通貨を保有してブロックチェーンのネットワークに参加することで，報酬がもらえる仕組み
 - **Scalability Problem / スケーラビリティ問題** - ブロックチェーン上の１つのブロックに対して書き込めるトランザクションの数が限られていることから生じる問題，データ処理が追い付かなくなることでガス代の高騰や送金の遅延を引き起こす
@@ -285,15 +290,15 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 # T
 
 - **[The Sandbox / ザ・サンドボックス](https://www.sandbox.game/)** - イーサリアム上に開発されたブロックチェーンゲーム，この世界はボクセルで構築されている，類似：Decentraland
-- **Token** - NFT（Non-Fungible *Token*）や仮想通貨（Fungible *Token*）などブロックチェーン上で発行されるものの総称，例文：新しいトークンを貰った
-- **Token ID** - 各トークンに付与される個別のID，通常の10kのNFTプロジェクトでは「#1」から「#10000」が付与されている，例文：リビールしたら（Token IDが）7777だったので今日は良いことが起こるに違いない
+- **Token / トークン** - NFT（Non-Fungible *Token*）や仮想通貨（Fungible *Token*）などブロックチェーン上で発行されるものの総称，例文：新しいトークンを貰った
+- **Token ID** - 各トークンに付与される個別のID，通常の10kのNFTプロジェクトでは「#1」から「#10000」が付与されている，例文：ミントのタイミングを合わせて（Token IDが）7777を引き当てたい！
 - **Transaction / トランザクション** - ブロックチェーン上の取引記録，〇〇〇scanで全取引を確認することができる，例：Etherscan
-- **Tag / タグ** - 友人のIDを書いて知らせること，海外プロジェクトのGiveawayの応募条件に指定されることが多い，やりすぎると嫌われてしまう可能性があるので注意が必要，またタグ付けすると相手にも通知が届く（これをネガティブな場合に「巻き込み」と言う），海外からタグ付けされて無差別に届くツイートにはブロックが推奨される，同義語：メンション
-- **Twitter Spaces / スペース** - AMAや雑談ラジオなどを配信でき，情報交換が簡単にできるTwitterの音声コミュニケーション機能，NFT分野では多くの人がスペースで情報交換をしている，発言は許可された人にしかできないので気軽に入っても大丈夫，ほとんどがリスナー
+- **Tag / タグ** - 友人のIDを書いて知らせること，その行為を「タグ付け」と言う，海外プロジェクトのGiveawayの応募条件に指定されることが多い，やりすぎると嫌われてしまう可能性があるので注意が必要，またタグ付けすると相手にも通知が届く（これをネガティブな場合に「巻き込み」と言う），海外からタグ付けされて無差別に届くツイートにはブロックが推奨される，同義語：メンション
+- **Twitter Spaces / ツイッター・スペース / スペース** - AMAや雑談ラジオなどを配信でき，情報交換が簡単にできるTwitterの音声コミュニケーション機能，NFT分野では多くの人がスペースで情報交換をしている，発言は許可された人にしかできないので気軽に入っても大丈夫，ほとんどがリスナーであり聞き専
 - **Token Standard** - トークン規格のこと，例：ERC20・ERC721・ERC1155
 - **Transfer / トランスファー** - ある特定のNFTをウォレットアドレスAからウォレットアドレスBに送ること，類似：送金
 - **TVL / Total value locked** - DeFiプロトコルにデポジットされた資金の総額
-- **[Takashi Murakami / 村上隆](https://twitter.com/takashipom)** - 日本の現代芸術家，起業家，映画監督
+- **[Takashi Murakami / 村上隆](https://twitter.com/takashipom)** - 世界的に有名な日本の現代芸術家，起業家，映画監督
 - **Testnet / テストネット** - テスト環境のブロックチェーンのこと，テストネットはスマートコントラクトが正常に機能するかどうか検証する際に利用する，対義語：メインネット
 
 # U
@@ -334,7 +339,7 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 # Y
 
-- **[Yuga Labs](https://yuga.com/)** - BAYC，MAYCなど複数の人気NFTプロジェクトを運営しているスタートアップ
+- **[Yuga Labs / ユガ・ラボズ](https://yuga.com/)** - BAYC，MAYCなど複数の人気プロジェクトを運営しているNFTスタートアップ
 
 # Z
 
@@ -357,10 +362,11 @@ NFT初心者から中級者のための用語集（2022年版），200語以上�
 
 Nikaido / [Sawaco](https://twitter.com/SawacoNakagawa)
 
-[Nouns]:            https://opensea.io/collection/nouns
-[Gavin-Wood]:       https://twitter.com/gavofyork
-[Vitalik-Buterin]:  https://twitter.com/vitalikbuterin
-[Larva-Labs]:        https://www.larvalabs.com/
-[Emi]:              https://twitter.com/emikusano
-[Zombie-Zoo-Keeper]:   https://twitter.com/ZombieZooArt
+[Nouns]:                https://opensea.io/collection/nouns
+[Gavin-Wood]:           https://twitter.com/gavofyork
+[Vitalik-Buterin]:      https://twitter.com/vitalikbuterin
+[Larva-Labs]:           https://www.larvalabs.com/
+[Emi]:                  https://twitter.com/emikusano
+[Zombie-Zoo-Keeper]:    https://twitter.com/ZombieZooArt
 [dom]:                  https://twitter.com/dhof
+[Kawaii-Skull]:         https://opensea.io/collection/kawaiiskull
