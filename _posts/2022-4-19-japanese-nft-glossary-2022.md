@@ -17,7 +17,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 
 気になった用語は改めてDYORしてみてください．その際，加筆・修正・不適切な解釈がありましたらお気軽にご連絡ください．また，追加すべき用語がありましたら，お手数おかけしますが下記までご連絡ください．ページ最後のThanks欄にはご協力していただいた方のお名前やTwitterリンクも掲載いたします．随時更新します．
 
-[単語を追加する](https://docs.google.com/forms/d/e/1FAIpQLScYLGr0ucui9Oxi5SWBlGIQSLRQQNwsLZkuGTJx2-ejkC9wmA/viewform?usp=sf_link)
+[単語を追加・修正する](https://docs.google.com/forms/d/e/1FAIpQLScYLGr0ucui9Oxi5SWBlGIQSLRQQNwsLZkuGTJx2-ejkC9wmA/viewform?usp=sf_link)
 
 
 # **How to use**
