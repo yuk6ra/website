@@ -26,7 +26,19 @@ layout: default
       {{ site.post[-2].excerpt }}
     {%- endif -%}
   </li>
-</ul>
+  <li>
+    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    <span class="post-meta">{{ site.posts[-3].date | date: date_format }}</span>
+    <span class="post-meta">{{ site.posts[-3].categories }}</span>
+    <h3>
+      <a class="post-link" href="{{ site.posts[-3].url | relative_url }}">
+        {{ site.posts[-3].title | escape }}
+      </a>
+    </h3>
+    {%- if site.show_excerpts -%}
+      {{ site.post[-3].excerpt }}
+    {%- endif -%}
+  </li></ul>
 
   <h2 class="post-list-heading">{{ page.list_title | default: "New" }}</h2>
     <ul class="post-list">
