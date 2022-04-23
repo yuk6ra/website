@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-22T21:17:27+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">[Coming Soon] NFT Key Players 2022</title><link href="http://localhost:4000/nft-key-players-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Key Players 2022" /><published>2022-04-22T13:00:00+09:00</published><updated>2022-04-22T13:00:00+09:00</updated><id>http://localhost:4000/nft-key-players-2022</id><content type="html" xml:base="http://localhost:4000/nft-key-players-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-23T12:53:41+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">[Coming Soon] NFT Key Players 2022</title><link href="http://localhost:4000/nft-key-players-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Key Players 2022" /><published>2022-04-22T13:00:00+09:00</published><updated>2022-04-22T13:00:00+09:00</updated><id>http://localhost:4000/nft-key-players-2022</id><content type="html" xml:base="http://localhost:4000/nft-key-players-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
 更新日：2022-04-22</p>
 
 <h1 id="introduction">Introduction</h1>
@@ -95,26 +95,26 @@
       <td> </td>
     </tr>
   </tbody>
-</table>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">[Coming Soon] NFT Services 2022</title><link href="http://localhost:4000/nft-services-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Services 2022" /><published>2022-04-22T12:00:00+09:00</published><updated>2022-04-22T12:00:00+09:00</updated><id>http://localhost:4000/nft-services-2022</id><content type="html" xml:base="http://localhost:4000/nft-services-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
+</table>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">NFT Services 2022</title><link href="http://localhost:4000/nft-services-2022/" rel="alternate" type="text/html" title="NFT Services 2022" /><published>2022-04-22T12:00:00+09:00</published><updated>2022-04-22T12:00:00+09:00</updated><id>http://localhost:4000/nft-services-2022</id><content type="html" xml:base="http://localhost:4000/nft-services-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
 更新日：2022-04-22</p>
 
 <h1 id="introduction">Introduction</h1>
 
-<p>NFTに関連するサービスをまとめてみようと思ったのでひとまず．</p>
+<p>NFTに関連するサービス
+<a href="https://twitter.com/i/lists/1517533168488058880?s=20">Twitterのリスト</a></p>
 
 <p><br /></p>
 
 <h1 id="toc">TOC</h1>
-<ol>
+<ul>
   <li><a href="#marketplace">Marketplace</a></li>
-  <li><a href="#2-wallet">Wallet</a></li>
-  <li><a href="#3-rank--rarity">Rank / Rarity</a></li>
-  <li><a href="#4-analysis">Analysis</a></li>
-  <li><a href="#5-sns">SNS</a></li>
-  <li><a href="#6-tools">Tools</a></li>
-</ol>
+  <li><a href="#wallet">Wallet</a></li>
+  <li><a href="#rank--rarity">Rank / Rarity</a></li>
+  <li><a href="#analysis">Analysis</a></li>
+  <li><a href="#tools">Tools</a></li>
+</ul>
 
-<h1 id="1-marketplace">1. Marketplace</h1>
+<h1 id="marketplace">Marketplace</h1>
 
 <p>NFTマーケットプレイス</p>
 
@@ -122,282 +122,328 @@
   <thead>
     <tr>
       <th>Name</th>
+      <th>Twitter</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong><a href="https://opensea.io/">Opensea</a></strong></td>
-      <td>世界最大のNFTマーケットプレイス，ETH，SOL，他</td>
+      <td><strong><a href="https://www.coinbase.com/ja/nft/announce">coinbase NFT</a></strong></td>
+      <td><a href="https://twitter.com/Coinbase_NFT">Follow</a></td>
+      <td> </td>
     </tr>
     <tr>
       <td><strong><a href="https://foundation.app/">Foundation</a></strong></td>
-      <td>良質なアートが並ぶ，1点物</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://rarible.com/">Rarible</a></strong></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://superrare.com/">SuperRare</a></strong></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://niftygateway.com/">Nifty Gateway</a></strong></td>
+      <td><a href="https://twitter.com/foundation">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href="https://www.gem.xyz/">Gem.xyz</a></strong></td>
-      <td>一括購入可能</td>
+      <td><a href="https://twitter.com/gemxyz">Follow</a></td>
+      <td>一括購入可能，ランク有り</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://opensea.io/">Opensea</a></strong></td>
+      <td><a href="https://twitter.com/opensea">Follow</a></td>
+      <td>世界最大のNFTマーケットプレイス，ETH，SOL，他</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://rarible.com/">Rarible</a></strong></td>
+      <td><a href="https://twitter.com/rarible">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://superrare.com/">SuperRare</a></strong></td>
+      <td><a href="https://twitter.com/SuperRare">Follow</a></td>
+      <td> </td>
     </tr>
     <tr>
       <td><strong><a href="https://nft.line.me/">LINE NFT</a></strong></td>
+      <td><a href="https://twitter.com/linenft_jp">Follow</a></td>
       <td>国産</td>
     </tr>
     <tr>
-      <td><strong><a href=""></a></strong></td>
+      <td><strong><a href="https://niftygateway.com/">Nifty Gateway</a></strong></td>
+      <td><a href="https://twitter.com/niftygateway">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<h1 id="2-wallet">2. Wallet</h1>
+<h1 id="wallet">Wallet</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
+      <th>Twitter</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
+      <td><strong><a href="https://debank.com/">DeBank</a></strong></td>
+      <td><a href="https://twitter.com/DeBankDeFi">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
       <td><strong><a href="https://jpeg.cash">JPEG.CASH</a></strong></td>
+      <td> </td>
       <td>アドレスを貼るだけで、NFTトレードの利益を計算</td>
     </tr>
     <tr>
-      <td><strong><a href=""></a></strong></td>
+      <td><strong><a href="https://revoke.cash/">Revoke.cash</a></strong></td>
+      <td> </td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<h1 id="3-rank--rarity">3. Rank / Rarity</h1>
+<h1 id="rank--rarity">Rank / Rarity</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
+      <th>Twitter</th>
       <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong><a href="http://flip.xyz/">Flip.xyz</a></strong></td>
+      <td><strong><a href="https://nftnerds.ai/">NFTNerds.ai</a></strong></td>
+      <td><a href="https://twitter.com/NFTNerdsAI">Follow</a></td>
+      <td>レア度と共に価格の推移が詳しく見れるサイト</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://raritysniper.com/">Rarity Sniper</a></strong></td>
+      <td><a href="https://twitter.com/RaritySniperNFT">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
-      <td><strong><a href="https://nftnerds.ai/">NFTNerds.ai</a></strong></td>
+      <td><strong><a href="https://raritysniffer.com/">Rarity Sniffer</a></strong></td>
+      <td><a href="https://twitter.com/Rarity_Sniffer">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href="https://rarity.tools/">rarity.tools</a></strong></td>
+      <td><a href="https://twitter.com/raritytools">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://app.traitsniper.com/">TraitSniper</a></strong></td>
+      <td><a href="https://twitter.com/trait_sniper">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
       <td> </td>
     </tr>
   </tbody>
 </table>
 
-<h1 id="4-analysis">4. Analysis</h1>
+<h1 id="analysis">Analysis</h1>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
-      <th>Description</th>
       <th>Twitter</th>
+      <th>Description</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong><a href="http://flip.xyz/">Flip.xyz</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://icy.tools/">icy.tools</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.flips.finance/">Flips.Finance</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nftgo.io/">NFTGo.io</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
       <td><strong><a href="https://curio.tools/">Curio</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
+      <td><a href="https://twitter.com/curiotools">Follow</a></td>
+      <td>過去のリスト・販売金額が見られる，リアルタイム，分析しやすい</td>
     </tr>
     <tr>
-      <td><strong><a href="https://nftscoring.com/">NFTScoring</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://cryptoslam.io/">CryptoSlam!</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://solanafloor.com/">SolanaFloor</a></strong></td>
-      <td>SolanaのNFT分析ツール，FPに特化</td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nftcharts.io/">NFTcharts.io</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nonfungible.com/">NonFungible</a></strong></td>
-      <td> </td>
-      <td><a href="https://twitter.com/nonfungibles">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.nft-stats.com/">NFT Stats</a></strong></td>
-      <td> </td>
-      <td><a href="https://twitter.com/nft_tracker">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://moby.gg/">Moby</a></strong></td>
-      <td> </td>
-      <td><a href="https://twitter.com/mobyinsights">Follow</a></td>
+      <td><strong><a href="https://cryptoslam.io/">CryptoSlam</a></strong></td>
+      <td><a href="https://twitter.com/cryptoslamio">Follow</a></td>
+      <td>NFTコレクション別売上げランキングが見れる</td>
     </tr>
     <tr>
       <td><strong><a href="https://dune.com/">Dune</a></strong></td>
-      <td> </td>
       <td><a href="https://twitter.com/DuneAnalytics">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="http://flip.xyz/">Flip.xyz</a></strong></td>
+      <td><a href="https://twitter.com/Flip_xyz">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.flips.finance/">Flips.Finance</a></strong></td>
+      <td><a href="https://twitter.com/flipsfinance">Follow</a></td>
+      <td>フロア価格推移、ホルダー数見れるサイト，動作が軽い</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://hyperspace.xyz/">Hyperspace</a></strong></td>
+      <td><a href="https://twitter.com/hyperspacexyz">Follow</a></td>
+      <td>Solana分析ツール</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://icy.tools/">icy.tools</a></strong></td>
+      <td><a href="https://twitter.com/icy_tools">Follow</a></td>
+      <td>分析が可視化されていて見やすい，リアルタイムで売買状況が見られる</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://nftgo.io/">NFTGo.io</a></strong></td>
+      <td><a href="https://twitter.com/nftgoio">Follow</a></td>
+      <td>マーケット全体の概要，クジラのトレードのリスト，プロジェクトごとのボリューム・保持期間など</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://nftscoring.com/">NFTScoring</a></strong></td>
+      <td><a href="https://twitter.com/NFTScoring">Follow</a></td>
+      <td>ローンチ前PJのディスコードの評判がわかる</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://nftcharts.io/">NFTcharts.io</a></strong></td>
+      <td><a href="https://twitter.com/NFT_charts_io">Follow</a></td>
+      <td> </td>
     </tr>
     <tr>
       <td><strong><a href="https://www.ninjalerts.com/">Ninjalerts</a></strong></td>
-      <td> </td>
       <td><a href="https://twitter.com/ninjalerts">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href="">nansen</a></strong></td>
       <td> </td>
-      <td><a href="https://twitter.com/nansen_ai">Follow</a></td>
     </tr>
     <tr>
-      <td><strong><a href="https://hyperspace.xyz/">Hyperspace </a></strong></td>
-      <td>Solana分析ツール</td>
+      <td><strong><a href="https://www.nft-stats.com/">NFT Stats</a></strong></td>
+      <td><a href="https://twitter.com/nft_tracker">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://nonfungible.com/">NonFungible</a></strong></td>
+      <td><a href="https://twitter.com/nonfungibles">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://moby.gg/">Moby</a></strong></td>
+      <td><a href="https://twitter.com/mobyinsights">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://www.nansen.ai/">nansen</a></strong></td>
+      <td><a href="https://twitter.com/nansen_ai">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://solanafloor.com/">SolanaFloor</a></strong></td>
+      <td><a href="https://twitter.com/SolanaFloor">Follow</a></td>
+      <td>SolanaのNFT分析ツール，FPに特化</td>
+    </tr>
+    <tr>
+      <td><strong><a href=""></a></strong></td>
       <td><a href="">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><strong><a href=""></a></strong></td>
+      <td><a href="">Follow</a></td>
+      <td> </td>
     </tr>
   </tbody>
 </table>
 
-<h1 id="5-sns">5. SNS</h1>
+<h1 id="tools">Tools</h1>
+
+<p>その他の役立つツール</p>
 
 <table>
   <thead>
     <tr>
       <th>Name</th>
+      <th>Twitter</th>
       <th>Description</th>
-      <th> </th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong><a href="https://context.app/">Context.app</a></strong></td>
-      <td> </td>
-      <td><a href="">Follow</a></td>
+      <td><a href="https://twitter.com/context">Follow</a></td>
+      <td>Twitterと連携することでフォローしている人のウォレットの動向を確認できるツール</td>
+    </tr>
+    <tr>
+      <td><strong><a href="https://dappradar.com/">DappRadar</a></strong></td>
+      <td><a href="https://twitter.com/dappradar">Follow</a></td>
+      <td>世界のDappsを分析できるサイト</td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
-      <td> </td>
       <td><a href="">Follow</a></td>
+      <td> </td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
-      <td> </td>
       <td><a href="">Follow</a></td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="6-tools">6. Tools</h1>
-
-<p>その他のツール</p>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
       <td> </td>
-      <td><a href="">Follow</a></td>
     </tr>
     <tr>
       <td><strong><a href=""></a></strong></td>
-      <td> </td>
       <td><a href="">Follow</a></td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
       <td> </td>
-      <td><a href="">Follow</a></td>
     </tr>
   </tbody>
 </table>
 
 <h1 id="reference">Reference</h1>
-
 <ul>
+  <li>ツール，Pouch Community，<a href="https://discord.com/channels/924980502904061972/966329048886300722">https://discord.com/channels/924980502904061972/966329048886300722</a></li>
   <li>Yusuke Tanaka，NFT Analytics，Twitter，<a href="https://twitter.com/yusuket777/status/1497038104082849796?s=20&amp;t=V478FmiOOJDMbtTLhTUVoA">https://twitter.com/yusuket777/status/1497038104082849796?s=20&amp;t=V478FmiOOJDMbtTLhTUVoA</a></li>
 </ul>
 
+<h1 id="thanks">Thanks</h1>
+
 <p>敬称略</p>
 
-<p>DIΞGO / tuta / / / / /</p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
+<p><a href="https://twitter.com/ashf0023">DIΞGO</a> / <a href="https://twitter.com/shikinamijp">tuta</a> /  / <a href="https://twitter.com/BechaBecha_nft">BechaBecha</a> / / /</p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
 更新日：2022-04-22</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
