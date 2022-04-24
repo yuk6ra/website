@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-23T13:03:01+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">[Coming Soon] NFT Key Players 2022</title><link href="http://localhost:4000/nft-key-players-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Key Players 2022" /><published>2022-04-22T13:00:00+09:00</published><updated>2022-04-22T13:00:00+09:00</updated><id>http://localhost:4000/nft-key-players-2022</id><content type="html" xml:base="http://localhost:4000/nft-key-players-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-24T18:13:48+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">[Coming Soon] NFT Key Players 2022</title><link href="http://localhost:4000/nft-key-players-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Key Players 2022" /><published>2022-04-22T13:00:00+09:00</published><updated>2022-04-22T13:00:00+09:00</updated><id>http://localhost:4000/nft-key-players-2022</id><content type="html" xml:base="http://localhost:4000/nft-key-players-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
 更新日：2022-04-22</p>
 
 <h1 id="introduction">Introduction</h1>
@@ -451,7 +451,7 @@
 <p>敬称略</p>
 
 <p><a href="https://twitter.com/ashf0023">DIΞGO</a> / <a href="https://twitter.com/shikinamijp">tuta</a> /  / <a href="https://twitter.com/BechaBecha_nft">BechaBecha</a> / / /</p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
-更新日：2022-04-22</p>
+更新日：2022-04-24</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
 
@@ -479,6 +479,7 @@
   <li><strong>Approve / 承認</strong> - スマートコントラクトにアクセスするために必要な承認，安易に承認してしまうと仮想通貨やNFTを引き抜かれる可能性があるため承認には注意が必要</li>
   <li><strong>Airdrop / エアドロップ / エアドロ</strong> - 無料配布すること</li>
   <li><strong>Asset / アセット</strong> - 資産や財産のこと</li>
+  <li><strong>Alpha / アルファ</strong> - 特定の人しか知らない特別な情報，例文：私たちはアルファを手にした</li>
   <li><strong>Announcement / アナウンス</strong> - プロジェクトの「お知らせ」を伝えるDiscordチャンネル，現在の状況を掴むことができる</li>
   <li><strong>AL / Allow List</strong> - 運営に許可されたリスト，何かしらの条件をクリアしてALに追加してもらうことで優先的に権利を付与される場合がある，WLよりも広義の意味で使われる，同義語：ML，類義語：WL</li>
   <li><strong>AMA</strong> - <em>Ask Me Anything</em>，「何でも聞いてください！」の意味，プロジェクトが行う公開ミーティング・セッション，DiscordやTwitter Spacesで開催される</li>
@@ -615,7 +616,7 @@
   <li><strong>IRL</strong> - <em>In Real Life</em>，実生活，現実の世界</li>
   <li><strong>IP / IPコンテンツ</strong> - <em>Interllectual Propery</em>，IPコンテンツとは知的財産権（IP）が発生するコンテンツを利用した作品のこと</li>
   <li><strong>Interoperability / インターオペラビリティ</strong> - 相互運用性，無数の異なるブロックチェーンの相互運用を可能にする技術やその様，ポルカドットはインターオペラビリティの実現を目指している</li>
-  <li><strong><a href="https://ipfs-book.decentralized-web.jp/what_is_ipfs/">IPFS</a></strong> - <em>InterPlanetary File System</em>，分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IFPSは「http://」と同様に「ipfs://」から始まる</li>
+  <li><strong><a href="https://ipfs-book.decentralized-web.jp/what_is_ipfs/">IPFS</a></strong> - <em>InterPlanetary File System</em>，分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IPFSは「http://」と同様に「ipfs://」から始まる</li>
 </ul>
 
 <h1 id="j">J</h1>
@@ -701,6 +702,7 @@
 <ul>
   <li><strong>PFP</strong> - <em>Profile Picture</em>，プロフィール画像，アイコン</li>
   <li><strong>Prom</strong> - <em>Promotion</em>，プロモーション，宣伝</li>
+  <li><strong>Pending</strong> - 保留中，トランザクションが待ちの状態であること</li>
   <li><strong>P2E / Play to Earn</strong> - ゲームをプレイすることによってトークンが稼げる仕組み</li>
   <li><strong>P2P / Peer to Peer / ピアツーピア</strong> - サーバを持たずにコンピュータ同士が相互に通信するネットワーク形態</li>
   <li><strong><a href="https://polkadot.network/">Polkadot / ポルカドット</a></strong> - 異なるブロックチェーン同士をつないで相互運用できるようになることを目指すブロックチェーン・プラットフォーム，<a href="https://twitter.com/gavofyork">Gavin Wood</a>氏らが立ち上げたWeb3 Foundationによって開発された</li>
@@ -749,6 +751,7 @@
   <li><strong><a href="https://solana.com/">Solana / SOL / ◎ （二重丸） / ソラナ / ソル</a></strong> - 高速な取引を実現するブロックチェーン・プラットフォーム，ガス代が安い，イーサリアムキラーの筆頭</li>
   <li><strong>Secondary / セカンダリー / 二次流通</strong> - ミント後にリストされているNFT，例文：WLを貰うことができず購入できなかったのでセカンダリーを狙うしかない，類似：L2</li>
   <li><strong>Sweep / Sweeping / 掃除</strong> - FP近くにリストされるNFTを大量に買い上げてFPをあげる手段</li>
+  <li><strong>Sneak Peak / スニークピーク</strong> - チラ見せ，公開前のプレビュー，NFTプロジェクトのDiscordチャンネルには<em>#sneak-peak</em>チャンネルがよく設置されている</li>
   <li><strong>Smart Contract / スマートコントラクト</strong> - ブロックチェーン上のプログラムのことで決められたルール（コントラクト），スマートコントラクトを介して取引が行われる，同義語：コントラクト</li>
   <li><strong>Satoshi / Satoshi Nakamoto / サトシ・ナカモト</strong> - 2008年にインターネット上でビットコインの論文を発表した人もしくは団体，ビットコインの創始者とされる，正体は不明</li>
   <li><strong>Sidechain / サイドチェーン</strong> - スケーラビリティ問題などを解決する手段として開発され，メインのブロックチェーンとは別でトランザクションを処理したり，機能を追加するブロックチェーン，類似：L2</li>
@@ -856,7 +859,7 @@
 
 <p>敬称略</p>
 
-<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-19 更新日：2022-04-22]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/"><![CDATA[<p>-&gt; Test</p>
+<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a> / <a href="https://twitter.com/Ryotheskywalke7">𝐑𝐲o꙼̈🍭｜ミミカジル</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-19 更新日：2022-04-24]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/"><![CDATA[<p>-&gt; Test</p>
 
 <p>-&gt; GM World</p>
 

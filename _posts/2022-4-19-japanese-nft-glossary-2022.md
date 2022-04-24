@@ -7,7 +7,7 @@ layout: post
 ---
 
 作成日：2022-04-19 <br>
-更新日：2022-04-22
+更新日：2022-04-24
 
 NFT初心者から中級者のための用語集(2022年版)，200語以上収録
 
@@ -33,6 +33,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 - **Approve / 承認** - スマートコントラクトにアクセスするために必要な承認，安易に承認してしまうと仮想通貨やNFTを引き抜かれる可能性があるため承認には注意が必要
 - **Airdrop / エアドロップ / エアドロ** - 無料配布すること
 - **Asset / アセット** - 資産や財産のこと
+- **Alpha / アルファ** - 特定の人しか知らない特別な情報，例文：私たちはアルファを手にした
 - **Announcement / アナウンス** - プロジェクトの「お知らせ」を伝えるDiscordチャンネル，現在の状況を掴むことができる
 - **AL / Allow List** - 運営に許可されたリスト，何かしらの条件をクリアしてALに追加してもらうことで優先的に権利を付与される場合がある，WLよりも広義の意味で使われる，同義語：ML，類義語：WL
 - **AMA** - *Ask Me Anything*，「何でも聞いてください！」の意味，プロジェクトが行う公開ミーティング・セッション，DiscordやTwitter Spacesで開催される
@@ -153,7 +154,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 - **IRL** - *In Real Life*，実生活，現実の世界
 - **IP / IPコンテンツ** - *Interllectual Propery*，IPコンテンツとは知的財産権（IP）が発生するコンテンツを利用した作品のこと
 - **Interoperability / インターオペラビリティ** - 相互運用性，無数の異なるブロックチェーンの相互運用を可能にする技術やその様，ポルカドットはインターオペラビリティの実現を目指している
-- **[IPFS](https://ipfs-book.decentralized-web.jp/what_is_ipfs/)** - *InterPlanetary File System*，分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IFPSは「http://」と同様に「ipfs://」から始まる
+- **[IPFS](https://ipfs-book.decentralized-web.jp/what_is_ipfs/)** - *InterPlanetary File System*，分散型のファイルシステム，NFTのメタデータ先として利用されることが多い，IPFSは「http://」と同様に「ipfs://」から始まる
 
 # J
 
@@ -225,6 +226,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 
 - **PFP** - *Profile Picture*，プロフィール画像，アイコン
 - **Prom** - *Promotion*，プロモーション，宣伝
+- **Pending** - 保留中，トランザクションが待ちの状態であること
 - **P2E / Play to Earn** - ゲームをプレイすることによってトークンが稼げる仕組み
 - **P2P / Peer to Peer / ピアツーピア** - サーバを持たずにコンピュータ同士が相互に通信するネットワーク形態
 - **[Polkadot / ポルカドット](https://polkadot.network/)** - 異なるブロックチェーン同士をつないで相互運用できるようになることを目指すブロックチェーン・プラットフォーム，[Gavin Wood][Gavin-Wood]氏らが立ち上げたWeb3 Foundationによって開発された
@@ -269,6 +271,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 - **[Solana / SOL / ◎ （二重丸） / ソラナ / ソル](https://solana.com/)** - 高速な取引を実現するブロックチェーン・プラットフォーム，ガス代が安い，イーサリアムキラーの筆頭
 - **Secondary / セカンダリー / 二次流通** - ミント後にリストされているNFT，例文：WLを貰うことができず購入できなかったのでセカンダリーを狙うしかない，類似：L2
 - **Sweep / Sweeping / 掃除** - FP近くにリストされるNFTを大量に買い上げてFPをあげる手段
+- **Sneak Peak / スニークピーク** - チラ見せ，公開前のプレビュー，NFTプロジェクトのDiscordチャンネルには*#sneak-peak*チャンネルがよく設置されている
 - **Smart Contract / スマートコントラクト** - ブロックチェーン上のプログラムのことで決められたルール（コントラクト），スマートコントラクトを介して取引が行われる，同義語：コントラクト
 - **Satoshi / Satoshi Nakamoto / サトシ・ナカモト** - 2008年にインターネット上でビットコインの論文を発表した人もしくは団体，ビットコインの創始者とされる，正体は不明
 - **Sidechain / サイドチェーン** - スケーラビリティ問題などを解決する手段として開発され，メインのブロックチェーンとは別でトランザクションを処理したり，機能を追加するブロックチェーン，類似：L2
@@ -361,7 +364,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 
 敬称略
 
-Nikaido / [Sawaco](https://twitter.com/SawacoNakagawa)
+Nikaido / [Sawaco](https://twitter.com/SawacoNakagawa) / [𝐑𝐲o꙼̈🍭｜ミミカジル](https://twitter.com/Ryotheskywalke7)
 
 [Nouns]:                https://opensea.io/collection/nouns
 [Gavin-Wood]:           https://twitter.com/gavofyork
