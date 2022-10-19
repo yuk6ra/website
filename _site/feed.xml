@@ -1,456 +1,159 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-24T18:15:16+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">[Coming Soon] NFT Key Players 2022</title><link href="http://localhost:4000/nft-key-players-2022/" rel="alternate" type="text/html" title="[Coming Soon] NFT Key Players 2022" /><published>2022-04-22T13:00:00+09:00</published><updated>2022-04-22T13:00:00+09:00</updated><id>http://localhost:4000/nft-key-players-2022</id><content type="html" xml:base="http://localhost:4000/nft-key-players-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
-更新日：2022-04-22</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T21:23:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<h2 id="目次">目次</h2>
+<ol>
+  <li><a href="#project-overview">Project Overview, 概要</a></li>
+  <li><a href="#story">Story, オーロラの仕組み</a></li>
+  <li><a href="#planet-and-northern-lights">Planet and Northern Lights, 惑星とオーロラ</a></li>
+  <li><a href="#nft-and-northern-lights">NFT and Northern Lights, NFTとオーロラ</a></li>
+  <li><a href="#the-future">The Future, まとめ</a></li>
+  <li><a href="#faq">FAQ, よくある質問</a></li>
+  <li><a href="#reference">Reference, 参考文献</a></li>
+</ol>
 
-<h1 id="introduction">Introduction</h1>
+<h1 id="project-overview"><strong>Project Overview</strong></h1>
+<p><img src="../images/2020-10-19/aurora-1.png" alt="images" /></p>
 
-<p><br /></p>
+<h3 id="northern-lights-project">Northern Lights Project</h3>
 
-<h1 id="1-influencer">1. Influencer</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="2-artist">2. Artist</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="3-founder">3. Founder</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
-
-<h1 id="3-whale">3. Whale</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td> </td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">NFT Services 2022</title><link href="http://localhost:4000/nft-services-2022/" rel="alternate" type="text/html" title="NFT Services 2022" /><published>2022-04-22T12:00:00+09:00</published><updated>2022-04-22T12:00:00+09:00</updated><id>http://localhost:4000/nft-services-2022</id><content type="html" xml:base="http://localhost:4000/nft-services-2022/"><![CDATA[<p>作成日：2022-04-22 <br />
-更新日：2022-04-22</p>
-
-<h1 id="introduction">Introduction</h1>
-
-<p>NFTに関連するサービス</p>
+<p>Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Utility, No Rarity</p>
 
 <ul>
-  <li><a href="https://twitter.com/i/lists/1517533168488058880?s=20">Twitterのリスト</a></li>
+  <li>Sale day: 2022/10/21</li>
+  <li>Supply: 150</li>
+  <li>Mint Price: 0.01 ETH</li>
+  <li>Per Wallet: 2 mint</li>
+  <li>Only whitelist sale</li>
+  <li>Minting site: Coming Soon</li>
 </ul>
 
-<p>もしよろしければサービスの詳細や新しいツールなどありましたらお気軽に教えてください（or パウチのツールチャンネルでご投稿）</p>
+<p>自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。</p>
 
-<p><a href="https://docs.google.com/forms/d/e/1FAIpQLScYLGr0ucui9Oxi5SWBlGIQSLRQQNwsLZkuGTJx2-ejkC9wmA/viewform?usp=sf_link">追加・修正する</a></p>
+<p><a href="https://twitter.com/yuk6ra">@yuk6ra</a> の個人プロジェクトです。No Utilityであり、投機や投資対象にはなりえませんのでご理解のほどよろしくお願いいたします。DYOR / NFA</p>
 
-<p><br /></p>
+<h1 id="story"><strong>Story</strong></h1>
 
-<h1 id="toc">TOC</h1>
+<p>モチーフは「オーロラ（Aurora）」です。</p>
+
+<p>オーロラの物語（仕組み）を見ていきましょう。</p>
+
+<p>オーロラは、北半球の大陸で観測されることが多く、北の光＝ノーザン・ライツ（Northern Lights）と呼ばれています。この現象は太陽の活動が起点になっており、太陽から放射された太陽風が地球の大気と衝突することでオーロラが発生します。</p>
+
+<p><img src="../images/2020-10-19/aurora.jpg" alt="images" />
+出典: <a href="https://www.nasa.gov/image-feature/aurora-and-the-pacific-northwest">NASA</a></p>
+
+<p>太陽風とは電子とイオンがバラバラな状態になった高温・高速の粒子（プラズマ）の風です。人体に悪影響を及ぼし、電子機器などの故障の原因にもなります。どれくらい怖い粒子なのか想像できない方もいるかもしれませんが、次のことを考えてみてください。コンピュータの故障原因にもなるため、ブロックチェーンのすべてのノードが同時に破壊されることも考えれるのです。（恐ろしいでしょう？）</p>
+
+<p><img src="../images/2020-10-19/plasmac.png" alt="images" /></p>
+
+<p>出典: <a href="https://p-grp.nucleng.kyoto-u.ac.jp/plasma/index.html">プラズマとは？</a></p>
+
+<p>幸いにもプラズマには磁気や電気の影響を受けやすい性質があるので、太陽風が地球まで到達すると地球の磁場によってプラズマが逸れていきます。この地球の磁場が届く領域を磁気圏と呼びます。地球は磁気圏という磁場のバリアによって太陽風から守られているのです。（ノードは守られました！）</p>
+
+<p>しかし、すべてのプラズマを避け切ることはできず、磁場の密度が低い場所（バリアが弱い場所）から侵入を許してしまいます。特に太陽風によって変形した磁気は太陽の当たらない夜側が弱く、磁気圏の内部にプラズマをため込んでしまいます。この溜まった場所をプラズマシートと呼び、この大量のプラズマがオーロラのエネルギー源になります。</p>
+
+<p><img src="../images/2020-10-19/plasma-sheet.png" alt="images" />
+出典: <a href="https://auroranavi.com/aurora/magnetosphere.html">Aurora Navi</a></p>
+
+<p>やがてこれらのプラズマは地球の磁気線に沿って、北極（N極）と南極（S極）の上空の隙間から降り注ぎます。その際に大気にある窒素や酸素の分子と衝突することによって、分子にエネルギーが与えられます。与えられたエネルギーは、元の状態に戻ろうとするため光となってエネルギーを放射します。私たちが目にするのはこの現象です。</p>
+
+<p>地球の大気中の主な成分は窒素と酸素なので、衝突するときに放射する光の色は決まっています。さらに大気中の成分は高度によって異なるので、場所によって色も変化します。高い場所から赤、緑、ピンク・紫で観測されることが多いのはこのためです。</p>
+
+<h1 id="planet-and-northern-lights"><strong>Planet and Northern Lights</strong></h1>
+
+<p>オーロラの色は大気中の成分によって変化します。地球では窒素78％、酸素21％、アルゴン0.93%と続きます。ここまで読んでくれた好奇心旺盛な方は疑問に思う方がいるかもしれません。</p>
+
+<p>「他の惑星にオーロラはあるのだろうか」</p>
+
+<p>「それはどんな色なんだろう」</p>
+
+<p>まずオーロラは３つの条件が必要です。太陽風に晒されること（もしくはプラズマが発生していること）、磁場があること、大気があることです。</p>
+
+<p>太陽系では、十分な磁場と大気を持つ木星と土星で見ることができます。両惑星の大気中の成分はほとんどが水素なので、肉眼ではピンクに見えるはずです（下記の土星の写真ではピンクに見えないのはなぜだかわかりますか？）。磁場を持っているが大気を持たない水星、大気はあるが磁場がない金星、磁場が弱く大気が薄い火星などは期待できません。</p>
+
+<p><img src="../images/2020-10-19/saturn-aurora.jpg" alt="images" width="50%" /></p>
+
+<p>出典: <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1083.html">NASA</a></p>
+
+<p>太陽系外の惑星系はどうでしょう。太陽風と同じように惑星系の恒星からは恒星風が吹いています。磁場があり、大気がある惑星であらばオーロラの観測は期待できるでしょう。</p>
+
+<p>もし私たちが地球以外の惑星に住むことになれば、どんなオーロラを見ることができるでしょうか。これが今回のNFTに盛り込んだプロパティになります。</p>
+
+<p>生命居住可能領域=ハビタブルゾーン（Habitable Zone）に位置する代表的な惑星を６つ選びました。</p>
 <ul>
-  <li><a href="#marketplace">Marketplace</a></li>
-  <li><a href="#wallet">Wallet</a></li>
-  <li><a href="#rank--rarity">Rank / Rarity</a></li>
-  <li><a href="#analysis">Analysis</a></li>
-  <li><a href="#tools">Tools</a></li>
+  <li>Teegarden’s Star b</li>
+  <li>TOI-700 d</li>
+  <li>Kepler-1649 c</li>
+  <li>TRAPPIST-1 d</li>
+  <li>K2-72e</li>
+  <li>Proxima Centauri b</li>
 </ul>
 
-<h1 id="marketplace">Marketplace</h1>
+<p><img src="../images/2020-10-19/kepler-1649c.jpg" alt="images" />
+出典: <a href="https://www.jpl.nasa.gov/news/earth-size-habitable-zone-planet-found-hidden-in-early-nasa-kepler-data">NASA, Earth-Size Habitable-Zone Planet Found Hidden in Early NASA Kepler Data, 2020</a></p>
 
-<p>NFTマーケットプレイス</p>
+<p>実はハビタブルゾーンに位置する惑星のほとんどは大気中の成分まで明らかになっていません。2019年のNASAの発表によると、K2-18bがハビタブルゾーン系惑星ではじめて水蒸気を観測し、その大気中の成分が水素とヘリウムであることが明らかになったところです。したがって、オーロラの発生に期待できても色まではわからないのが結論です。</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Twitter</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href="https://www.coinbase.com/ja/nft/announce">coinbase NFT</a></strong></td>
-      <td><a href="https://twitter.com/Coinbase_NFT">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://foundation.app/">Foundation</a></strong></td>
-      <td><a href="https://twitter.com/foundation">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.gem.xyz/">Gem.xyz</a></strong></td>
-      <td><a href="https://twitter.com/gemxyz">Follow</a></td>
-      <td>一括購入可能，ランク有り</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://opensea.io/">Opensea</a></strong></td>
-      <td><a href="https://twitter.com/opensea">Follow</a></td>
-      <td>世界最大のNFTマーケットプレイス，ETH，SOL，他</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://rarible.com/">Rarible</a></strong></td>
-      <td><a href="https://twitter.com/rarible">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://superrare.com/">SuperRare</a></strong></td>
-      <td><a href="https://twitter.com/SuperRare">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nft.line.me/">LINE NFT</a></strong></td>
-      <td><a href="https://twitter.com/linenft_jp">Follow</a></td>
-      <td>国産</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://niftygateway.com/">Nifty Gateway</a></strong></td>
-      <td><a href="https://twitter.com/niftygateway">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p>一体何色なんだろうか。今回のプロジェクトでは、そのロマンをブロックチェーンに刻みます。（もちろん地球色のオーロラも用意しています！）</p>
 
-<h1 id="wallet">Wallet</h1>
+<p>第二の地球に移り住みはじめ、人類が惑星間種族になる時代、SFのワープ・ドライブが生まれる時代までブロックチェーンは生き残っているのでしょうか。そんなことを考え出すと宇宙のように想像というのは無限大に広がっていきます。</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Twitter</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href="https://debank.com/">DeBank</a></strong></td>
-      <td><a href="https://twitter.com/DeBankDeFi">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://jpeg.cash">JPEG.CASH</a></strong></td>
-      <td> </td>
-      <td>アドレスを貼るだけで、NFTトレードの利益を計算</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://revoke.cash/">Revoke.cash</a></strong></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p><img src="../images/2020-10-19/warp-speed.jpg" alt="images" />
+出典: Pixabay</p>
 
-<h1 id="rank--rarity">Rank / Rarity</h1>
+<h1 id="nft-and-northern-lights"><strong>NFT and Northern Lights</strong></h1>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Twitter</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href="https://nftnerds.ai/">NFTNerds.ai</a></strong></td>
-      <td><a href="https://twitter.com/NFTNerdsAI">Follow</a></td>
-      <td>レア度と共に価格の推移が詳しく見れるサイト</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://raritysniper.com/">Rarity Sniper</a></strong></td>
-      <td><a href="https://twitter.com/RaritySniperNFT">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://raritysniffer.com/">Rarity Sniffer</a></strong></td>
-      <td><a href="https://twitter.com/Rarity_Sniffer">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://rarity.tools/">rarity.tools</a></strong></td>
-      <td><a href="https://twitter.com/raritytools">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://app.traitsniper.com/">TraitSniper</a></strong></td>
-      <td><a href="https://twitter.com/trait_sniper">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p>話を宇宙からオーロラに戻しましょう。</p>
 
-<h1 id="analysis">Analysis</h1>
+<p>私はプロジェクトのアイデアを考えながらオーロラの現象を調べていくうちに、NFT通じるものがあると思いました。太陽風は人体や電子機器に悪影響を及ぼす怖い現象ですが、私たちにオーロラという素晴らしい恩恵を与えてくれ、プラズマは半導体などの工業製品を開発するのに必要不可欠な存在です。</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Twitter</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href="https://curio.tools/">Curio</a></strong></td>
-      <td><a href="https://twitter.com/curiotools">Follow</a></td>
-      <td>過去のリスト・販売金額が見られる，リアルタイム，分析しやすい</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://cryptoslam.io/">CryptoSlam</a></strong></td>
-      <td><a href="https://twitter.com/cryptoslamio">Follow</a></td>
-      <td>NFTコレクション別売上げランキングが見れる</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://dune.com/">Dune</a></strong></td>
-      <td><a href="https://twitter.com/DuneAnalytics">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="http://flip.xyz/">Flip.xyz</a></strong></td>
-      <td><a href="https://twitter.com/Flip_xyz">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.flips.finance/">Flips.Finance</a></strong></td>
-      <td><a href="https://twitter.com/flipsfinance">Follow</a></td>
-      <td>フロア価格推移、ホルダー数見れるサイト，動作が軽い</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://hyperspace.xyz/">Hyperspace</a></strong></td>
-      <td><a href="https://twitter.com/hyperspacexyz">Follow</a></td>
-      <td>Solana分析ツール</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://icy.tools/">icy.tools</a></strong></td>
-      <td><a href="https://twitter.com/icy_tools">Follow</a></td>
-      <td>分析が可視化されていて見やすい，リアルタイムで売買状況が見られる</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nftgo.io/">NFTGo.io</a></strong></td>
-      <td><a href="https://twitter.com/nftgoio">Follow</a></td>
-      <td>マーケット全体の概要，クジラのトレードのリスト，プロジェクトごとのボリューム・保持期間など</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nftscoring.com/">NFTScoring</a></strong></td>
-      <td><a href="https://twitter.com/NFTScoring">Follow</a></td>
-      <td>ローンチ前PJのディスコードの評判がわかる</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nftcharts.io/">NFTcharts.io</a></strong></td>
-      <td><a href="https://twitter.com/NFT_charts_io">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.ninjalerts.com/">Ninjalerts</a></strong></td>
-      <td><a href="https://twitter.com/ninjalerts">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.nft-stats.com/">NFT Stats</a></strong></td>
-      <td><a href="https://twitter.com/nft_tracker">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://nonfungible.com/">NonFungible</a></strong></td>
-      <td><a href="https://twitter.com/nonfungibles">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://moby.gg/">Moby</a></strong></td>
-      <td><a href="https://twitter.com/mobyinsights">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://www.nansen.ai/">nansen</a></strong></td>
-      <td><a href="https://twitter.com/nansen_ai">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://solanafloor.com/">SolanaFloor</a></strong></td>
-      <td><a href="https://twitter.com/SolanaFloor">Follow</a></td>
-      <td>SolanaのNFT分析ツール，FPに特化</td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p>私たちは常に自然から学びを得ることができます。現象の本質は何も変わりません。</p>
 
-<h1 id="tools">Tools</h1>
+<p>使い方によって恩恵があることもあれば、悪影響もあります。スマホ、AI（人工知能）、核、ブロックチェーン等々すべてのテクノロジーは人類がどう扱うかにかかっています。NFTというテクノロジーの本質は変わりませんが、色を付けるのは私たちです。</p>
 
-<p>その他の役立つツール</p>
+<p>Web3だからと言って極端に何でもすべてオープンに受け入れなければならないということはないでしょう。東洋哲学の「中庸」に学べます。そして、きっと良い使い方や悪い使い方があるんだと思います。詐欺には「悪い」を突き付けていく勇が必要です。</p>
 
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Twitter</th>
-      <th>Description</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><strong><a href="https://context.app/">Context.app</a></strong></td>
-      <td><a href="https://twitter.com/context">Follow</a></td>
-      <td>Twitterと連携することでフォローしている人のウォレットの動向を確認できるツール</td>
-    </tr>
-    <tr>
-      <td><strong><a href="https://dappradar.com/">DappRadar</a></strong></td>
-      <td><a href="https://twitter.com/dappradar">Follow</a></td>
-      <td>世界のDappsを分析できるサイト</td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td><strong><a href=""></a></strong></td>
-      <td><a href="">Follow</a></td>
-      <td> </td>
-    </tr>
-  </tbody>
-</table>
+<p>しかし、本当に難しいのは完璧に善悪に決着はつけられないということです。</p>
 
-<h1 id="reference">Reference</h1>
+<p>私はこう考えています。「きっとこうなんじゃないか？」と自分が思ったら、同じ未来を思い描いている人と共に、一歩でも世の中やみんなが幸せになる方向へ前進していくしかないと。それは自分の考え、信念や直感で動いていくしかないんだと思います。正解かどうかの答え合わせはありません。</p>
+
+<p>NFTに関しては「コミュニティが大事だ」「ユーティリティだ」「いや、絵の質こそが大事だ」と様々な意見がありますが、あまりにもサンプルが少なすぎると思っています。宇宙の話を思い出しましょう。本格的に宇宙進出するまでにブロックチェーンは生き残っているのでしょうか。ブロックチェーンよりももっともっと発展したテクノロジーが出てくるような気がしてなりません。十中八九そうでしょう。</p>
+
+<p>ある歴史の一瞬に過ぎない今日。私たちに今最も必要なことは視野を広げることです。あらゆる可能性を模索し、実験を繰り返し、半歩でも理想に向けて共に前進することだと思っています。</p>
+
+<p>そして何よりも楽しむこと。楽しむ者に勝るものはありません。</p>
+
+<h1 id="the-future"><strong>The Future</strong></h1>
+
+<p>高いエネルギーを持たない限り、良い景色は見ることはできません。まるでNFTに夢中になっている人たちのようですね。オーロラのロマンをブロックチェーンに刻んでみましょう。</p>
+
+<p>今後もいくつかプロジェクトを考えています。</p>
+
+<p>高いエネルギーを持った人たちと共にWeb3やNFTの領域を微力ながら前進させられたら幸いです。このプロジェクトをきっかけに何かしら良い影響があることを願っています。</p>
+
+<p><img src="../images/2020-10-19/aurora-2.png" alt="images" /></p>
+
+<p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZUeUxEOCBSAZvnCNdHc4z4kAllffVylgUnobidXJ4EezCkg/viewform?usp=sf_link">ご意見・ご感想フォーム</a></p>
+
+<h1 id="faq"><strong>FAQ</strong></h1>
+
 <ul>
-  <li>ツール，Pouch Community，<a href="https://discord.com/channels/924980502904061972/966329048886300722">https://discord.com/channels/924980502904061972/966329048886300722</a></li>
-  <li>Yusuke Tanaka，NFT Analytics，Twitter，<a href="https://twitter.com/yusuket777/status/1497038104082849796?s=20&amp;t=V478FmiOOJDMbtTLhTUVoA">https://twitter.com/yusuket777/status/1497038104082849796?s=20&amp;t=V478FmiOOJDMbtTLhTUVoA</a></li>
+  <li>どうすればWLを貰えますか？　A. 友達になりましょう。</li>
+  <li>なぜSupplyが150なんですか？　A.手の届く範囲で進めたいからです。</li>
+  <li>なぜウォレットごとに2ミントなんですか？　A.1つ目のミントで気に入らない色が出たらテンション下がりそうだから。</li>
+  <li>何に使えますか？　A.実用性は考えていません。CC0なのでお好きにお使いください。</li>
+  <li>なぜオーロラなんですか？　A.そもそも宇宙が好きで関連したものを最初のプロジェクトのモチーフにしたかったから。</li>
+  <li>連絡を取りたいです。どうすればいいですか？　A.TwitterのDMしか勝たん。もしくはContactページにあるメールへ。</li>
+  <li>オーロラを見たことはありますか？　A.ありません。見たいので連れてってください。</li>
+  <li>どうしてもNFTが欲しいです。　A.要望があればですが別コンで黒背景versionでもやりますかね。感想ください。</li>
 </ul>
 
-<h1 id="thanks">Thanks</h1>
+<h1 id="reference"><strong>Reference</strong></h1>
 
-<p>敬称略</p>
-
-<p><a href="https://twitter.com/ashf0023">DIΞGO</a> / <a href="https://twitter.com/shikinamijp">tuta</a> /  / <a href="https://twitter.com/BechaBecha_nft">BechaBecha</a> / / /</p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-22 更新日：2022-04-22]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
+<ul>
+  <li>Aurora Navi, <a href="https://auroranavi.com/aurora/">https://auroranavi.com/aurora/</a></li>
+  <li>NASA, What Is the Habitable Zone?, <a href="https://www.youtube.com/watch?v=J04YN9azln8">https://www.youtube.com/watch?v=J04YN9azln8</a></li>
+  <li>JAXA, 躍動する磁気圏 磁場から宇宙の謎にせまる, <a href="https://www.youtube.com/watch?v=tY-OUFU-z78">https://www.youtube.com/watch?v=tY-OUFU-z78</a></li>
+  <li>NASA, NASA’s Hubble Finds Water Vapor on Habitable-Zone Exoplanet for 1st Time, 2019, <a href="https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time">https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time</a></li>
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[目次 Project Overview, 概要 Story, オーロラの仕組み Planet and Northern Lights, 惑星とオーロラ NFT and Northern Lights, NFTとオーロラ The Future, まとめ FAQ, よくある質問 Reference, 参考文献]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
 更新日：2022-04-24</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
