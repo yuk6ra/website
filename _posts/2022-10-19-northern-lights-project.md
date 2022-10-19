@@ -6,6 +6,9 @@ categories: NFT
 layout: post
 ---
 
+作成日：2022-10-19
+<!-- 更新日：2022-04-24 -->
+
 ## 目次
 1. [Project Overview, 概要](#project-overview)
 2. [Story, オーロラの仕組み](#story)

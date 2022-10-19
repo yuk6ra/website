@@ -1,4 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T21:23:35+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<h2 id="目次">目次</h2>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T21:35:24+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
+<!-- 更新日：2022-04-24 --></p>
+
+<h2 id="目次">目次</h2>
 <ol>
   <li><a href="#project-overview">Project Overview, 概要</a></li>
   <li><a href="#story">Story, オーロラの仕組み</a></li>
@@ -153,8 +156,8 @@
   <li>NASA, What Is the Habitable Zone?, <a href="https://www.youtube.com/watch?v=J04YN9azln8">https://www.youtube.com/watch?v=J04YN9azln8</a></li>
   <li>JAXA, 躍動する磁気圏 磁場から宇宙の謎にせまる, <a href="https://www.youtube.com/watch?v=tY-OUFU-z78">https://www.youtube.com/watch?v=tY-OUFU-z78</a></li>
   <li>NASA, NASA’s Hubble Finds Water Vapor on Habitable-Zone Exoplanet for 1st Time, 2019, <a href="https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time">https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time</a></li>
-</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[目次 Project Overview, 概要 Story, オーロラの仕組み Planet and Northern Lights, 惑星とオーロラ NFT and Northern Lights, NFTとオーロラ The Future, まとめ FAQ, よくある質問 Reference, 参考文献]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
-更新日：2022-04-24</p>
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-10-19]]></summary></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
+更新日：2022-05-19</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
 
@@ -439,7 +442,7 @@
   <li><strong>Rarity / レア度 / レアリティ</strong> - NFTの特徴量を数値化した数，例文：このNFTはレアリティが高いのにFPで買えた，類義語：ランク</li>
   <li><strong><a href="https://raritysniffer.com/">RaritySniffer</a></strong> - ランクを確認できるサイト，プロジェクト公式の意向によってランクが左右される場合があり，このランクが公式とは限らない</li>
   <li><strong>Rank / ランク</strong> - 類義語：レアリティ</li>
-  <li><strong>Roll / ロール</strong> - Discord内でユーザに与えられるラベルや役職，例文：ホワイトリストのロールが付いているか確認してください，例：Whitelist・Member・Holder・Mod</li>
+  <li><strong>Role / ロール</strong> - Discord内でユーザに与えられるラベルや役職，例文：ホワイトリストのロールが付いているか確認してください，例：Whitelist・Member・Holder・Mod</li>
   <li><strong>Royalty / ロイヤリティ</strong> - 権利を持つ者に支払う対価，NFTの場合は発行もとのクリエイターやプロジェクトに支払われる対価のこと，Openseaでは0%から最大10%のロイヤリティを設定することができる，コレクション内のNFTが売買されることによって運営はその利益を得ることができる</li>
   <li><strong><a href="https://rarible.com/">Rarible</a></strong> - NFTマーケットプレイス</li>
   <li><strong>Reply / リプ</strong> - Twitter上のツイートに返信をすること</li>
@@ -562,7 +565,7 @@
 
 <p>敬称略</p>
 
-<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a> / <a href="https://twitter.com/Ryotheskywalke7">𝐑𝐲o꙼̈🍭｜ミミカジル</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-19 更新日：2022-04-24]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/"><![CDATA[<p>-&gt; Test</p>
+<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a> / <a href="https://twitter.com/Ryotheskywalke7">𝐑𝐲o꙼̈🍭｜ミミカジル</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-19 更新日：2022-05-19]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/"><![CDATA[<p>-&gt; Test</p>
 
 <p>-&gt; GM World</p>
 
