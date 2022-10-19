@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T22:36:42+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T23:02:38+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
 <!-- 更新日：2022-04-24 --></p>
 
 <h2 id="目次">目次</h2>
@@ -13,7 +13,7 @@
 </ol>
 
 <h1 id="project-overview"><strong>Project Overview</strong></h1>
-<p><img src="../images/2020-10-19/aurora-1.png" alt="images" /></p>
+<p><img src="../images/2022-10-19/aurora-1.png" alt="images" /></p>
 
 <h3 id="northern-lights-project">Northern Lights Project</h3>
 
@@ -40,12 +40,12 @@
 
 <p>オーロラは、北半球の大陸で観測されることが多く、北の光＝ノーザン・ライツ（Northern Lights）と呼ばれています。この現象は太陽の活動が起点になっており、太陽から放射された太陽風が地球の大気と衝突することでオーロラが発生します。</p>
 
-<p><img src="../images/2020-10-19/aurora.jpg" alt="images" />
+<p><img src="../images/2022-10-19/aurora.jpg" alt="images" />
 出典: <a href="https://www.nasa.gov/image-feature/aurora-and-the-pacific-northwest">NASA</a></p>
 
 <p>太陽風とは電子とイオンがバラバラな状態になった高温・高速の粒子（プラズマ）の風です。人体に悪影響を及ぼし、電子機器などの故障の原因にもなります。どれくらい怖い粒子なのか想像できない方もいるかもしれませんが、次のことを考えてみてください。コンピュータの故障原因にもなるため、ブロックチェーンのすべてのノードが同時に破壊されることも考えれるのです。（恐ろしいでしょう？）</p>
 
-<p><img src="../images/2020-10-19/plasmac.png" alt="images" /></p>
+<p><img src="../images/2022-10-19/plasmac.png" alt="images" /></p>
 
 <p>出典: <a href="https://p-grp.nucleng.kyoto-u.ac.jp/plasma/index.html">プラズマとは？</a></p>
 
@@ -53,7 +53,7 @@
 
 <p>しかし、すべてのプラズマを避け切ることはできず、磁場の密度が低い場所（バリアが弱い場所）から侵入を許してしまいます。特に太陽風によって変形した磁気は太陽の当たらない夜側が弱く、磁気圏の内部にプラズマをため込んでしまいます。この溜まった場所をプラズマシートと呼び、この大量のプラズマがオーロラのエネルギー源になります。</p>
 
-<p><img src="../images/2020-10-19/plasma-sheet.png" alt="images" />
+<p><img src="../images/2022-10-19/plasma-sheet.png" alt="images" />
 出典: <a href="https://auroranavi.com/aurora/magnetosphere.html">Aurora Navi</a></p>
 
 <p>やがてこれらのプラズマは地球の磁気線に沿って、北極（N極）と南極（S極）の上空の隙間から降り注ぎます。その際に大気にある窒素や酸素の分子と衝突することによって、分子にエネルギーが与えられます。与えられたエネルギーは、元の状態に戻ろうとするため光となってエネルギーを放射します。私たちが目にするのはこの現象です。</p>
@@ -72,7 +72,7 @@
 
 <p>太陽系では、十分な磁場と大気を持つ木星と土星で見ることができます。両惑星の大気中の成分はほとんどが水素なので、肉眼ではピンクに見えるはずです（下記の土星の写真ではピンクに見えないのはなぜだかわかりますか？）。磁場を持っているが大気を持たない水星、大気はあるが磁場がない金星、磁場が弱く大気が薄い火星などは期待できません。</p>
 
-<p><img src="../images/2020-10-19/saturn-aurora.jpg" alt="images" width="50%" /></p>
+<p><img src="../images/2022-10-19/saturn-aurora.jpg" alt="images" width="50%" /></p>
 
 <p>出典: <a href="https://www.nasa.gov/multimedia/imagegallery/image_feature_1083.html">NASA</a></p>
 
@@ -90,7 +90,7 @@
   <li>Proxima Centauri b</li>
 </ul>
 
-<p><img src="../images/2020-10-19/kepler-1649c.jpg" alt="images" />
+<p><img src="../images/2022-10-19/kepler-1649c.jpg" alt="images" />
 出典: <a href="https://www.jpl.nasa.gov/news/earth-size-habitable-zone-planet-found-hidden-in-early-nasa-kepler-data">NASA, Earth-Size Habitable-Zone Planet Found Hidden in Early NASA Kepler Data, 2020</a></p>
 
 <p>実はハビタブルゾーンに位置する惑星のほとんどは大気中の成分まで明らかになっていません。2019年のNASAの発表によると、K2-18bがハビタブルゾーン系惑星ではじめて水蒸気を観測し、その大気中の成分が水素とヘリウムであることが明らかになったところです。したがって、オーロラの発生に期待できても色まではわからないのが結論です。</p>
@@ -99,7 +99,7 @@
 
 <p>第二の地球に移り住みはじめ、人類が惑星間種族になる時代、SFのワープ・ドライブが生まれる時代までブロックチェーンは生き残っているのでしょうか。そんなことを考え出すと宇宙のように想像というのは無限大に広がっていきます。</p>
 
-<p><img src="../images/2020-10-19/warp-speed.jpg" alt="images" />
+<p><img src="../images/2022-10-19/warp-speed.jpg" alt="images" />
 出典: Pixabay</p>
 
 <h1 id="nft-and-northern-lights"><strong>NFT and Northern Lights</strong></h1>
@@ -132,7 +132,7 @@
 
 <p>高いエネルギーを持った人たちと共にWeb3やNFTの領域を微力ながら前進させられたら幸いです。このプロジェクトをきっかけに何かしら良い影響があることを願っています。</p>
 
-<p><img src="../images/2020-10-19/aurora-2.png" alt="images" /></p>
+<p><img src="../images/2022-10-19/aurora-2.png" alt="images" /></p>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZUeUxEOCBSAZvnCNdHc4z4kAllffVylgUnobidXJ4EezCkg/viewform?usp=sf_link">ご意見・ご感想フォーム</a></p>
 

@@ -21,7 +21,7 @@ image: /images/2022-10-19/thumbnail.png
 
 
 # **Project Overview**
-![images](../images/2020-10-19/aurora-1.png)
+![images](../images/2022-10-19/aurora-1.png)
 
 ### Northern Lights Project
 
@@ -46,12 +46,12 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 
 オーロラは、北半球の大陸で観測されることが多く、北の光＝ノーザン・ライツ（Northern Lights）と呼ばれています。この現象は太陽の活動が起点になっており、太陽から放射された太陽風が地球の大気と衝突することでオーロラが発生します。
 
-![images](../images/2020-10-19/aurora.jpg)
+![images](../images/2022-10-19/aurora.jpg)
 出典: [NASA](https://www.nasa.gov/image-feature/aurora-and-the-pacific-northwest)
 
 太陽風とは電子とイオンがバラバラな状態になった高温・高速の粒子（プラズマ）の風です。人体に悪影響を及ぼし、電子機器などの故障の原因にもなります。どれくらい怖い粒子なのか想像できない方もいるかもしれませんが、次のことを考えてみてください。コンピュータの故障原因にもなるため、ブロックチェーンのすべてのノードが同時に破壊されることも考えれるのです。（恐ろしいでしょう？）
 
-![images](../images/2020-10-19/plasmac.png)
+![images](../images/2022-10-19/plasmac.png)
 
 出典: [プラズマとは？](https://p-grp.nucleng.kyoto-u.ac.jp/plasma/index.html)
 
@@ -59,7 +59,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 
 しかし、すべてのプラズマを避け切ることはできず、磁場の密度が低い場所（バリアが弱い場所）から侵入を許してしまいます。特に太陽風によって変形した磁気は太陽の当たらない夜側が弱く、磁気圏の内部にプラズマをため込んでしまいます。この溜まった場所をプラズマシートと呼び、この大量のプラズマがオーロラのエネルギー源になります。
 
-![images](../images/2020-10-19/plasma-sheet.png)
+![images](../images/2022-10-19/plasma-sheet.png)
 出典: [Aurora Navi](https://auroranavi.com/aurora/magnetosphere.html)
 
 やがてこれらのプラズマは地球の磁気線に沿って、北極（N極）と南極（S極）の上空の隙間から降り注ぎます。その際に大気にある窒素や酸素の分子と衝突することによって、分子にエネルギーが与えられます。与えられたエネルギーは、元の状態に戻ろうとするため光となってエネルギーを放射します。私たちが目にするのはこの現象です。
@@ -78,7 +78,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 
 太陽系では、十分な磁場と大気を持つ木星と土星で見ることができます。両惑星の大気中の成分はほとんどが水素なので、肉眼ではピンクに見えるはずです（下記の土星の写真ではピンクに見えないのはなぜだかわかりますか？）。磁場を持っているが大気を持たない水星、大気はあるが磁場がない金星、磁場が弱く大気が薄い火星などは期待できません。
 
-![images](../images/2020-10-19/saturn-aurora.jpg){:width="50%"}
+![images](../images/2022-10-19/saturn-aurora.jpg){:width="50%"}
 
 出典: [NASA](https://www.nasa.gov/multimedia/imagegallery/image_feature_1083.html)
 
@@ -94,7 +94,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 - K2-72e
 - Proxima Centauri b
 
-![images](../images/2020-10-19/kepler-1649c.jpg)
+![images](../images/2022-10-19/kepler-1649c.jpg)
 出典: [NASA, Earth-Size Habitable-Zone Planet Found Hidden in Early NASA Kepler Data, 2020](https://www.jpl.nasa.gov/news/earth-size-habitable-zone-planet-found-hidden-in-early-nasa-kepler-data)
 
 
@@ -104,7 +104,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 
 第二の地球に移り住みはじめ、人類が惑星間種族になる時代、SFのワープ・ドライブが生まれる時代までブロックチェーンは生き残っているのでしょうか。そんなことを考え出すと宇宙のように想像というのは無限大に広がっていきます。
 
-![images](../images/2020-10-19/warp-speed.jpg)
+![images](../images/2022-10-19/warp-speed.jpg)
 出典: Pixabay
 
 
@@ -138,7 +138,7 @@ NFTに関しては「コミュニティが大事だ」「ユーティリティ�
 
 高いエネルギーを持った人たちと共にWeb3やNFTの領域を微力ながら前進させられたら幸いです。このプロジェクトをきっかけに何かしら良い影響があることを願っています。
 
-![images](../images/2020-10-19/aurora-2.png)
+![images](../images/2022-10-19/aurora-2.png)
 
 [ご意見・ご感想フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdZUeUxEOCBSAZvnCNdHc4z4kAllffVylgUnobidXJ4EezCkg/viewform?usp=sf_link)
 
