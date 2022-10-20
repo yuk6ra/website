@@ -32,7 +32,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 - Mint Price: 0.01 ETH
 - Per Wallet: 2 mint
 - Only whitelist sale
-- Minting site: Coming Soon
+- Minting site: [NLights.xyz](https://www.nlights.xyz/)
 
 自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。
 
