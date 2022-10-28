@@ -8,7 +8,7 @@ image: /images/2022-10-19/thumbnail.png
 ---
 
 作成日：2022-10-19
-<!-- 更新日：2022-04-24 -->
+更新日：2022-10-21
 
 ## 目次
 1. [Project Overview, 概要](#project-overview)
@@ -20,10 +20,10 @@ image: /images/2022-10-19/thumbnail.png
 7. [Reference, 参考文献](#reference)
 
 
-# **Project Overview**
+# **Northern Lights Project**
 ![images](../images/2022-10-19/aurora-1.png)
 
-### Northern Lights Project
+### Project Overview
 
 Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Utility, No Rarity
 
@@ -31,8 +31,18 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 - Supply: 150
 - Mint Price: 0.01 ETH
 - Per Wallet: 2 mint
-- Only whitelist sale
-- Minting site: [NLights.xyz](https://www.nlights.xyz/)
+- Only Whitelist Sale
+- Minting Site: [NLights.xyz](https://www.nlights.xyz/)
+
+### Details
+
+
+Allocation
+
+![images](../images/2022-10-19/allocation.png)
+
+
+### Comment
 
 自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。
 

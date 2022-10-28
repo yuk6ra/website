@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-19T23:02:54+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
-<!-- 更新日：2022-04-24 --></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-28T18:51:32+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
+更新日：2022-10-21</p>
 
 <h2 id="目次">目次</h2>
 <ol>
@@ -12,10 +12,10 @@
   <li><a href="#reference">Reference, 参考文献</a></li>
 </ol>
 
-<h1 id="project-overview"><strong>Project Overview</strong></h1>
+<h1 id="northern-lights-project"><strong>Northern Lights Project</strong></h1>
 <p><img src="../images/2022-10-19/aurora-1.png" alt="images" /></p>
 
-<h3 id="northern-lights-project">Northern Lights Project</h3>
+<h3 id="project-overview">Project Overview</h3>
 
 <p>Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Utility, No Rarity</p>
 
@@ -24,9 +24,17 @@
   <li>Supply: 150</li>
   <li>Mint Price: 0.01 ETH</li>
   <li>Per Wallet: 2 mint</li>
-  <li>Only whitelist sale</li>
-  <li>Minting site: Coming Soon</li>
+  <li>Only Whitelist Sale</li>
+  <li>Minting Site: <a href="https://www.nlights.xyz/">NLights.xyz</a></li>
 </ul>
+
+<h3 id="details">Details</h3>
+
+<p>Allocation</p>
+
+<p><img src="../images/2022-10-19/allocation.png" alt="images" /></p>
+
+<h3 id="comment">Comment</h3>
 
 <p>自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。</p>
 
@@ -156,7 +164,7 @@
   <li>NASA, What Is the Habitable Zone?, <a href="https://www.youtube.com/watch?v=J04YN9azln8">https://www.youtube.com/watch?v=J04YN9azln8</a></li>
   <li>JAXA, 躍動する磁気圏 磁場から宇宙の謎にせまる, <a href="https://www.youtube.com/watch?v=tY-OUFU-z78">https://www.youtube.com/watch?v=tY-OUFU-z78</a></li>
   <li>NASA, NASA’s Hubble Finds Water Vapor on Habitable-Zone Exoplanet for 1st Time, 2019, <a href="https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time">https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time</a></li>
-</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-10-19]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-19/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-19/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-10-19 更新日：2022-10-21]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-19/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-19/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
 更新日：2022-05-19</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
