@@ -4,7 +4,7 @@ permalink: :title/
 date:   2022-10-28 19:00:00 +0900
 categories: NFT
 layout: post
-image: /images/2022-10-28/thumbnail.png
+image: images/2022-10-28/thumbnail.png
 ---
 
 作成日：2022-10-28
