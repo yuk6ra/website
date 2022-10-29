@@ -24,7 +24,7 @@ title: "yuk6ra's website"
 description: >- # this means to ignore newlines until "baseurl:"
   I post articles about NFT and Web3. It's just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yuk6ra.com/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://yuk6ra.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: yuk6ra
 instagram_username: yuk6ra
 
