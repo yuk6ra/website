@@ -1,5 +1,5 @@
 ---
-title: "A little update NFT badges for IRL events"
+title: "Update NFT badges for IRL events"
 permalink: :title/
 date:   2022-10-28 19:00:00 +0900
 categories: NFT
@@ -8,7 +8,7 @@ image: images/2022-10-28/thumbnail.png
 ---
 
 作成日：2022-10-28
-<!-- 更新日：2022-10-21 -->
+更新日：2022-10-29
 
 # **目次**
 1. [はじめに](#はじめに)
