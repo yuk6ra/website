@@ -1,7 +1,66 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-10-28T19:18:19+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra’s website</title><subtitle>I post articles about NFT and Web3. It&apos;s just my personal opinion. If I make any mistakes, it would be helpful to me to have them corrected. </subtitle><entry><title type="html">A little update NFT badges for IRL events</title><link href="http://localhost:4000/nft-bingo-game/" rel="alternate" type="text/html" title="A little update NFT badges for IRL events" /><published>2022-10-28T19:00:00+09:00</published><updated>2022-10-28T19:00:00+09:00</updated><id>http://localhost:4000/nft-bingo-game</id><content type="html" xml:base="http://localhost:4000/nft-bingo-game/"><![CDATA[<p>作成日：2022-10-28
-<!-- 更新日：2022-10-21 --></p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T00:30:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra.com</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">ウォレットを詐欺から守る方法[途中]</title><link href="http://localhost:4000/assets/" rel="alternate" type="text/html" title="ウォレットを詐欺から守る方法[途中]" /><published>2022-11-05T00:00:00+09:00</published><updated>2022-11-05T00:00:00+09:00</updated><id>http://localhost:4000/assets</id><content type="html" xml:base="http://localhost:4000/assets/"><![CDATA[<h1 id="概要">概要</h1>
 
-<h1 id="目次"><strong>目次</strong></h1>
+<p>Web3業界の詐欺と対策についてまとめました。この世界に足を踏み入れたということは、詐欺と向き合っていかなければなりません。残念なことに世の中には悪意のある人達は一定数います。ここでは「具体的にどうすればいいのか」という疑問から「どう向き合っていけばいいのか」という姿勢に関する疑問まで網羅して書いていこうと思います。</p>
+
+<h1 id="詐欺">詐欺</h1>
+
+<p>詐欺は「スキャム（Scam）」と言います。プロジェクト自体が詐欺だったりするので、自分が責任を持って注していかなければいけません。</p>
+
+<p>驚いたことに、同じような手口の詐欺に合う方が後を絶ちません。しかし、彼らのことをとやかく言うことはできません。私たちもまた同じように騙されることがあるからです。</p>
+
+<p>手の込んだ詐欺が多くなってきていますが、Web2でもWeb3でもだいたい同じような手口です。悪意のあるURLを開いてしまったり、言葉巧みに騙されたり、余計なファイルを開いてしまったり、パスワードを抜き取られたり。</p>
+
+<h1 id="基本対策">基本対策</h1>
+
+<p>基本中の基本です。これは詐欺を未然に防ぐ方法です。</p>
+
+<h2 id="dmを閉じろ">DMを閉じろ！</h2>
+
+<p>TwitterやDiscordのDMを閉じてください。DMから来るメッセージはすべて詐欺だと思ってください。これを防ぐにはDMを閉じてしまうのが一番です。あなたにだけ美味しい話は絶対来ません。特にDiscordのDMはいますぐ閉じてください。TwitterのDMは使うことがあるかもしれませんが、DiscordのDMは基本使いません。どうやって設定するのか？敢えてここでは書きません。自分で調べることができなければ、この先の文章を読んでも意味はないかもしれません。</p>
+
+<h2 id="リンクを開くな">リンクを開くな！</h2>
+
+<p>見知らぬアカウントから飛ばされてきたリプやタグ付けは無視してください。リプに張り付いているリンクは開かず、タグ付けしてきた公式っぽい垢のリンクも開かないでください。TwitterのDMでメッセージと一緒に来たリンクを開かないでください。気づかずに詐欺サイトのリンクに誘導されているケースも多いですが、直感的に怪しいと思ったら間違いなく怪しいです。</p>
+
+<h2 id="ウォレットを繋ぐな">ウォレットを繋ぐな！</h2>
+
+<p>訳も分からずウォレットを繋がないでください。難しいことは省きますが、とにかくMetamaskなどのウォレットからポップアップされるボタンをむやみやたらと押さないことです。この操作はとても重要な操作をしています。「あなたの大切なアセットをすべて詐欺師に送りますか？」と聞かれて、素直に「はい」と答える人は皆無でしょう。しかし、あなたはウォレットで無意識にこの操作をしていることがあるのです。</p>
+
+<h1 id="応用対策">応用対策</h1>
+
+<h2 id="twitterのフォロワーを見る">Twitterのフォロワーを見る</h2>
+
+<p>NFTスペースで信頼できる人たちを事前にフォローしてください。彼らの情報感度は高く、めったに詐欺の垢をフォローはしません。「フォロワー数」ではなく「フォロワー」を見てください。残念なことにフォロワー数に踊らされる人が多いようです。Web2的な考え方ですが「誰がその垢をフォローしているのか」が非常に重要な指標となります。まずは信頼できる人を見つけてください。しかし、これはただの指標であることに注意し、すべてを盲目的に信じないでください。</p>
+
+<h2 id="urlを注視する">URLを注視する</h2>
+
+<p>まずはドメインに気を付けてください。openseaは「.io」です。「.com」でも「.xyz」でもなく「.io」です。そして似ているドメインに気を付けてください。「.ong」と「.org」は別物です。よく使うサイトはブックマークするか、公式URLを頭に叩き入れましょう。また、URLの文字列にも注意を払ってください。「opensee」ではなく「opensea」です。「open-sea」ではありません。いいですか。詐欺師はぱっと見似ている文字列を使い、あなたの目をハックします。</p>
+
+<h2 id="ウォレットを分散させる">ウォレットを分散させる</h2>
+
+<p>1つのウォレットにすべてのアセットを入れないでください。ハッキングされたら終わりです。少なくとも保管用のウォレットとミント用のウォレットを分けましょう。保管用のウォレットはハードウェア・ウォレットがおすすめです。シークレットリカバリーフレーズが盗まれる場合もあるので、ウォレット自体を別で作るのが良いでしょう。もちろん、保管用のウォレットは保管だけに使ってください。</p>
+
+<h1 id="事例">事例</h1>
+
+<ul>
+  <li>プロジェクトの公式Discordが乗っ取られて、公式Discordのアナウンスメントのチャンネルに非公式のURLが貼られる</li>
+  <li>プロジェクトの公式Twitter垢が乗っ取られて、プロフィールに非公式のURLが貼られる</li>
+  <li>プロジェクトのURLが乗っ取られて、悪意のあるコントラクトへウォレットコネクトを要求される</li>
+  <li>TwitterのDMで自分に有利な価格交渉や交換が持ちかけられる</li>
+  <li>Discordで公式を装った垢がGiveawayの当選をお知らせしてくる</li>
+  <li>ウォレットのシークレットリカバリーフレーズを要求される</li>
+  <li>登録したメールアドレスに見知らぬファイルが送られてくる</li>
+  <li>プロジェクトをGoogleで検索すると一番上の広告が非公式のURLになっている</li>
+</ul>
+
+<p>あらゆる手口を用いて、詐欺師は</p>
+
+<h1 id="詐欺に対する姿勢">詐欺に対する姿勢</h1>
+
+<h1 id="まとめ">まとめ</h1>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[Web3業界の詐欺と対策についてまとめました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-05/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-05/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Update NFT badges for IRL events</title><link href="http://localhost:4000/nft-bingo-game/" rel="alternate" type="text/html" title="Update NFT badges for IRL events" /><published>2022-10-28T19:00:00+09:00</published><updated>2022-10-28T19:00:00+09:00</updated><id>http://localhost:4000/nft-bingo-game</id><content type="html" xml:base="http://localhost:4000/nft-bingo-game/"><![CDATA[<p>作成日：2022-10-28
+更新日：2022-10-29</p>
+
+<h1 id="目次">目次</h1>
 <ol>
   <li><a href="#はじめに">はじめに</a></li>
   <li><a href="#今日の記念nft">今日の記念NFT</a></li>
@@ -10,15 +69,15 @@
   <li><a href="#最後に">最後に</a></li>
 </ol>
 
-<h1 id="はじめに"><strong>はじめに</strong></h1>
+<h1 id="はじめに-welcome">はじめに welcome</h1>
 
 <p>皆さんもNFTをやっていると記念NFTを貰うことがよくあると思います。私も貰ったり、配布したりしてきました。最近はただ貰うことに退屈してきましたので別のことを考えてみたというのが今回のお話です。</p>
 
-<p>IRLイベントで配布される記念NFTをちょっとしたアイデアで面白くしてみたいと思います。題材はビンゴ大会です。ビンゴカードをNFTにして、NFT色の強いビンゴ大会をやったら面白そうです。</p>
+<p>IRLイベントで配布される記念NFTをちょっとしたアイデアで面白くしてみたいと思います。題材はビンゴです。ビンゴカードをNFTにして、NFT色の強いビンゴ大会をNFTのイベントでやったら面白そうです。</p>
 
 <p>それほど難しくありません。大したアイデアではなく、ちょっとしたアイデアです。</p>
 
-<h1 id="今日の記念nft"><strong>今日の記念NFT</strong></h1>
+<h1 id="今日の記念nft">今日の記念NFT</h1>
 
 <p>NFTのIRLイベントで記念NFTを配布しているのをよく見かけます。ここでは記念NFTは「参加したら記念で無料で貰えるNFT」と位置付けます。</p>
 
@@ -32,7 +91,7 @@
 
 <p>1時間にも満たない時間で友人とあれこれ考えていました。</p>
 
-<h1 id="もしnftでビンゴ大会をしたら"><strong>もしNFTでビンゴ大会をしたら</strong></h1>
+<h1 id="もしnftでビンゴ大会をしたら">もしNFTでビンゴ大会をしたら</h1>
 
 <p>こんなのはどうでしょうか。</p>
 
@@ -54,7 +113,7 @@
 
 <p>以上が「もしNFTでビンゴ大会をしたら」です。</p>
 
-<h1 id="現在に機能を持たせる"><strong>現在に機能を持たせる</strong></h1>
+<h1 id="現在に機能を持たせる">現在に機能を持たせる</h1>
 
 <p>シンプルな図を書いてみました。人々はなぜ記念のNFTを貰うのか。</p>
 
@@ -74,7 +133,7 @@
 
 <p>記念NFTはリビールがあれば記録や期待といった役割を果たすことができます。</p>
 
-<h1 id="最後に"><strong>最後に</strong></h1>
+<h1 id="最後に">最後に</h1>
 
 <p>「なんだ！そんなことか！」と思われたかもしれませんが、少なくともこの１年間で私が参加してきたIRLイベントではこういった記念NFTは貰ったことがありませんでした。</p>
 
@@ -82,15 +141,15 @@
 
 <p>最近は日本でも「NFTは紙である」というスレッドが大きな反響を呼びました。改めて、NFTには色々な使い道がありそうだということがわかります。</p>
 
-<h1 id="reference"><strong>Reference</strong></h1>
+<h1 id="reference">Reference</h1>
 
 <ul>
   <li>NFT BINGO Game, <a href="https://opensea.io/collection/nft-bingo-game">https://opensea.io/collection/nft-bingo-game</a></li>
   <li>NFTとは？を説明するのに「紙である」というのは一つの答えであるというスレッド, <a href="https://twitter.com/NftPinuts/status/1584579038596583430?s=20&amp;t=HuWMNXEAhl5XaiXVGLmDlg">https://twitter.com/NftPinuts/status/1584579038596583430?s=20&amp;t=HuWMNXEAhl5XaiXVGLmDlg</a></li>
-</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-10-28]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-28/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-28/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
-更新日：2022-10-21</p>
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[IRLイベントで貰う記念NFTを少しアップデートしてみる]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-28/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-28/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
+更新日：2022-11-04</p>
 
-<h2 id="目次">目次</h2>
+<h1 id="目次">目次</h1>
 <ol>
   <li><a href="#project-overview">Project Overview, 概要</a></li>
   <li><a href="#story">Story, オーロラの仕組み</a></li>
@@ -101,10 +160,10 @@
   <li><a href="#reference">Reference, 参考文献</a></li>
 </ol>
 
-<h1 id="northern-lights-project"><strong>Northern Lights Project</strong></h1>
+<h1 id="northern-lights-project">Northern Lights Project</h1>
 <p><img src="../images/2022-10-19/aurora-1.png" alt="images" /></p>
 
-<h3 id="project-overview">Project Overview</h3>
+<h2 id="project-overview">Project Overview</h2>
 
 <p>Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Utility, No Rarity</p>
 
@@ -117,19 +176,19 @@
   <li>Minting Site: <a href="https://www.nlights.xyz/">NLights.xyz</a></li>
 </ul>
 
-<h3 id="details">Details</h3>
+<h2 id="details">Details</h2>
 
 <p>Allocation</p>
 
 <p><img src="../images/2022-10-19/allocation.png" alt="images" /></p>
 
-<h3 id="comment">Comment</h3>
+<h2 id="comment">Comment</h2>
 
 <p>自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。</p>
 
 <p><a href="https://twitter.com/yuk6ra">@yuk6ra</a> の個人プロジェクトです。No Utilityであり、投機や投資対象にはなりえませんのでご理解のほどよろしくお願いいたします。DYOR / NFA</p>
 
-<h1 id="story"><strong>Story</strong></h1>
+<h1 id="story">Story</h1>
 
 <p>モチーフは「オーロラ（Aurora）」です。</p>
 
@@ -157,7 +216,7 @@
 
 <p>地球の大気中の主な成分は窒素と酸素なので、衝突するときに放射する光の色は決まっています。さらに大気中の成分は高度によって異なるので、場所によって色も変化します。高い場所から赤、緑、ピンク・紫で観測されることが多いのはこのためです。</p>
 
-<h1 id="planet-and-northern-lights"><strong>Planet and Northern Lights</strong></h1>
+<h1 id="planet-and-northern-lights">Planet and Northern Lights</h1>
 
 <p>オーロラの色は大気中の成分によって変化します。地球では窒素78％、酸素21％、アルゴン0.93%と続きます。ここまで読んでくれた好奇心旺盛な方は疑問に思う方がいるかもしれません。</p>
 
@@ -199,7 +258,7 @@
 <p><img src="../images/2022-10-19/warp-speed.jpg" alt="images" />
 出典: Pixabay</p>
 
-<h1 id="nft-and-northern-lights"><strong>NFT and Northern Lights</strong></h1>
+<h1 id="nft-and-northern-lights">NFT and Northern Lights</h1>
 
 <p>話を宇宙からオーロラに戻しましょう。</p>
 
@@ -221,7 +280,7 @@
 
 <p>そして何よりも楽しむこと。楽しむ者に勝るものはありません。</p>
 
-<h1 id="the-future"><strong>The Future</strong></h1>
+<h1 id="the-future">The Future</h1>
 
 <p>高いエネルギーを持たない限り、良い景色は見ることはできません。まるでNFTに夢中になっている人たちのようですね。オーロラのロマンをブロックチェーンに刻んでみましょう。</p>
 
@@ -233,7 +292,7 @@
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdZUeUxEOCBSAZvnCNdHc4z4kAllffVylgUnobidXJ4EezCkg/viewform?usp=sf_link">ご意見・ご感想フォーム</a></p>
 
-<h1 id="faq"><strong>FAQ</strong></h1>
+<h1 id="faq">FAQ</h1>
 
 <ul>
   <li>どうすればWLを貰えますか？　A. 友達になりましょう。</li>
@@ -246,14 +305,14 @@
   <li>どうしてもNFTが欲しいです。　A.要望があればですが別コンで黒背景versionでもやりますかね。感想ください。</li>
 </ul>
 
-<h1 id="reference"><strong>Reference</strong></h1>
+<h1 id="reference">Reference</h1>
 
 <ul>
   <li>Aurora Navi, <a href="https://auroranavi.com/aurora/">https://auroranavi.com/aurora/</a></li>
   <li>NASA, What Is the Habitable Zone?, <a href="https://www.youtube.com/watch?v=J04YN9azln8">https://www.youtube.com/watch?v=J04YN9azln8</a></li>
   <li>JAXA, 躍動する磁気圏 磁場から宇宙の謎にせまる, <a href="https://www.youtube.com/watch?v=tY-OUFU-z78">https://www.youtube.com/watch?v=tY-OUFU-z78</a></li>
   <li>NASA, NASA’s Hubble Finds Water Vapor on Habitable-Zone Exoplanet for 1st Time, 2019, <a href="https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time">https://www.nasa.gov/feature/goddard/2019/nasa-s-hubble-finds-water-vapor-on-habitable-zone-exoplanet-for-1st-time</a></li>
-</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-10-19 更新日：2022-10-21]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-19/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-19/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[惑星のオーロラをモチーフにしたフルオンチェーンNFTのNLightsのプロジェクト詳細]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-19/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-19/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Japanese NFT Glossary 2022</title><link href="http://localhost:4000/japanese-nft-glossary-2022/" rel="alternate" type="text/html" title="Japanese NFT Glossary 2022" /><published>2022-04-19T15:43:53+09:00</published><updated>2022-04-19T15:43:53+09:00</updated><id>http://localhost:4000/japanese-nft-glossary-2022</id><content type="html" xml:base="http://localhost:4000/japanese-nft-glossary-2022/"><![CDATA[<p>作成日：2022-04-19 <br />
 更新日：2022-05-19</p>
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
@@ -662,10 +721,4 @@
 
 <p>敬称略</p>
 
-<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a> / <a href="https://twitter.com/Ryotheskywalke7">𝐑𝐲o꙼̈🍭｜ミミカジル</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[作成日：2022-04-19 更新日：2022-05-19]]></summary></entry><entry><title type="html">Hello World!</title><link href="http://localhost:4000/hello-world/" rel="alternate" type="text/html" title="Hello World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/hello-world</id><content type="html" xml:base="http://localhost:4000/hello-world/"><![CDATA[<p>-&gt; Test</p>
-
-<p>-&gt; GM World</p>
-
-<p>-&gt; GN World</p>
-
-<p>-&gt; …</p>]]></content><author><name></name></author><category term="ME" /><summary type="html"><![CDATA[-&gt; Test]]></summary></entry></feed>
+<p>Nikaido / <a href="https://twitter.com/SawacoNakagawa">Sawaco</a> / <a href="https://twitter.com/Ryotheskywalke7">𝐑𝐲o꙼̈🍭｜ミミカジル</a></p>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[NFT初心者から中級者のための用語集(2022年版)、200語以上収録]]></summary></entry><entry><title type="html">GM World!</title><link href="http://localhost:4000/gm-world/" rel="alternate" type="text/html" title="GM World!" /><published>2022-04-19T12:00:00+09:00</published><updated>2022-04-19T12:00:00+09:00</updated><id>http://localhost:4000/gm-world</id><content type="html" xml:base="http://localhost:4000/gm-world/"><![CDATA[<p>gm</p>]]></content><author><name></name></author><category term="ME" /><summary type="html"><![CDATA[gm]]></summary></entry></feed>

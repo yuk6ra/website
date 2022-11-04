@@ -10,11 +10,11 @@ layout: default
   {{ content }}
 
   {%- if site.posts.size > 0 -%}
-  <h2 class="post-list-heading">{{ page.list_title | default: "TOP" }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Top" }}</h2>
 
   <ul class="post-list">
     <li>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minima.date_format | default: "%Y %b %d" -%}
     <span class="post-meta">{{ site.posts[-2].date | date: date_format }}</span>
     <span class="post-meta">{{ site.posts[-2].categories }}</span>
     <h3>
@@ -27,7 +27,7 @@ layout: default
     {%- endif -%}
   </li>
   <li>
-    {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+    {%- assign date_format = site.minima.date_format | default: "%Y %b %d" -%}
     <span class="post-meta">{{ site.posts[-3].date | date: date_format }}</span>
     <span class="post-meta">{{ site.posts[-3].categories }}</span>
     <h3>
@@ -40,11 +40,11 @@ layout: default
     {%- endif -%}
   </li></ul>
 
-  <h2 class="post-list-heading">{{ page.list_title | default: "New" }}</h2>
+  <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {%- assign date_format = site.minima.date_format | default: "%Y %b %d" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>
         <span class="post-meta">{{ post.categories }}</span>
         <h3>

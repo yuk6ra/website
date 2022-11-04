@@ -2,13 +2,14 @@
  * Site header
  */
 .site-header {
-  border-top: 5px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+  // border-top: 5px solid $grey-color-dark;
+  // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+
 
 .site-title {
   @include relative-font-size(1.625);
@@ -22,6 +23,10 @@
   &:visited {
     color: $grey-color-dark;
   }
+}
+
+.site-title:hover {
+  text-decoration: none;
 }
 
 .site-nav {
@@ -106,7 +111,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  border-top: 2px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -135,18 +140,18 @@
 }
 
 .footer-col-1 {
-  width: -webkit-calc(35% - (#{$spacing-unit} / 2));
-  width:         calc(35% - (#{$spacing-unit} / 2));
-}
-
-.footer-col-2 {
   width: -webkit-calc(20% - (#{$spacing-unit} / 2));
   width:         calc(20% - (#{$spacing-unit} / 2));
 }
 
+.footer-col-2 {
+  width: -webkit-calc(65% - (#{$spacing-unit} / 2));
+  width:         calc(65% - (#{$spacing-unit} / 2));
+}
+
 .footer-col-3 {
-  width: -webkit-calc(45% - (#{$spacing-unit} / 2));
-  width:         calc(45% - (#{$spacing-unit} / 2));
+  width: -webkit-calc(15% - (#{$spacing-unit} / 2));
+  width:         calc(15% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
@@ -207,7 +212,11 @@
   @include relative-font-size(1.5);
 }
 
-
+a.post-link {
+  display: block;
+  color: rgb(46, 152, 240);
+  @include relative-font-size(1.5);
+}
 
 /**
  * Posts
@@ -229,25 +238,28 @@
 .post-content {
   margin-bottom: $spacing-unit;
 
-  h2 {
+  h1 {
     @include relative-font-size(2);
-
+    border-bottom: solid 1px rgb(100, 100, 100);
+    margin-top: $spacing-unit * 1.5;
     @include media-query($on-laptop) {
       @include relative-font-size(1.75);
     }
   }
 
-  h3 {
+  h2 {
     @include relative-font-size(1.625);
-
+    padding: 0 10px;
+    background: transparent;
+    border-left: solid 5px rgb(100, 100, 100);
+    
     @include media-query($on-laptop) {
       @include relative-font-size(1.375);
     }
   }
 
-  h4 {
+  h3 {
     @include relative-font-size(1.25);
-
     @include media-query($on-laptop) {
       @include relative-font-size(1.125);
     }

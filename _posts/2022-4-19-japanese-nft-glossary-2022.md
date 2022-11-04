@@ -3,6 +3,7 @@ title:  "Japanese NFT Glossary 2022"
 permalink: :title/
 date:   2022-04-19 15:43:53 +0900
 categories: NFT
+excerpt: NFT初心者から中級者のための用語集(2022年版)、200語以上収録
 layout: post
 ---
 

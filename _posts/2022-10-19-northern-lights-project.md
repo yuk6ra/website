@@ -4,13 +4,14 @@ permalink: :title/
 date:   2022-10-19 17:00:00 +0900
 categories: NFT
 layout: post
+excerpt: 惑星のオーロラをモチーフにしたフルオンチェーンNFTのNLightsのプロジェクト詳細
 image: /images/2022-10-19/thumbnail.png
 ---
 
 作成日：2022-10-19
-更新日：2022-10-21
+更新日：2022-11-04
 
-## 目次
+# 目次
 1. [Project Overview, 概要](#project-overview)
 2. [Story, オーロラの仕組み](#story)
 3. [Planet and Northern Lights, 惑星とオーロラ](#planet-and-northern-lights)
@@ -20,10 +21,10 @@ image: /images/2022-10-19/thumbnail.png
 7. [Reference, 参考文献](#reference)
 
 
-# **Northern Lights Project**
+# Northern Lights Project
 ![images](../images/2022-10-19/aurora-1.png)
 
-### Project Overview
+## Project Overview
 
 Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Utility, No Rarity
 
@@ -34,21 +35,20 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 - Only Whitelist Sale
 - Minting Site: [NLights.xyz](https://www.nlights.xyz/)
 
-### Details
-
+## Details
 
 Allocation
 
 ![images](../images/2022-10-19/allocation.png)
 
 
-### Comment
+## Comment
 
 自身がクリエイターになることによって、より深くNFTを理解し、みんなで楽しみ、何か社会に役立てるインサイトを掴めるのではないかと思い、2022年10月9日に本格的にスタートさせました。当方は楽しいこと、面白いことを手を動かしてやっていこうという想いしか持ち合わせていません。同じ想いをお持ちの方はしばしお付き合いいただけますと幸いです。
 
 [@yuk6ra](https://twitter.com/yuk6ra) の個人プロジェクトです。No Utilityであり、投機や投資対象にはなりえませんのでご理解のほどよろしくお願いいたします。DYOR / NFA
 
-# **Story**
+# Story
 
 モチーフは「オーロラ（Aurora）」です。
 
@@ -76,7 +76,7 @@ Allocation
 
 地球の大気中の主な成分は窒素と酸素なので、衝突するときに放射する光の色は決まっています。さらに大気中の成分は高度によって異なるので、場所によって色も変化します。高い場所から赤、緑、ピンク・紫で観測されることが多いのはこのためです。
 
-# **Planet and Northern Lights**
+# Planet and Northern Lights
 
 オーロラの色は大気中の成分によって変化します。地球では窒素78％、酸素21％、アルゴン0.93%と続きます。ここまで読んでくれた好奇心旺盛な方は疑問に思う方がいるかもしれません。
 
@@ -118,7 +118,7 @@ Allocation
 出典: Pixabay
 
 
-# **NFT and Northern Lights**
+# NFT and Northern Lights
 
 話を宇宙からオーロラに戻しましょう。
 
@@ -140,7 +140,7 @@ NFTに関しては「コミュニティが大事だ」「ユーティリティ�
 
 そして何よりも楽しむこと。楽しむ者に勝るものはありません。
 
-# **The Future**
+# The Future
 
 高いエネルギーを持たない限り、良い景色は見ることはできません。まるでNFTに夢中になっている人たちのようですね。オーロラのロマンをブロックチェーンに刻んでみましょう。
 
@@ -152,7 +152,7 @@ NFTに関しては「コミュニティが大事だ」「ユーティリティ�
 
 [ご意見・ご感想フォーム](https://docs.google.com/forms/d/e/1FAIpQLSdZUeUxEOCBSAZvnCNdHc4z4kAllffVylgUnobidXJ4EezCkg/viewform?usp=sf_link)
 
-# **FAQ**
+# FAQ
 
 - どうすればWLを貰えますか？　A. 友達になりましょう。
 - なぜSupplyが150なんですか？　A.手の届く範囲で進めたいからです。
@@ -163,7 +163,7 @@ NFTに関しては「コミュニティが大事だ」「ユーティリティ�
 - オーロラを見たことはありますか？　A.ありません。見たいので連れてってください。
 - どうしてもNFTが欲しいです。　A.要望があればですが別コンで黒背景versionでもやりますかね。感想ください。
 
-# **Reference**
+# Reference
 
 - Aurora Navi, [https://auroranavi.com/aurora/](https://auroranavi.com/aurora/)
 - NASA, What Is the Habitable Zone?, [https://www.youtube.com/watch?v=J04YN9azln8](https://www.youtube.com/watch?v=J04YN9azln8)
