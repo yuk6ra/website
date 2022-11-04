@@ -60,3 +60,7 @@ plugins:
 
 gems: ['jekyll-lunr-js-search']
 image: images/icon.png
+
+
+# twitter:
+#   card: summary_large_image
