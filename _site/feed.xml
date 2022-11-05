@@ -1,63 +1,109 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T12:45:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra.com</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">How to protect your wallets from scams</title><link href="http://localhost:4000/how-to-protect-your-wallet-from-scams/" rel="alternate" type="text/html" title="How to protect your wallets from scams" /><published>2022-11-05T00:00:00+09:00</published><updated>2022-11-05T00:00:00+09:00</updated><id>http://localhost:4000/how-to-protect-your-wallet-from-scams</id><content type="html" xml:base="http://localhost:4000/how-to-protect-your-wallet-from-scams/"><![CDATA[<h1 id="概要">概要</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T16:49:07+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">How to protect your wallets from scams</title><link href="http://localhost:4000/how-to-protect-your-wallet-from-scams/" rel="alternate" type="text/html" title="How to protect your wallets from scams" /><published>2022-11-05T16:00:00+09:00</published><updated>2022-11-05T16:00:00+09:00</updated><id>http://localhost:4000/how-to-protect-your-wallet-from-scams</id><content type="html" xml:base="http://localhost:4000/how-to-protect-your-wallet-from-scams/"><![CDATA[<h1 id="概要">概要</h1>
 
-<p>Web3業界の詐欺と対策についてまとめました。この世界に足を踏み入れたということは、詐欺と向き合っていかなければなりません。残念なことに世の中には悪意のある人達は一定数います。ここでは「具体的にどうすればいいのか」という疑問から「どう向き合っていけばいいのか」という姿勢に関する疑問まで網羅して書いていこうと思います。</p>
+<p>Web3業界における詐欺と詐欺からウォレットを守る対策についてまとめたいと思います。この世界に足を踏み入れたということは、詐欺と向き合っていかなければなりません。残念なことに世の中には悪意のある人たちは一定数います。</p>
 
-<h1 id="詐欺">詐欺</h1>
+<p>今回はWeb3における詐欺全般についてや具体的にどう対策すればいいのか、どう詐欺と向き合っていけばいいのか、詐欺の事例などを見ていきたいと思います。</p>
 
-<p>詐欺は「スキャム（Scam）」と言います。プロジェクト自体が詐欺だったりするので、自分が責任を持って注していかなければいけません。</p>
+<h1 id="web3における詐欺">Web3における詐欺</h1>
 
-<p>驚いたことに、同じような手口の詐欺に合う方が後を絶ちません。しかし、彼らのことをとやかく言うことはできません。私たちもまた同じように騙されることがあるからです。</p>
+<p><img src="../images/2022-11-05/scam.png" alt="image" /></p>
 
-<p>手の込んだ詐欺が多くなってきていますが、Web2でもWeb3でもだいたい同じような手口です。悪意のあるURLを開いてしまったり、言葉巧みに騙されたり、余計なファイルを開いてしまったり、パスワードを抜き取られたり。</p>
+<p>詐欺は「スキャム（Scam）」と呼ばれています。Web3特有のウォレットをハッキングされる被害が後を絶ちません。（特に悪意を持って不正することを「クラッキング」と言いますが混乱がないように、以下、同じニュアンスで「ハッキング」とします）</p>
+
+<p>人を巧みに騙す詐欺師は身近に潜んでいます。プロジェクトの運営自体が詐欺を目的としたプロジェクトだったというケースは日常茶飯事です。常にウォレットをハッキングされないように注意しなければなりません。これが「DYOR」と頻繁に言われている理由のひとつでもあります。単語の意味は<a href="https://yuk6ra.com/japanese-nft-glossary-2022/">こちら</a>。</p>
+
+<p>驚いたことに、同じような手口の詐欺に合う方がほとんどです。しかし、彼らのことをとやかく言うことはできません。私たちもまた同じように騙されることがあるからです。</p>
+
+<p>悪意のあるURLを開いてしまったり、ウィルスの入ったファイルを解凍してしまったり、うっかり自分からパスワードを教えてしまったり…。手の込んだ詐欺が多くなってきていますが、Web2でもWeb3でも手口はだいたい同じです。それでも引っかかってしまうのです。</p>
+
+<p>ではどうしたら良いのでしょうか？</p>
 
 <h1 id="基本対策">基本対策</h1>
 
-<p>基本中の基本です。これは詐欺を未然に防ぐ方法です。</p>
+<p>これはウォレットの詐欺被害を未然に防ぐ基本的な方法です。</p>
 
 <h2 id="dmを閉じろ">DMを閉じろ！</h2>
 
-<p>TwitterやDiscordのDMを閉じてください。DMから来るメッセージはすべて詐欺だと思ってください。これを防ぐにはDMを閉じてしまうのが一番です。あなたにだけ美味しい話は絶対来ません。特にDiscordのDMはいますぐ閉じてください。TwitterのDMは使うことがあるかもしれませんが、DiscordのDMは基本使いません。どうやって設定するのか？敢えてここでは書きません。自分で調べることができなければ、この先の文章を読んでも意味はないかもしれません。</p>
+<p><strong>TwitterやDiscordのDMをいますぐ閉じてください。</strong>DMから来るメッセージはすべて詐欺だと思ってください。これを防ぐにはDMを閉じてしまうのが一番です。あなたにだけ美味しい話は絶対に来ません。特にDiscordのDMはいますぐ閉じてください。TwitterのDMは使うことがあるかもしれませんが、DiscordのDMは基本プロジェクト側も使いません。どうやって設定するのか？敢えてここでは書きません。自分で調べることができなければ、この先の文章を読んでも意味はないかもしれません。（と言いつつも<a href="#reference">Reference</a>に記載しています[1]）</p>
 
 <h2 id="リンクを開くな">リンクを開くな！</h2>
 
-<p>見知らぬアカウントから飛ばされてきたリプやタグ付けは無視してください。リプに張り付いているリンクは開かず、タグ付けしてきた公式っぽい垢のリンクも開かないでください。TwitterのDMでメッセージと一緒に来たリンクを開かないでください。気づかずに詐欺サイトのリンクに誘導されているケースも多いですが、直感的に怪しいと思ったら間違いなく怪しいです。</p>
+<p><strong>得体のしれないリンクを開かないでください。</strong>見知らぬアカウントから飛ばされてきたリプやタグ付けは無視してください。リプに張り付いているリンクは開かず、タグ付けしてきた公式っぽい垢のリンクも開かないでください。TwitterのDMでメッセージと一緒に来たリンクも開かないでください。気づかずに詐欺サイトのリンクに誘導されているケースも多いですが、直感的に「なんか怪しいかも」と思ったら間違いなく怪しいです。</p>
 
 <h2 id="ウォレットを繋ぐな">ウォレットを繋ぐな！</h2>
 
-<p>訳も分からずウォレットを繋がないでください。難しいことは省きますが、とにかくMetamaskなどのウォレットからポップアップされるボタンをむやみやたらと押さないことです。この操作はとても重要な操作をしています。「あなたの大切なアセットをすべて詐欺師に送りますか？」と聞かれて、素直に「はい」と答える人は皆無でしょう。しかし、あなたはウォレットで無意識にこの操作をしていることがあるのです。</p>
+<p><strong>訳も分からずウォレットを繋がないでください。</strong>難しいことは省きますが、とにかくMetamaskなどのウォレットからポップアップされるボタンをむやみやたらと押さないことです。この操作はとても重要な操作をしています。「あなたの大切なアセットをすべて詐欺師に送りますか？」と聞かれて、素直に「はい」と答える人は皆無でしょう。しかし、あなたはウォレットで無意識にこの操作をしていることがあるのです。</p>
+
+<p>さて、そろそろ疑問に思うかもしれません。上記で言ってきたことをすべて完璧に実行することは<strong>不可能</strong>なんです。「リンクを開くな！」と言われても、開かなければサービスを利用できませんし、「ウォレットを繋ぐな！」と言われても繋がなければブロックチェーンにアクセスできません。矛盾しているかもしれませんが、ウォレットを完璧に対策することはとても難しいのです。</p>
 
 <h1 id="応用対策">応用対策</h1>
 
+<p>次にもっと踏み込んだ対策方法を見ていきたいと思います。</p>
+
 <h2 id="twitterのフォロワーを見る">Twitterのフォロワーを見る</h2>
 
-<p>NFTスペースで信頼できる人たちを事前にフォローしてください。彼らの情報感度は高く、めったに詐欺の垢をフォローはしません。「フォロワー数」ではなく「フォロワー」を見てください。残念なことにフォロワー数に踊らされる人が多いようです。Web2的な考え方ですが「誰がその垢をフォローしているのか」が非常に重要な指標となります。まずは信頼できる人を見つけてください。しかし、これはただの指標であることに注意し、すべてを盲目的に信じないでください。</p>
+<p><strong>「フォロワー数」ではなく「フォロワー」を見てください。</strong>NFTスペースではTwitterを活用するのが一般的です。信頼できる人たちを事前にフォローする必要があります。彼らは情報感度が高く、めったに詐欺の垢をフォローはしません。フォロワーの数に踊らされる人が多いようですが、「誰がその垢をフォローしているのか」が非常に重要な指標となります。まずは信頼できる人を見つけてください。しかし、これはただの指標であることに注意し、すべてを盲目的に信じないでください。</p>
 
 <h2 id="urlを注視する">URLを注視する</h2>
 
-<p>まずはドメインに気を付けてください。openseaは「.io」です。「.com」でも「.xyz」でもなく「.io」です。そして似ているドメインに気を付けてください。「.ong」と「.org」は別物です。よく使うサイトはブックマークするか、公式URLを頭に叩き入れましょう。また、URLの文字列にも注意を払ってください。「opensee」ではなく「opensea」です。「open-sea」ではありません。いいですか。詐欺師はぱっと見似ている文字列を使い、あなたの目をハックします。</p>
+<p><strong>公式のURLかどうかを確認してください。</strong>まずはドメインに気を付けてください。openseaは「.io」です。「.com」でも「.xyz」でもなく「.io」です。そして似ているドメインにも気を付けてください。「.ong」と「.org」は別物です。また、URLの文字列にも注意を払ってください。「opensee」や「opansea」ではなく「opensea」、「rēvoke」ではなく「revoke」です。一瞬わからなかった人はもう一度確認してみてください。よく使うサイトはブックマークするか、公式のURLを頭に叩き入れましょう。いいですか。詐欺師はぱっと見似ている文字列を使い、あなたの目をハックします。しかし、いくら公式のURLといっても、そのプロジェクト自体が詐欺である可能性が残されていることを忘れないでください。</p>
 
 <h2 id="ウォレットを分散させる">ウォレットを分散させる</h2>
 
-<p>1つのウォレットにすべてのアセットを入れないでください。ハッキングされたら終わりです。少なくとも保管用のウォレットとミント用のウォレットを分けましょう。保管用のウォレットはハードウェア・ウォレットがおすすめです。シークレットリカバリーフレーズが盗まれる場合もあるので、ウォレット自体を別で作るのが良いでしょう。もちろん、保管用のウォレットは保管だけに使ってください。</p>
+<p><strong>1つのウォレットにすべての資産を入れないでください。</strong>一度ハッキングされたら終わりです。少なくとも「保管用のウォレット」と「活動用のウォレット」を分けましょう。保管用のウォレットはハードウェア・ウォレット（以下、HW）がおすすめです。HWは必ず公式サイトから購入してください。非公式から購入すると、もともとハッキングされたHWが届く可能性もあります。シークレットリカバリーフレーズが盗まれる場合もあるので、ウォレット自体を別で作るのが良いでしょう。もちろん、保管用のウォレットは保管だけに使ってください。</p>
 
-<h1 id="事例">事例</h1>
+<h1 id="詐欺の事例">詐欺の事例</h1>
+
+<p>実際にどういった詐欺があるのかを確認していきたいと思います。</p>
 
 <ul>
-  <li>プロジェクトの公式Discordが乗っ取られて、公式Discordのアナウンスメントのチャンネルに非公式のURLが貼られる</li>
-  <li>プロジェクトの公式Twitter垢が乗っ取られて、プロフィールに非公式のURLが貼られる</li>
-  <li>プロジェクトのURLが乗っ取られて、悪意のあるコントラクトへウォレットコネクトを要求される</li>
-  <li>TwitterのDMで自分に有利な価格交渉や交換が持ちかけられる</li>
-  <li>Discordで公式を装った垢がGiveawayの当選をお知らせしてくる</li>
-  <li>ウォレットのシークレットリカバリーフレーズを要求される</li>
-  <li>登録したメールアドレスに見知らぬファイルが送られてくる</li>
-  <li>プロジェクトをGoogleで検索すると一番上の広告が非公式のURLになっている</li>
+  <li>プロジェクトの公式Discordが乗っ取られて、アナウンスメントのチャンネルに悪意のあるURLが貼られる→<strong>リンクを開くな！</strong></li>
+  <li>プロジェクトの公式Twitter垢が乗っ取られて、URL欄が悪意のあるURLにすり替えられる、もしくはツイートされる→<strong>リンクを開くな！</strong></li>
+  <li>プロジェクトのURLが乗っ取られて、悪意のあるコントラクトへウォレットコネクトを要求される→<strong>ウォレットを繋ぐな！</strong></li>
+  <li>TwitterのDMで自分に有利な価格交渉や交換が持ちかけられる→<strong>DMを閉じろ！</strong></li>
+  <li>Discordで公式を装った垢がGiveawayの当選をお知らせしてくる→<strong>DMを閉じろ！</strong></li>
+  <li>ウォレットのシークレットリカバリーフレーズを要求される→<strong>教えるな！</strong></li>
+  <li>登録したメールアドレスに見知らぬファイルが送られてくる→<strong>ファイルを開くな！</strong></li>
+  <li>プロジェクトをGoogleで検索すると一番上の広告が非公式のURLになっている→<strong>リンクを開くな！</strong></li>
 </ul>
 
-<p>あらゆる手口を用いて、詐欺師は</p>
+<p>これはほんの一例です。あらゆる手口を使って詐欺師はあなたのウォレットにある資産を奪おうとしてくることを知っておいてください。</p>
 
 <h1 id="詐欺に対する姿勢">詐欺に対する姿勢</h1>
 
-<h1 id="まとめ">まとめ</h1>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[Web3業界の詐欺と対策についてまとめました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-05/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-05/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Update NFT badges for IRL events</title><link href="http://localhost:4000/nft-bingo-game/" rel="alternate" type="text/html" title="Update NFT badges for IRL events" /><published>2022-10-28T19:00:00+09:00</published><updated>2022-10-28T19:00:00+09:00</updated><id>http://localhost:4000/nft-bingo-game</id><content type="html" xml:base="http://localhost:4000/nft-bingo-game/"><![CDATA[<p>作成日：2022-10-28
+<p>ここは<a href="https://twitter.com/401noname">代替性かおす</a>さんの<a href="https://note.com/nutsmikan/n/n3aa026c2a711">記事</a>[2]がすごく参考になると思います。一読してみてください。</p>
+
+<p>私は「諦めよ、学べ、恐れるな」をおすすめします。</p>
+
+<h2 id="諦めよ">諦めよ</h2>
+
+<p>諦めましょう。詐欺に合えば基本的にウォレットにある資産は戻ってくることがないと認識してください。ブロックチェーン、中央集権ではなく分散型とはそういうものです。ハッキングされたくなければ、PCやスマホを閉じるのが一番です。言葉遊びを抜きにすれば、詐欺を100%回避することは不可能です。そのことを知っておいてください。</p>
+
+<h2 id="学べ">学べ</h2>
+
+<p>諦めよと言っても、現実的には対策しなければなりません。過去に詐欺被害にあった人たちの悲鳴を聞いてください。知識をアップデートしていくことは必要です。先人たちが犯した過ちから学び、同じ過ちをなるべく犯さないことです。同じ過ちを犯さないと努力することです。調べてわからなければ知ってる人に教えを請いましょう。それでも盗まれたら仕方がないのです。</p>
+
+<h2 id="恐れるな">恐れるな</h2>
+
+<p>不必要に恐れないことです。詐欺はあります。それは現実でも同じです。Web3という分野は生まれて間もないので、まだまだ欠陥が多いのです。誰でも騙されたら「危ないもの」だと思いますし、それは仕方がないことですが、詐欺による悪いイメージを強く植え付けないことです。</p>
+
+<h1 id="まとめ">まとめ</h1>
+
+<p>以上はWeb3の初心者に向けて私が毎回話していることです。</p>
+
+<p>「疲れた」と思ったら一度PCを閉じることをおすすめします。向いてないと思ったり、どうしても怖かったりしたら、無理にとどまることもないと思います。数年後、Web3はもっと使いやすい世界になっているはずです。</p>
+
+<p>それでもWeb3に興味があったり、詐欺にあったけど活動を続けたい場合は「いつ詐欺にあってもおかしくない」と念頭におきつつも、この欠陥だらけの世界を楽しむことです。</p>
+
+<p>油断せずに全力で楽しんでいきましょう！</p>
+
+<p>以上です。</p>
+
+<h1 id="reference">Reference</h1>
+<ol>
+  <li>Discord, メッセージリクエスト, <a href="https://support.discord.com/hc/ja/articles/7924992471191-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88">https://support.discord.com/hc/ja/articles/7924992471191-%E3%83%A1%E3%83%83%E3%82%BB%E3%83%BC%E3%82%B8%E3%83%AA%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88</a></li>
+  <li>代替性かおす, 真に100％完璧なハッキング対策（短編）, <a href="https://note.com/nutsmikan/n/n3aa026c2a711">https://note.com/nutsmikan/n/n3aa026c2a711</a></li>
+</ol>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[Web3業界における詐欺と詐欺からウォレットを守る対策についてまとめました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-05/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-05/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Update NFT badges for IRL events</title><link href="http://localhost:4000/nft-bingo-game/" rel="alternate" type="text/html" title="Update NFT badges for IRL events" /><published>2022-10-28T19:00:00+09:00</published><updated>2022-10-28T19:00:00+09:00</updated><id>http://localhost:4000/nft-bingo-game</id><content type="html" xml:base="http://localhost:4000/nft-bingo-game/"><![CDATA[<p>作成日：2022-10-28
 更新日：2022-10-29</p>
 
 <h1 id="はじめに">はじめに</h1>
