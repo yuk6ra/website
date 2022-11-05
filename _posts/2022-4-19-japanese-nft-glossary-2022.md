@@ -12,7 +12,7 @@ layout: post
 
 NFT初心者から中級者のための用語集(2022年版)，200語以上収録
 
-# **Introduction**
+# Introduction
 
 「Japanese NFT Glossary 2022」はひとまず意味がわかるNFT分野の用語集です．
 
@@ -21,7 +21,7 @@ NFT初心者から中級者のための用語集(2022年版)，200語以上収�
 [単語を追加・修正する](https://docs.google.com/forms/d/e/1FAIpQLScYLGr0ucui9Oxi5SWBlGIQSLRQQNwsLZkuGTJx2-ejkC9wmA/viewform?usp=sf_link)
 
 
-# **How to use**
+# How to use
 
 ページ内検索推奨．下記のコマンドをお使いください．スマホでもページ内検索の機能があります．
 

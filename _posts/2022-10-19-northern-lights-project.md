@@ -8,18 +8,8 @@ excerpt: 惑星のオーロラをモチーフにしたフルオンチェーンNF
 image: /images/2022-10-19/thumbnail.png
 ---
 
-作成日：2022-10-19
+作成日：2022-10-19 <br>
 更新日：2022-11-04
-
-# 目次
-1. [Project Overview, 概要](#project-overview)
-2. [Story, オーロラの仕組み](#story)
-3. [Planet and Northern Lights, 惑星とオーロラ](#planet-and-northern-lights)
-4. [NFT and Northern Lights, NFTとオーロラ](#nft-and-northern-lights)
-5. [The Future, まとめ](#the-future)
-6. [FAQ, よくある質問](#faq)
-7. [Reference, 参考文献](#reference)
-
 
 # Northern Lights Project
 ![images](../images/2022-10-19/aurora-1.png)

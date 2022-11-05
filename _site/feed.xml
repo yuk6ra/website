@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T01:07:57+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra.com</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">ウォレットを詐欺から守る方法[途中]</title><link href="http://localhost:4000/assets/" rel="alternate" type="text/html" title="ウォレットを詐欺から守る方法[途中]" /><published>2022-11-05T00:00:00+09:00</published><updated>2022-11-05T00:00:00+09:00</updated><id>http://localhost:4000/assets</id><content type="html" xml:base="http://localhost:4000/assets/"><![CDATA[<h1 id="概要">概要</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-05T12:45:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra.com</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">How to protect your wallets from scams</title><link href="http://localhost:4000/how-to-protect-your-wallet-from-scams/" rel="alternate" type="text/html" title="How to protect your wallets from scams" /><published>2022-11-05T00:00:00+09:00</published><updated>2022-11-05T00:00:00+09:00</updated><id>http://localhost:4000/how-to-protect-your-wallet-from-scams</id><content type="html" xml:base="http://localhost:4000/how-to-protect-your-wallet-from-scams/"><![CDATA[<h1 id="概要">概要</h1>
 
 <p>Web3業界の詐欺と対策についてまとめました。この世界に足を踏み入れたということは、詐欺と向き合っていかなければなりません。残念なことに世の中には悪意のある人達は一定数います。ここでは「具体的にどうすればいいのか」という疑問から「どう向き合っていけばいいのか」という姿勢に関する疑問まで網羅して書いていこうと思います。</p>
 
@@ -60,16 +60,7 @@
 <h1 id="まとめ">まとめ</h1>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[Web3業界の詐欺と対策についてまとめました]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-05/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-05/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Update NFT badges for IRL events</title><link href="http://localhost:4000/nft-bingo-game/" rel="alternate" type="text/html" title="Update NFT badges for IRL events" /><published>2022-10-28T19:00:00+09:00</published><updated>2022-10-28T19:00:00+09:00</updated><id>http://localhost:4000/nft-bingo-game</id><content type="html" xml:base="http://localhost:4000/nft-bingo-game/"><![CDATA[<p>作成日：2022-10-28
 更新日：2022-10-29</p>
 
-<h1 id="目次">目次</h1>
-<ol>
-  <li><a href="#はじめに">はじめに</a></li>
-  <li><a href="#今日の記念nft">今日の記念NFT</a></li>
-  <li><a href="#もしnftでビンゴ大会をしたら">もしNFTでビンゴ大会をしたら</a></li>
-  <li><a href="#現在に機能を持たせる">現在に機能を持たせる</a></li>
-  <li><a href="#最後に">最後に</a></li>
-</ol>
-
-<h1 id="はじめに-welcome">はじめに welcome</h1>
+<h1 id="はじめに">はじめに</h1>
 
 <p>皆さんもNFTをやっていると記念NFTを貰うことがよくあると思います。私も貰ったり、配布したりしてきました。最近はただ貰うことに退屈してきましたので別のことを考えてみたというのが今回のお話です。</p>
 
@@ -146,19 +137,8 @@
 <ul>
   <li>NFT BINGO Game, <a href="https://opensea.io/collection/nft-bingo-game">https://opensea.io/collection/nft-bingo-game</a></li>
   <li>NFTとは？を説明するのに「紙である」というのは一つの答えであるというスレッド, <a href="https://twitter.com/NftPinuts/status/1584579038596583430?s=20&amp;t=HuWMNXEAhl5XaiXVGLmDlg">https://twitter.com/NftPinuts/status/1584579038596583430?s=20&amp;t=HuWMNXEAhl5XaiXVGLmDlg</a></li>
-</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[IRLイベントで貰う記念NFTを少しアップデートしてみる]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-28/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-28/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19
+</ul>]]></content><author><name></name></author><category term="NFT" /><summary type="html"><![CDATA[IRLイベントで貰う記念NFTを少しアップデートしてみる]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-10-28/thumbnail.png" /><media:content medium="image" url="http://localhost:4000/images/2022-10-28/thumbnail.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Northern Lights Project</title><link href="http://localhost:4000/northern-lights-project/" rel="alternate" type="text/html" title="Northern Lights Project" /><published>2022-10-19T17:00:00+09:00</published><updated>2022-10-19T17:00:00+09:00</updated><id>http://localhost:4000/northern-lights-project</id><content type="html" xml:base="http://localhost:4000/northern-lights-project/"><![CDATA[<p>作成日：2022-10-19 <br />
 更新日：2022-11-04</p>
-
-<h1 id="目次">目次</h1>
-<ol>
-  <li><a href="#project-overview">Project Overview, 概要</a></li>
-  <li><a href="#story">Story, オーロラの仕組み</a></li>
-  <li><a href="#planet-and-northern-lights">Planet and Northern Lights, 惑星とオーロラ</a></li>
-  <li><a href="#nft-and-northern-lights">NFT and Northern Lights, NFTとオーロラ</a></li>
-  <li><a href="#the-future">The Future, まとめ</a></li>
-  <li><a href="#faq">FAQ, よくある質問</a></li>
-  <li><a href="#reference">Reference, 参考文献</a></li>
-</ol>
 
 <h1 id="northern-lights-project">Northern Lights Project</h1>
 <p><img src="../images/2022-10-19/aurora-1.png" alt="images" /></p>
@@ -317,7 +297,7 @@
 
 <p>NFT初心者から中級者のための用語集(2022年版)，200語以上収録</p>
 
-<h1 id="introduction"><strong>Introduction</strong></h1>
+<h1 id="introduction">Introduction</h1>
 
 <p>「Japanese NFT Glossary 2022」はひとまず意味がわかるNFT分野の用語集です．</p>
 
@@ -325,7 +305,7 @@
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLScYLGr0ucui9Oxi5SWBlGIQSLRQQNwsLZkuGTJx2-ejkC9wmA/viewform?usp=sf_link">単語を追加・修正する</a></p>
 
-<h1 id="how-to-use"><strong>How to use</strong></h1>
+<h1 id="how-to-use">How to use</h1>
 
 <p>ページ内検索推奨．下記のコマンドをお使いください．スマホでもページ内検索の機能があります．</p>
 

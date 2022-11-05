@@ -1,5 +1,5 @@
 ---
-title: ウォレットを詐欺から守る方法[途中]
+title: How to protect your wallets from scams
 permalink: :title/
 date:   2022-11-05 0:00:00 +0900
 categories: Web3
@@ -7,6 +7,7 @@ layout: post
 excerpt: Web3業界の詐欺と対策についてまとめました
 image: images/2022-11-05/thumbnail.png
 ---
+
 
 # 概要
 
@@ -68,3 +69,4 @@ NFTスペースで信頼できる人たちを事前にフォローしてくだ�
 
 
 # まとめ
+
