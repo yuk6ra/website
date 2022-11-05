@@ -1,5 +1,5 @@
 ---
-title: How to protect your wallets from scams
+title: How to protect your wallet from scams
 permalink: :title/
 date:   2022-11-05 16:00:00 +0900
 categories: Web3
