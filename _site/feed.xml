@@ -1,6 +1,185 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-09T14:50:10+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">Community Domains (draft)</title><link href="http://localhost:4000/community-domains/" rel="alternate" type="text/html" title="Community Domains (draft)" /><published>2022-11-09T12:00:00+09:00</published><updated>2022-11-09T12:00:00+09:00</updated><id>http://localhost:4000/community-domains</id><content type="html" xml:base="http://localhost:4000/community-domains/"><![CDATA[<p>2022年11月9日、ただのメモ。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-24T11:15:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">EIP-5995: Ticket NFTs, status idea</title><link href="http://localhost:4000/ticket-nfts-idea/" rel="alternate" type="text/html" title="EIP-5995: Ticket NFTs, status idea" /><published>2022-11-24T11:15:00+09:00</published><updated>2022-11-24T11:15:00+09:00</updated><id>http://localhost:4000/ticket-nfts-idea</id><content type="html" xml:base="http://localhost:4000/ticket-nfts-idea/"><![CDATA[<h1 id="abstract">Abstract</h1>
 
-<p><img src="../images/2022-11-09/draft.png" alt="image" /></p>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[2022年11月9日、ただのメモ。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-09/draft.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-09/draft.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to protect your wallet from scams</title><link href="http://localhost:4000/how-to-protect-your-wallet-from-scams-copy/" rel="alternate" type="text/html" title="How to protect your wallet from scams" /><published>2022-11-05T16:00:00+09:00</published><updated>2022-11-05T16:00:00+09:00</updated><id>http://localhost:4000/how-to-protect-your-wallet-from-scams%20copy</id><content type="html" xml:base="http://localhost:4000/how-to-protect-your-wallet-from-scams-copy/"><![CDATA[<h1 id="概要">概要</h1>
+<p>現在、利用されている標準的なNFT（ERC721）に現実に即したチケットの機能を付与し、現状のチケットの課題のソリューションを考えます。これはERC721と併用する拡張的なインターフェースの提案です。</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>NFTはイベント参加のチケットとしての機能を持ち、近年ではオリンピックのチケットとしても利用が期待されています。しかし、現実のチケットの課題と同様に、高額な転売を目的としたチケットNFTの入手が課題になっています。これはNFTおよびチケットの投機性を助長し、チケットの目的には反することになります。抽選で外れてしまった人の多くは余分なお金を支払わなければなりません。チケットの販売者は、サービスを提供したい対象者にチケットを購入してほしいのであって、チケットで儲けるために購入してほしいのではありません。そこでチケットの基本的な機能を考えることにします。</p>
+
+<p>チケットの基本的な機能</p>
+
+<ol>
+  <li>対象者のみサービスを受けることができる</li>
+  <li>融通ができる</li>
+  <li>記念に保存できる</li>
+</ol>
+
+<p>SBT（Soulbound Token）のチケットを解決策として考えることは妥当だと思われがちですが、SBTの概念は不完全であり、現実的ではありません。何より臨機応変に融通ができないことに私たちは不安を覚えるでしょう。このようにNFTを利用するチケットにはいくつかの課題があります。代表的な課題は次の通りです。</p>
+
+<ol>
+  <li>NFT: 転売可能なので誰でも参加でき、複垢も容易である</li>
+  <li>SBT: 融通ができず記念品としての市場価値も一切ない</li>
+</ol>
+
+<p><img src="../images/2022-11-24/overview-1.png" alt="image" /></p>
+
+<p>NFTタイプは誰でも参加できるがゆえに多くの課題を残します。ご想像の通りです。SBTタイプは良い線を行っていますが、チケットを使い終わっても譲渡ができず販売ができないのが難点です。なぜなら、現実ではファンはコレクターでもあります。自分が参加できなかったイベントのチケットは高額を出してでも欲しい人はいるでしょう。これはイベント前にチケットを高額で購入する動機とは全く違う動機なのです。</p>
+
+<p>これを解決するための鍵は第三のタイプにあります。仮に「Non-Salable Token = NST」とします。NSTはトランスファーだけ可能で販売は不可能なNFTです。</p>
+
+<p>少し改良してあげましょう。次の図を見てください。</p>
+
+<p><img src="../images/2022-11-24/overview-2.png" alt="image" /></p>
+
+<p>まずトランスファーには制限をかけます。この機能の目的はイベント前に身近な人物（たとえば家族や友人たち）と融通が利くように設計するためです。何度もトランスファーを許可する必要はなく、1・２回許可してあげれば良いでしょう。とにかくSBTに近い設計にし、トランスファーはできるけどなるべく少なく制限するのです。</p>
+
+<p>そして再販不可も付与します。再販不可の目的は「販売を禁止し、サービスを受けたい人だけが買えるようにする」ことです。しかし、再販不可はイベント終了前までです。なぜならイベント終了後にチケットはコレクターのためのものになるからです。</p>
+
+<p>このようにトランスファーの制限と再販不可の機能を付与することによって、イベントに行きたい人しかチケットを買うことができないようにし、イベント後はコレクターやファン、イベントに行きたくても行けなかった人にも届くようにします。</p>
+
+<h1 id="specification">Specification</h1>
+
+<p>（下書き）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">interface</span> <span class="n">IEIPTicket</span> <span class="p">{</span>
+    <span class="c1">/// @dev Emitted when set transfer limits of the token
+</span>    <span class="k">event</span> <span class="n">TransferLimit</span><span class="p">(</span><span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">transferLimit</span><span class="p">);</span>
+
+    <span class="c1">/// @dev Emitted when set salable or not
+</span>    <span class="k">event</span> <span class="n">Salable</span><span class="p">(</span><span class="kt">bool</span> <span class="k">indexed</span> <span class="n">status</span><span class="p">);</span>
+
+    <span class="c1">/// @dev Tikets ERC721
+</span>    <span class="c1">/// @param tokenId the NFT you want limit transfer
+</span>    <span class="c1">/// @param transferLimit number of transfer limits
+</span>    <span class="k">function</span> <span class="n">setTransferLimit</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">transferLimit</span><span class="p">)</span> <span class="k">external</span><span class="p">;</span>
+
+    <span class="c1">/// @dev can check all tokenId
+</span>    <span class="c1">/// @param tokenId token number
+</span>    <span class="c1">/// @return remaining count of transfer
+</span>    <span class="k">function</span> <span class="n">transferLimitOf</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint256</span><span class="p">);</span>
+
+    <span class="c1">/// @notice status of the salable setting.
+</span>    <span class="c1">/// @return tokens is salable or not
+</span>    <span class="k">function</span> <span class="n">isSalable</span><span class="p">()</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="example-implementation">Example Implementation</h1>
+
+<p>（下書き）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">import</span> <span class="s">"@openzeppelin/contracts/token/ERC721/ERC721.sol"</span><span class="p">;</span>
+<span class="k">import</span> <span class="s">"./IEIPTicket.sol"</span><span class="p">;</span>
+
+<span class="k">contract</span> <span class="n">ERCTicket</span> <span class="k">is</span> <span class="n">ERC721</span> <span class="p">{</span>
+    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">totalSupply</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isSalable</span><span class="p">;</span>
+    <span class="k">mapping</span><span class="p">(</span><span class="kt">uint256</span> <span class="o">=&gt;</span> <span class="kt">uint256</span><span class="p">)</span> <span class="k">private</span> <span class="n">_transferLimits</span><span class="p">;</span>
+    <span class="k">mapping</span><span class="p">(</span><span class="kt">uint256</span> <span class="o">=&gt;</span> <span class="kt">uint256</span><span class="p">)</span> <span class="k">private</span> <span class="n">_availableLimits</span><span class="p">;</span>
+    <span class="k">mapping</span><span class="p">(</span><span class="kt">address</span> <span class="o">=&gt;</span> <span class="kt">bool</span><span class="p">)</span> <span class="k">private</span> <span class="n">_allowedContractList</span><span class="p">;</span>
+
+    <span class="k">event</span> <span class="n">TransferLimit</span><span class="p">(</span><span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">transferLimit</span><span class="p">);</span>
+    <span class="k">event</span> <span class="n">Salable</span><span class="p">(</span><span class="kt">bool</span> <span class="k">indexed</span> <span class="n">status</span><span class="p">);</span>
+
+    <span class="k">constructor</span><span class="p">()</span> <span class="n">ERC721</span><span class="p">(</span><span class="s">"ABC"</span><span class="p">,</span> <span class="s">"ABC"</span><span class="p">)</span> <span class="p">{}</span>
+
+    <span class="k">function</span> <span class="n">mint</span><span class="p">()</span> <span class="k">public</span> <span class="p">{</span>
+        <span class="n">_safeMint</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">totalSupply</span><span class="p">);</span>
+        <span class="n">totalSupply</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">setTransferLimit</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">transferLimit</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
+        <span class="k">emit</span> <span class="n">TransferLimit</span><span class="p">(</span><span class="n">tokenId</span><span class="p">,</span> <span class="n">transferLimit</span><span class="p">);</span>
+        <span class="n">_transferLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">=</span> <span class="n">transferLimit</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">transferLimitOf</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint256</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_transferLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isTransferable</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_transferLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setAvailableLimit</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">availableLimit</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
+        <span class="n">_availableLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">=</span> <span class="n">availableLimit</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isAvailable</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_availableLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">salable</span><span class="p">(</span><span class="kt">bool</span> <span class="n">status</span><span class="p">)</span> <span class="k">public</span> <span class="p">{</span>
+        <span class="n">_isSalable</span> <span class="o">=</span> <span class="n">status</span><span class="p">;</span>
+        <span class="k">emit</span> <span class="n">Salable</span><span class="p">(</span><span class="n">status</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isSalable</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isSalable</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">useOf</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">uint256</span><span class="p">){</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isAvailable</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"Already used"</span><span class="p">);</span>
+        <span class="n">_availableLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
+        <span class="k">return</span> <span class="n">_availableLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">checkTransfer</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span>
+            <span class="o">!</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">)</span> <span class="o">||</span>
+            <span class="n">isTransferable</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span>
+             <span class="s">"Token is aleady exist, or is NOT t"</span>
+        <span class="p">);</span>
+
+        <span class="k">if</span> <span class="p">(</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">)){</span>
+            <span class="n">_transferLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
+        <span class="p">}</span>        
+
+        <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">_beforeTokenTransfer</span><span class="p">(</span>
+        <span class="kt">address</span> <span class="n">from</span><span class="p">,</span>
+        <span class="kt">address</span> <span class="n">to</span><span class="p">,</span>
+        <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span>
+        <span class="kt">uint256</span> <span class="n">batchSize</span>
+    <span class="p">)</span> <span class="k">internal</span> <span class="k">override</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">checkTransfer</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"check is working"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">_beforeTokenTransfer</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">,</span> <span class="n">batchSize</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">addAllowedContract</span><span class="p">(</span><span class="kt">address</span> <span class="n">_contract</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_allowedContractList</span><span class="p">[</span><span class="n">_contract</span><span class="p">]</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isAllowedContract</span><span class="p">(</span><span class="kt">address</span> <span class="n">_contract</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_allowedContractList</span><span class="p">[</span><span class="n">_contract</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalForAll</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">approved</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isAllowedContract</span><span class="p">(</span><span class="n">operator</span><span class="p">)</span> <span class="o">||</span> <span class="n">isSalable</span><span class="p">(),</span> <span class="s">"approve func: is not salable"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">setApprovalForAll</span><span class="p">(</span><span class="n">operator</span><span class="p">,</span> <span class="n">approved</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">approve</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isSalable</span><span class="p">(),</span> <span class="s">"approve func: is not salable"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">approve</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="copyright">Copyright</h1>
+
+<p>Copyright and related rights waived via CC0.</p>]]></content><author><name></name></author><category term="Web3" /><summary type="html"><![CDATA[チケットNFTの拡張的なインターフェースの提案]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/2022-11-24/overview-1.png" /><media:content medium="image" url="http://localhost:4000/images/2022-11-24/overview-1.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">How to protect your wallet from scams</title><link href="http://localhost:4000/how-to-protect-your-wallet-from-scams-copy/" rel="alternate" type="text/html" title="How to protect your wallet from scams" /><published>2022-11-05T16:00:00+09:00</published><updated>2022-11-05T16:00:00+09:00</updated><id>http://localhost:4000/how-to-protect-your-wallet-from-scams%20copy</id><content type="html" xml:base="http://localhost:4000/how-to-protect-your-wallet-from-scams-copy/"><![CDATA[<h1 id="概要">概要</h1>
 
 <p>Web3業界における詐欺と詐欺からウォレットを守る対策についてまとめたいと思います。この世界に足を踏み入れたということは、詐欺と向き合っていかなければなりません。残念なことに世の中には悪意のある人たちは一定数います。</p>
 
