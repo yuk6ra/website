@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-24T11:15:30+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">EIP-5995: Ticket NFTs, status idea</title><link href="http://localhost:4000/ticket-nfts-idea/" rel="alternate" type="text/html" title="EIP-5995: Ticket NFTs, status idea" /><published>2022-11-24T11:15:00+09:00</published><updated>2022-11-24T11:15:00+09:00</updated><id>http://localhost:4000/ticket-nfts-idea</id><content type="html" xml:base="http://localhost:4000/ticket-nfts-idea/"><![CDATA[<h1 id="abstract">Abstract</h1>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-24T11:54:44+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">yuk6ra</title><subtitle>I&apos;m yukimura</subtitle><entry><title type="html">EIP-5995: Ticket NFTs, status idea</title><link href="http://localhost:4000/ticket-nfts-idea/" rel="alternate" type="text/html" title="EIP-5995: Ticket NFTs, status idea" /><published>2022-11-24T11:15:00+09:00</published><updated>2022-11-24T11:15:00+09:00</updated><id>http://localhost:4000/ticket-nfts-idea</id><content type="html" xml:base="http://localhost:4000/ticket-nfts-idea/"><![CDATA[<h1 id="abstract">Abstract</h1>
 
 <p>現在、利用されている標準的なNFT（ERC721）に現実に即したチケットの機能を付与し、現状のチケットの課題のソリューションを考えます。これはERC721と併用する拡張的なインターフェースの提案です。</p>
 
@@ -139,9 +139,9 @@
              <span class="s">"Token is aleady exist, or is NOT t"</span>
         <span class="p">);</span>
 
-        <span class="k">if</span> <span class="p">(</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">)){</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">)</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isSalable</span><span class="p">()){</span>
             <span class="n">_transferLimits</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span><span class="o">--</span><span class="p">;</span>
-        <span class="p">}</span>        
+        <span class="p">}</span>
 
         <span class="k">return</span> <span class="nb">true</span><span class="p">;</span>
     <span class="p">}</span>

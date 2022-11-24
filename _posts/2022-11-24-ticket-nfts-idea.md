@@ -148,9 +148,9 @@ contract ERCTicket is ERC721 {
              "Token is aleady exist, or is NOT t"
         );
 
-        if (_exists(tokenId)){
+        if (_exists(tokenId) && !isSalable()){
             _transferLimits[tokenId]--;
-        }        
+        }
 
         return true;
     }
