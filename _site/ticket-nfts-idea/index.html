@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>EIP-5995: Ticket NFTs, status idea | yuk6ra</title>
+<meta name="generator" content="Jekyll v4.2.2" />
+<meta property="og:title" content="EIP-5995: Ticket NFTs, status idea" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="チケットNFTの拡張的なインターフェースの提案" />
+<meta property="og:description" content="チケットNFTの拡張的なインターフェースの提案" />
+<link rel="canonical" href="http://localhost:4000/ticket-nfts-idea/" />
+<meta property="og:url" content="http://localhost:4000/ticket-nfts-idea/" />
+<meta property="og:site_name" content="yuk6ra" />
+<meta property="og:image" content="http://localhost:4000/images/2022-11-24/overview-ver1-3.png" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-11-24T11:15:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/images/2022-11-24/overview-ver1-3.png" />
+<meta property="twitter:title" content="EIP-5995: Ticket NFTs, status idea" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2022-11-24T11:15:00+09:00","datePublished":"2022-11-24T11:15:00+09:00","description":"チケットNFTの拡張的なインターフェースの提案","headline":"EIP-5995: Ticket NFTs, status idea","image":"http://localhost:4000/images/2022-11-24/overview-ver1-3.png","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ticket-nfts-idea/"},"url":"http://localhost:4000/ticket-nfts-idea/"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3E3545SRWS"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-3E3545SRWS');
+  </script>
+
+  <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="yuk6ra" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">yuk6ra</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/about/">About</a><a class="page-link" href="/contact/">Contact</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">EIP-5995: Ticket NFTs, status idea</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2022-11-24T11:15:00+09:00" itemprop="datePublished">2022 Nov 24
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <!-- <h1>TOC</h1>
+    <ul><li><a href="#abstract">Abstract</a></li><li><a href="#motivation">Motivation</a></li><li><a href="#specification">Specification</a></li><li><a href="#example-implementation">Example Implementation</a></li><li><a href="#test-cases">Test Cases</a></li><li><a href="#copyright">Copyright</a></li></ul> -->
+    <h1 id="abstract">Abstract</h1>
+
+<p>現在、利用されている標準的なNFT（ERC721）に現実に即したチケットの機能を付与し、現状のチケットの課題のソリューションを考えます。これはERC721と併用する拡張的なインターフェースの提案です。</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>NFTはイベント参加のチケットとしての機能を持ち、近年ではオリンピックのチケットとしても利用が期待されています。しかし、現実のチケットの課題と同様に、高額な転売を目的としたチケットNFTが課題になってくると思います。これはNFTおよびチケットの投機性をますます助長します。抽選で外れてしまった人の多くは余分なお金を支払わなければなりません。チケットの販売者は、サービスを提供したい対象者にチケットを購入してほしいのであって、チケットで儲けるために購入してほしいのではありません。そこでチケットの基本的な機能を考えることにします。</p>
+
+<p>チケットの基本的な機能</p>
+
+<ol>
+  <li>対象者のみサービスを受けることができる</li>
+  <li>知人や友人に譲渡ができる</li>
+  <li>記念に保存できる</li>
+</ol>
+
+<p>SBT（Soulbound Token）のチケットを解決策として考えることは妥当だと思われがちですが、SBTの概念は不完全であり、現実的ではありません。何より臨機応変に誰かに渡したりといった譲渡ができないことに私たちは不安を覚えるでしょう。このようにNFTを利用するチケットにはいくつかの課題があります。代表的な課題は次の通りです。</p>
+
+<ol>
+  <li>NFT: 転売可能なので誰でも参加でき、複垢も容易である</li>
+  <li>SBT: 一切融通ができず記念品としての市場価値も一切ない</li>
+</ol>
+
+<p>NFTタイプは誰でも参加できるがゆえに多くの課題を残します。SBTタイプは良い線を行っていますが、チケットを使い終わっても譲渡ができず販売ができないのが難点です。なぜなら、現実ではファンはコレクターでもあります。自分が参加できなかったイベントのチケットは高額を出してでも欲しい人はいるでしょう。これはイベント前にチケットを高額で購入する動機とは全く違う動機なのです。</p>
+
+<p><img src="../images/2022-11-24/overview-ver1-1.png" alt="image" /></p>
+
+<p>上記の図は、イベント前とイベント後で仕様を切り分けて考えたときの理想的な構図です。ここでは転売目的の購入者は譲渡の制限と販売の制限があることで購入する動機が限りなく少なくなると仮定します。</p>
+
+<p>まず譲渡には制限をかけることが必要だと思います。この機能の目的はイベント前に身近な人物（たとえば家族や友人たち）と譲渡の融通が利くように設計するためです。無制限に譲渡を許可する必要はなく、購入者の周りで譲渡を許可してあげれば良いでしょう。とにかくSBTに近い設計にし、譲渡はできるけどなるべく少なく制限するのです。そしてNFTの転売機能も制限することができれば理想的な構図に近づくのではないでしょうか。ここではNFTマーケットプレイスの承認（Approve）ができるということは転売が可能と同じことだとします。</p>
+
+<p><img src="../images/2022-11-24/overview-ver1-3.png" alt="image" /></p>
+
+<p>上記の図は、考えられるすべての可能性です。</p>
+
+<ol>
+  <li>譲渡不可能 → SBT</li>
+  <li>譲渡制限付き/販売不可能 → 友人や家族に一度だけ譲渡のみ可能である</li>
+  <li>譲渡制限付き/販売制限付き → 友人や家族に一度だけ譲渡のみ可能で、指定のマーケットプレイスで一度だけ販売もできる</li>
+  <li>譲渡制限付き/販売無制限→ 友人や家族に一度だけ譲渡のみ可能で、マーケットプレイスでも一度だけ販売することができる</li>
+  <li>譲渡無制限/販売不可能→譲渡は何回でも可能である</li>
+  <li>譲渡無制限/販売制限付き→譲渡は何回でも可能だが、指定のマーケットプレイスでしか販売はできない</li>
+  <li>譲渡無制限/販売無制限→NFT</li>
+</ol>
+
+<p>補足</p>
+<ul>
+  <li>譲渡制限付き: 購入者は譲渡可能で、譲受人は第三者に譲渡することができない</li>
+  <li>販売制限付き: 指定のマーケットプレイスにのみアクセスが可能である（独自マケプレを想定）</li>
+</ul>
+
+<p>たとえば2の場合をは下記の図のようになります。</p>
+
+<p><img src="../images/2022-11-24/overview-ver1-2.png" alt="image" /></p>
+
+<p>再販不可の目的は「販売を禁止し、サービスを受けたい人だけが買えるようにする」ことです。しかし、再販不可はイベント終了前までです。なぜならイベント終了後にチケットはコレクターのためのものになるからです。</p>
+
+<p>このように譲渡制限と販売不可の機能を付与することによって、イベントに行きたい人しかチケットを買うことができないようにし、イベント後はコレクターやファン、イベントに行きたくても行けなかった人にも届くようにします。</p>
+
+<h1 id="specification">Specification</h1>
+
+<p>（下書き中）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">interface</span> <span class="n">IEIP5995</span> <span class="p">{</span>
+    <span class="c1">/// @dev Transfer Condition
+</span>    <span class="c1">/// @param from address representing the previous owner of the given token ID
+</span>    <span class="c1">/// @param to target address that will receive the tokens
+</span>    <span class="c1">/// @param tokenId uint256 ID of the token to be transferred
+</span>    <span class="c1">/// @return bool whether this is valid transfer
+</span>    <span class="k">function</span> <span class="n">isValidTranfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span><span class="p">(</span><span class="kt">bool</span><span class="p">);</span>
+
+    <span class="c1">/// @dev Approval Condition
+</span>    <span class="c1">/// @param operator traget address that want to approve
+</span>    <span class="c1">/// @return bool whether this is valid approval
+</span>    <span class="k">function</span> <span class="n">isValidApproval</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="example-implementation">Example Implementation</h1>
+
+<p>（下書き中）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">import</span> <span class="s">"@openzeppelin/contracts/token/ERC721/ERC721.sol"</span><span class="p">;</span>
+
+<span class="k">contract</span> <span class="n">ERC5995</span> <span class="k">is</span> <span class="n">ERC721</span> <span class="p">{</span>
+
+    <span class="c1">// Refund Address 
+</span>    <span class="kt">address</span> <span class="k">public</span> <span class="n">_refundAddress</span><span class="p">;</span>
+
+    <span class="c1">// Locked
+</span>    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isLockedTransfer</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isLockedApproval</span><span class="p">;</span>
+
+    <span class="c1">// Restricted
+</span>    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isRestrictedTransfer</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isRestrictedApproval</span><span class="p">;</span>
+
+    <span class="c1">// Mapping token id to minter address
+</span>    <span class="k">mapping</span><span class="p">(</span><span class="kt">uint256</span> <span class="o">=&gt;</span> <span class="kt">address</span><span class="p">)</span> <span class="k">private</span> <span class="n">_minters</span><span class="p">;</span>
+
+    <span class="c1">// Mapping operator address to bool
+</span>    <span class="k">mapping</span><span class="p">(</span><span class="kt">address</span> <span class="o">=&gt;</span> <span class="kt">bool</span><span class="p">)</span> <span class="k">private</span> <span class="n">_approvalOperators</span><span class="p">;</span>
+
+    <span class="k">event</span> <span class="n">TransferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">);</span>
+    <span class="k">event</span> <span class="n">ApprovalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">);</span>
+    <span class="k">event</span> <span class="n">AddApprovalOperator</span><span class="p">(</span><span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">status</span><span class="p">);</span>
+
+    <span class="k">constructor</span><span class="p">(</span>
+        <span class="kt">string</span> <span class="k">memory</span> <span class="n">name_</span><span class="p">,</span>
+        <span class="kt">string</span> <span class="k">memory</span> <span class="n">symbol_</span>
+    <span class="p">)</span> <span class="n">ERC721</span><span class="p">(</span><span class="n">name_</span><span class="p">,</span> <span class="n">symbol_</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_refundAddress</span> <span class="o">=</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Transfer Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_transferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_isLockedTransfer</span> <span class="o">=</span> <span class="n">lock</span><span class="p">;</span>
+        <span class="n">_isRestrictedTransfer</span> <span class="o">=</span> <span class="n">restriction</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isLockedTransfer</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isLockedTransfer</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isRestrictedTransfer</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Minter
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_minter</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span><span class="p">{</span>
+        <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">=</span> <span class="n">to</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">minterOf</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">address</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not exists"</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">isMinter</span><span class="p">(</span><span class="kt">address</span> <span class="n">minter</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">==</span> <span class="n">minter</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Approve Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_approvalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_isLockedApproval</span> <span class="o">=</span> <span class="n">lock</span><span class="p">;</span>
+        <span class="n">_isRestrictedApproval</span> <span class="o">=</span> <span class="n">restriction</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isLockedApproval</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isLockedApproval</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRestrictedApproval</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isRestrictedApproval</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalOperator</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">status</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_approvalOperators</span><span class="p">[</span><span class="n">operator</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isApprovalOperator</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_approvalOperators</span><span class="p">[</span><span class="n">operator</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Check Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">isValidTranfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span><span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isMinter</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">)))</span>    <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isMinter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">)))</span> <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isRestrictedTransfer</span><span class="p">())</span> <span class="o">||</span>
+            <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">||</span> <span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">to</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isValidApproval</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isApprovalOperator</span><span class="p">(</span><span class="n">operator</span><span class="p">)))</span>  <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isRestrictedApproval</span><span class="p">())</span> <span class="o">||</span>
+            <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///         Refund
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">renewRefundAddress</span><span class="p">(</span><span class="kt">address</span> <span class="n">refundAddress</span><span class="p">)</span> <span class="k">internal</span> <span class="p">{</span>
+        <span class="n">_refundAddress</span> <span class="o">=</span> <span class="n">refundAddress</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">_refund</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">refundPrice</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">refundEndTime</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">==</span> <span class="n">ownerOf</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not owner of this token"</span><span class="p">);</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isRefundActive</span><span class="p">(</span><span class="n">refundEndTime</span><span class="p">),</span> <span class="s">"Expired"</span><span class="p">);</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isMinter</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not minter"</span><span class="p">);</span>
+
+        <span class="n">transferFrom</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">_refundAddress</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+        <span class="k">payable</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">).</span><span class="nb">transfer</span><span class="p">(</span><span class="n">refundPrice</span><span class="p">);</span>
+
+        <span class="k">delete</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRefundActive</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">refundEndTime</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">block</span><span class="p">.</span><span class="n">timestamp</span> <span class="o">&lt;=</span> <span class="n">refundEndTime</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Override
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="cm">/**
+     * @dev Safely mints `tokenId` and transfers it to `to`.
+     *
+     * Requirements:
+     *
+     * - `tokenId` must not exist.
+     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.
+     *
+     * Emits a {Transfer} event.
+     */</span>
+    <span class="k">function</span> <span class="n">_safeMint</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="n">_safeMint</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">,</span> <span class="s">""</span><span class="p">);</span>
+        <span class="n">_minter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">_transfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidTranfer</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">),</span> <span class="s">"No transfer"</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">_minter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">_transfer</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalForAll</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">approved</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>     
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidApproval</span><span class="p">(</span><span class="n">operator</span><span class="p">),</span> <span class="s">"No approval"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">setApprovalForAll</span><span class="p">(</span><span class="n">operator</span><span class="p">,</span> <span class="n">approved</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">approve</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidApproval</span><span class="p">(</span><span class="n">to</span><span class="p">),</span> <span class="s">"No approval"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">approve</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="test-cases">Test Cases</h1>
+
+<p>ライブチケットの発行の例。</p>
+
+<p>（下書き中）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">import</span> <span class="s">"hardhat/console.sol"</span><span class="p">;</span>
+<span class="k">import</span> <span class="s">"./ERC5995.sol"</span><span class="p">;</span>
+
+<span class="k">contract</span> <span class="n">LiveTicket</span> <span class="k">is</span> <span class="n">ERC5995</span><span class="p">,</span> <span class="n">Ownable</span> <span class="p">{</span>
+    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">totalSupply</span><span class="p">;</span>
+
+    <span class="c1">// Refund
+</span>    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">endtime</span><span class="p">;</span>
+    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">refundPrice</span> <span class="o">=</span> <span class="mf">0.001</span> <span class="kc">ether</span><span class="p">;</span>
+    
+    <span class="k">constructor</span><span class="p">()</span> <span class="n">ERC5995</span><span class="p">(</span><span class="s">"LiveTicket"</span><span class="p">,</span> <span class="s">"TICKET"</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_transferControl</span><span class="p">({</span><span class="n">lock</span><span class="o">:</span> <span class="nb">false</span><span class="p">,</span> <span class="n">restriction</span><span class="o">:</span> <span class="nb">true</span><span class="p">});</span>
+        <span class="n">_approvalControl</span><span class="p">({</span><span class="n">lock</span><span class="o">:</span> <span class="nb">true</span><span class="p">,</span> <span class="n">restriction</span><span class="o">:</span> <span class="nb">false</span><span class="p">});</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">mint</span><span class="p">()</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">value</span> <span class="o">&gt;=</span> <span class="mf">0.01</span> <span class="kc">ether</span><span class="p">,</span> <span class="s">"Not enough"</span><span class="p">);</span>
+        <span class="n">_safeMint</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">totalSupply</span><span class="p">);</span>
+        <span class="n">totalSupply</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setTransferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">_lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">_restriction</span><span class="p">)</span> <span class="k">external</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">_transferControl</span><span class="p">(</span><span class="n">_lock</span><span class="p">,</span> <span class="n">_restriction</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">_lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">_restriction</span><span class="p">)</span> <span class="k">external</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">_approvalControl</span><span class="p">(</span><span class="n">_lock</span><span class="p">,</span> <span class="n">_restriction</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">refund</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">external</span> <span class="p">{</span> 
+        <span class="n">_refund</span><span class="p">(</span><span class="n">tokenId</span><span class="p">,</span> <span class="n">refundPrice</span><span class="p">,</span> <span class="n">endtime</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setEndtime</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">period</span><span class="p">)</span> <span class="k">public</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">endtime</span> <span class="o">=</span> <span class="n">block</span><span class="p">.</span><span class="n">timestamp</span> <span class="o">+</span> <span class="n">period</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setRefundPrice</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">_price</span><span class="p">)</span> <span class="k">public</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">refundPrice</span> <span class="o">=</span> <span class="n">_price</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="copyright">Copyright</h1>
+
+<p>Copyright and related rights waived via CC0.</p>
+
+  </div><a class="u-url" href="/ticket-nfts-idea/" hidden></a>
+</article>
+
+      </div>
+    </main>
+<footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <!-- <h2 class="footer-heading">yuk6ra</h2> -->
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">©2022 yuk6ra</li>
+            <!---->
+            <!-- <p>I&#39;m yukimura</p> -->
+          </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <p>Opensea</p>
+        <!-- opensea -->
+        <ul class="social-media-list">
+          <li>
+            <a href="https://opensea.io/collection/nlights">
+              <span class="">Northern Lights</span>
+            </a>
+          </li>
+        </ul>
+      </div>  
+
+      <div class="footer-col footer-col-3">
+        <p>SNS</p>
+        <ul class="social-media-list">
+          <!-- twitter -->
+          <li>
+            <a href="https://twitter.com/yuk6ra">
+              <svg class="svg-icon"> 
+                <use class="fa-brands fa-twitter"></use>
+              </svg>
+              <span class="">yuk6ra</span>
+            </a>
+          </li>
+          <!-- instagram -->
+          <li>
+            <a href="https://instagram.com/yuk6ra">
+              <svg class="svg-icon"> 
+                <use class="fa-brands fa-instagram"></use>
+              </svg>
+              <span class="">yuk6ra</span>
+            </a>
+          </li>
+        </ul>        
+      </div>
+    </div>
+
+  </div>
+
+  <script defer src="https://use.fontawesome.com/releases/v6.2.0/js/all.js"></script>
+
+</footer>
+</body>
+
+</html>

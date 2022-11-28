@@ -1,0 +1,297 @@
+I"~�<h1 id="abstract">Abstract</h1>
+
+<p>現在、利用されている標準的なNFT（ERC721）に現実に即したチケットの機能を付与し、現状のチケットの課題のソリューションを考えます。これはERC721と併用する拡張的なインターフェースの提案です。</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>NFTはイベント参加のチケットとしての機能を持ち、近年ではオリンピックのチケットとしても利用が期待されています。しかし、現実のチケットの課題と同様に、高額な転売を目的としたチケットNFTが課題になってくると思います。これはNFTおよびチケットの投機性をますます助長します。抽選で外れてしまった人の多くは余分なお金を支払わなければなりません。チケットの販売者は、サービスを提供したい対象者にチケットを購入してほしいのであって、チケットで儲けるために購入してほしいのではありません。そこでチケットの基本的な機能を考えることにします。</p>
+
+<p>チケットの基本的な機能</p>
+
+<ol>
+  <li>対象者のみサービスを受けることができる</li>
+  <li>知人や友人に譲渡ができる</li>
+  <li>記念に保存できる</li>
+</ol>
+
+<p>SBT（Soulbound Token）のチケットを解決策として考えることは妥当だと思われがちですが、SBTの概念は不完全であり、現実的ではありません。何より臨機応変に誰かに渡したりといった譲渡ができないことに私たちは不安を覚えるでしょう。このようにNFTを利用するチケットにはいくつかの課題があります。代表的な課題は次の通りです。</p>
+
+<ol>
+  <li>NFT: 転売可能なので誰でも参加でき、複垢も容易である</li>
+  <li>SBT: 一切融通ができず記念品としての市場価値も一切ない</li>
+</ol>
+
+<p><img src="../images/2022-11-24/overview-ver1-1.png" alt="image" /></p>
+
+<p>NFTタイプは誰でも参加できるがゆえに多くの課題を残します。ご想像の通りです。SBTタイプは良い線を行っていますが、チケットを使い終わっても譲渡ができず販売ができないのが難点です。なぜなら、現実ではファンはコレクターでもあります。自分が参加できなかったイベントのチケットは高額を出してでも欲しい人はいるでしょう。これはイベント前にチケットを高額で購入する動機とは全く違う動機なのです。</p>
+
+<p>これを解決するための鍵は第三のタイプにあります。仮に「Non-Salable Token = NST」とします。NSTはトランスファーだけ可能で販売は不可能なNFTです。</p>
+
+<p>少し改良してあげましょう。次の図を見てください。</p>
+
+<p><img src="../images/2022-11-24/overview-ver1-2.png" alt="image" /></p>
+
+<p>まずトランスファーには制限をかけます。この機能の目的はイベント前に身近な人物（たとえば家族や友人たち）と融通が利くように設計するためです。何度もトランスファーを許可する必要はなく、1・２回許可してあげれば良いでしょう。とにかくSBTに近い設計にし、トランスファーはできるけどなるべく少なく制限するのです。</p>
+
+<p>そして再販不可も付与します。再販不可の目的は「販売を禁止し、サービスを受けたい人だけが買えるようにする」ことです。しかし、再販不可はイベント終了前までです。なぜならイベント終了後にチケットはコレクターのためのものになるからです。</p>
+
+<p>このようにトランスファーの制限と再販不可の機能を付与することによって、イベントに行きたい人しかチケットを買うことができないようにし、イベント後はコレクターやファン、イベントに行きたくても行けなかった人にも届くようにします。</p>
+
+<p><img src="../images/2022-11-24/overview-ver1-3.png" alt="image" /></p>
+
+<h1 id="specification">Specification</h1>
+
+<p>（下書き）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">interface</span> <span class="n">IEIP5995</span> <span class="p">{</span>
+    <span class="c1">/// @dev Transfer Condition
+</span>    <span class="c1">/// @param from address representing the previous owner of the given token ID
+</span>    <span class="c1">/// @param to target address that will receive the tokens
+</span>    <span class="c1">/// @param tokenId uint256 ID of the token to be transferred
+</span>    <span class="c1">/// @return bool whether this is valid transfer
+</span>    <span class="k">function</span> <span class="n">isValidTranfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span><span class="p">(</span><span class="kt">bool</span><span class="p">);</span>
+
+    <span class="c1">/// @dev Approval Condition
+</span>    <span class="c1">/// @param operator traget address that want to approve
+</span>    <span class="c1">/// @return bool whether this is valid approval
+</span>    <span class="k">function</span> <span class="n">isValidApproval</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">external</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="example-implementation">Example Implementation</h1>
+
+<p>（下書き）</p>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">import</span> <span class="s">"@openzeppelin/contracts/token/ERC721/ERC721.sol"</span><span class="p">;</span>
+
+<span class="k">contract</span> <span class="n">ERC5995</span> <span class="k">is</span> <span class="n">ERC721</span> <span class="p">{</span>
+
+    <span class="c1">// Refund Address 
+</span>    <span class="kt">address</span> <span class="k">public</span> <span class="n">_refundAddress</span><span class="p">;</span>
+
+    <span class="c1">// Locked
+</span>    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isLockedTransfer</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isLockedApproval</span><span class="p">;</span>
+
+    <span class="c1">// Restricted
+</span>    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isRestrictedTransfer</span><span class="p">;</span>
+    <span class="kt">bool</span> <span class="k">private</span> <span class="n">_isRestrictedApproval</span><span class="p">;</span>
+
+    <span class="c1">// Mapping token id to minter address
+</span>    <span class="k">mapping</span><span class="p">(</span><span class="kt">uint256</span> <span class="o">=&gt;</span> <span class="kt">address</span><span class="p">)</span> <span class="k">private</span> <span class="n">_minters</span><span class="p">;</span>
+
+    <span class="c1">// Mapping operator address to bool
+</span>    <span class="k">mapping</span><span class="p">(</span><span class="kt">address</span> <span class="o">=&gt;</span> <span class="kt">bool</span><span class="p">)</span> <span class="k">private</span> <span class="n">_approvalOperators</span><span class="p">;</span>
+
+    <span class="k">event</span> <span class="n">TransferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">);</span>
+    <span class="k">event</span> <span class="n">ApprovalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">);</span>
+    <span class="k">event</span> <span class="n">AddApprovalOperator</span><span class="p">(</span><span class="kt">uint256</span> <span class="k">indexed</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">status</span><span class="p">);</span>
+
+    <span class="k">constructor</span><span class="p">(</span>
+        <span class="kt">string</span> <span class="k">memory</span> <span class="n">name_</span><span class="p">,</span>
+        <span class="kt">string</span> <span class="k">memory</span> <span class="n">symbol_</span>
+    <span class="p">)</span> <span class="n">ERC721</span><span class="p">(</span><span class="n">name_</span><span class="p">,</span> <span class="n">symbol_</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_refundAddress</span> <span class="o">=</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Transfer Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_transferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_isLockedTransfer</span> <span class="o">=</span> <span class="n">lock</span><span class="p">;</span>
+        <span class="n">_isRestrictedTransfer</span> <span class="o">=</span> <span class="n">restriction</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isLockedTransfer</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isLockedTransfer</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isRestrictedTransfer</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Minter
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_minter</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span><span class="p">{</span>
+        <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">=</span> <span class="n">to</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">minterOf</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">address</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">_exists</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not exists"</span><span class="p">);</span>
+        <span class="k">return</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">isMinter</span><span class="p">(</span><span class="kt">address</span> <span class="n">minter</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">]</span> <span class="o">==</span> <span class="n">minter</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Approve Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">_approvalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">restriction</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_isLockedApproval</span> <span class="o">=</span> <span class="n">lock</span><span class="p">;</span>
+        <span class="n">_isRestrictedApproval</span> <span class="o">=</span> <span class="n">restriction</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isLockedApproval</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isLockedApproval</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRestrictedApproval</span><span class="p">()</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_isRestrictedApproval</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalOperator</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">status</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="n">_approvalOperators</span><span class="p">[</span><span class="n">operator</span><span class="p">]</span> <span class="o">=</span> <span class="n">status</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isApprovalOperator</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">_approvalOperators</span><span class="p">[</span><span class="n">operator</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Check Control
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">isValidTranfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">returns</span><span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isMinter</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">)))</span>    <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isMinter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">)))</span> <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedTransfer</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isRestrictedTransfer</span><span class="p">())</span> <span class="o">||</span>
+            <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">||</span> <span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">to</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isValidApproval</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="p">(</span><span class="n">isRestrictedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="n">isApprovalOperator</span><span class="p">(</span><span class="n">operator</span><span class="p">)))</span>  <span class="o">||</span>
+            <span class="p">(</span><span class="o">!</span><span class="n">isLockedApproval</span><span class="p">()</span> <span class="o">&amp;&amp;</span> <span class="o">!</span><span class="n">isRestrictedApproval</span><span class="p">())</span> <span class="o">||</span>
+            <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///         Refund
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="k">function</span> <span class="n">renewRefundAddress</span><span class="p">(</span><span class="kt">address</span> <span class="n">refundAddress</span><span class="p">)</span> <span class="k">internal</span> <span class="p">{</span>
+        <span class="n">_refundAddress</span> <span class="o">=</span> <span class="n">refundAddress</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">_refund</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">refundPrice</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">refundEndTime</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span> <span class="o">==</span> <span class="n">ownerOf</span><span class="p">(</span><span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not owner of this token"</span><span class="p">);</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isRefundActive</span><span class="p">(</span><span class="n">refundEndTime</span><span class="p">),</span> <span class="s">"Expired"</span><span class="p">);</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isMinter</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">),</span> <span class="s">"Not minter"</span><span class="p">);</span>
+
+        <span class="n">transferFrom</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">_refundAddress</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+        <span class="k">payable</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">).</span><span class="nb">transfer</span><span class="p">(</span><span class="n">refundPrice</span><span class="p">);</span>
+
+        <span class="k">delete</span> <span class="n">_minters</span><span class="p">[</span><span class="n">tokenId</span><span class="p">];</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">isRefundActive</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">refundEndTime</span><span class="p">)</span> <span class="k">public</span> <span class="k">view</span> <span class="k">virtual</span> <span class="k">returns</span> <span class="p">(</span><span class="kt">bool</span><span class="p">)</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">block</span><span class="p">.</span><span class="n">timestamp</span> <span class="o">&lt;=</span> <span class="n">refundEndTime</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="c1">////////////////////////////////////////////
+</span>    <span class="c1">///     Override
+</span>    <span class="c1">////////////////////////////////////////////
+</span>
+    <span class="cm">/**
+     * @dev Safely mints `tokenId` and transfers it to `to`.
+     *
+     * Requirements:
+     *
+     * - `tokenId` must not exist.
+     * - If `to` refers to a smart contract, it must implement {IERC721Receiver-onERC721Received}, which is called upon a safe transfer.
+     *
+     * Emits a {Transfer} event.
+     */</span>
+    <span class="k">function</span> <span class="n">_safeMint</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="n">_safeMint</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">,</span> <span class="s">""</span><span class="p">);</span>
+        <span class="n">_minter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">_transfer</span><span class="p">(</span><span class="kt">address</span> <span class="n">from</span><span class="p">,</span> <span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">internal</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidTranfer</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">),</span> <span class="s">"No transfer"</span><span class="p">);</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">_refundAddress</span> <span class="o">==</span> <span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">)</span> <span class="p">{</span>
+            <span class="n">_minter</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+        <span class="p">}</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">_transfer</span><span class="p">(</span><span class="n">from</span><span class="p">,</span> <span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalForAll</span><span class="p">(</span><span class="kt">address</span> <span class="n">operator</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">approved</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>     
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidApproval</span><span class="p">(</span><span class="n">operator</span><span class="p">),</span> <span class="s">"No approval"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">setApprovalForAll</span><span class="p">(</span><span class="n">operator</span><span class="p">,</span> <span class="n">approved</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">approve</span><span class="p">(</span><span class="kt">address</span> <span class="n">to</span><span class="p">,</span> <span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">public</span> <span class="k">virtual</span> <span class="k">override</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">isValidApproval</span><span class="p">(</span><span class="n">to</span><span class="p">),</span> <span class="s">"No approval"</span><span class="p">);</span>
+        <span class="nb">super</span><span class="p">.</span><span class="n">approve</span><span class="p">(</span><span class="n">to</span><span class="p">,</span> <span class="n">tokenId</span><span class="p">);</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="test-cases">Test Cases</h1>
+
+<div class="language-solidity highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// SPDX-License-Identifier: MIT
+</span>
+<span class="k">pragma</span> <span class="n">solidity</span> <span class="o">^</span><span class="mf">0.8</span><span class="p">.</span><span class="mi">17</span><span class="p">;</span>
+
+<span class="k">import</span> <span class="s">"hardhat/console.sol"</span><span class="p">;</span>
+<span class="k">import</span> <span class="s">"./ERC5995.sol"</span><span class="p">;</span>
+
+<span class="k">contract</span> <span class="n">LiveTicket</span> <span class="k">is</span> <span class="n">ERC5995</span><span class="p">,</span> <span class="n">Ownable</span> <span class="p">{</span>
+    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">totalSupply</span><span class="p">;</span>
+
+    <span class="c1">// Refund
+</span>    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">endtime</span><span class="p">;</span>
+    <span class="kt">uint256</span> <span class="k">public</span> <span class="n">refundPrice</span> <span class="o">=</span> <span class="mf">0.001</span> <span class="kc">ether</span><span class="p">;</span>
+    
+    <span class="k">constructor</span><span class="p">()</span> <span class="n">ERC5995</span><span class="p">(</span><span class="s">"LiveTicket"</span><span class="p">,</span> <span class="s">"TICKET"</span><span class="p">)</span> <span class="p">{</span>
+        <span class="n">_transferControl</span><span class="p">({</span><span class="n">lock</span><span class="o">:</span> <span class="nb">false</span><span class="p">,</span> <span class="n">restriction</span><span class="o">:</span> <span class="nb">true</span><span class="p">});</span>
+        <span class="n">_approvalControl</span><span class="p">({</span><span class="n">lock</span><span class="o">:</span> <span class="nb">true</span><span class="p">,</span> <span class="n">restriction</span><span class="o">:</span> <span class="nb">false</span><span class="p">});</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">mint</span><span class="p">()</span> <span class="k">public</span> <span class="k">payable</span> <span class="p">{</span>
+        <span class="nb">require</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">value</span> <span class="o">&gt;=</span> <span class="mf">0.01</span> <span class="kc">ether</span><span class="p">,</span> <span class="s">"Not enough"</span><span class="p">);</span>
+        <span class="n">_safeMint</span><span class="p">(</span><span class="n">msg</span><span class="p">.</span><span class="n">sender</span><span class="p">,</span> <span class="n">totalSupply</span><span class="p">);</span>
+        <span class="n">totalSupply</span><span class="o">++</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setTransferControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">_lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">_restriction</span><span class="p">)</span> <span class="k">external</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">_transferControl</span><span class="p">(</span><span class="n">_lock</span><span class="p">,</span> <span class="n">_restriction</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setApprovalControl</span><span class="p">(</span><span class="kt">bool</span> <span class="n">_lock</span><span class="p">,</span> <span class="kt">bool</span> <span class="n">_restriction</span><span class="p">)</span> <span class="k">external</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">_approvalControl</span><span class="p">(</span><span class="n">_lock</span><span class="p">,</span> <span class="n">_restriction</span><span class="p">);</span>
+    <span class="p">}</span>
+    
+    <span class="k">function</span> <span class="n">refund</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">tokenId</span><span class="p">)</span> <span class="k">external</span> <span class="p">{</span> 
+        <span class="n">_refund</span><span class="p">(</span><span class="n">tokenId</span><span class="p">,</span> <span class="n">refundPrice</span><span class="p">,</span> <span class="n">endtime</span><span class="p">);</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setEndtime</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">period</span><span class="p">)</span> <span class="k">public</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">endtime</span> <span class="o">=</span> <span class="n">block</span><span class="p">.</span><span class="n">timestamp</span> <span class="o">+</span> <span class="n">period</span><span class="p">;</span>
+    <span class="p">}</span>
+
+    <span class="k">function</span> <span class="n">setRefundPrice</span><span class="p">(</span><span class="kt">uint256</span> <span class="n">_price</span><span class="p">)</span> <span class="k">public</span> <span class="n">onlyOwner</span> <span class="p">{</span>
+        <span class="n">refundPrice</span> <span class="o">=</span> <span class="n">_price</span><span class="p">;</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<h1 id="copyright">Copyright</h1>
+
+<p>Copyright and related rights waived via CC0.</p>
+:ET
