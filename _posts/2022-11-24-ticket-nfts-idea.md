@@ -5,7 +5,7 @@ date:   2022-11-24 11:15:00 +0900
 categories: Web3
 layout: post
 excerpt: チケットNFTの拡張的なインターフェースの提案
-image: images/2022-11-24/overview-ver1-3.png
+image: images/2022-11-24/overview-ver1-2.png
 ---
 
 # Abstract
