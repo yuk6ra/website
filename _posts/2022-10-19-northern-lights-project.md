@@ -9,7 +9,7 @@ image: /images/2022-10-19/thumbnail.png
 ---
 
 作成日：2022-10-19 <br>
-更新日：2022-11-04
+更新日：2023-01-28
 
 # Northern Lights Project
 ![images](../images/2022-10-19/aurora-1.png)
@@ -23,7 +23,7 @@ Fully on-chain, CC0 Public Domain, Generative Art, No Roadmap, No Discord, No Ut
 - Mint Price: 0.01 ETH
 - Per Wallet: 2 mint
 - Only Whitelist Sale
-- Minting Site: [NLights.xyz](https://www.nlights.xyz/)
+- Minting Site: [y6.Studio](https://y6.studio/)
 
 ## Details
 
