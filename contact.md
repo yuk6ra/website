@@ -8,4 +8,4 @@ Please DM me on Twitter.
 
 or
 
-yuk6ra@gmail.com
+gm@yuk6ra.com
